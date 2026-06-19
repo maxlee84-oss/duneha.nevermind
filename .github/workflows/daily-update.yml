@@ -1,0 +1,103 @@
+name: Daily DuneHa Update
+
+on:
+workflow_dispatch:
+schedule:
+# 매일 오전 8시 KST = 전날 23:00 UTC
+- cron: "0 23 * * *"
+
+permissions:
+contents: write
+pages: write
+id-token: write
+
+concurrency:
+group: duneha-daily-update
+cancel-in-progress: false
+
+jobs:
+update-and-build:
+runs-on: ubuntu-latest
+timeout-minutes: 30
+
+```
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
+    with:
+      fetch-depth: 0
+
+  - name: Set up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: "3.11"
+      cache: "pip"
+
+  - name: Install dependencies
+    run: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
+
+  - name: Fetch source pages
+    run: python scripts/fetch_sources.py
+
+  - name: Update source status
+    run: python scripts/update_without_gemini.py
+
+  - name: Fetch Korean equipment database
+    run: python scripts/fetch_gaming_tools_ko_db.py
+
+  - name: Update Asia weekly window
+    run: python scripts/update_week_window.py
+
+  - name: Test DD parser
+    run: python scripts/test_dd_parser.py
+
+  - name: Fetch and validate weekly DD data
+    run: python scripts/fetch_dd_weekly.py
+
+  - name: Test dungeon parser
+    run: python scripts/test_dungeon_parser.py
+
+  - name: Fetch and validate dungeon data
+    run: python scripts/fetch_dungeons.py
+
+  - name: Localize weekly links
+    run: python scripts/localize_weekly_with_ko_db.py
+
+  - name: Validate all data
+    run: python scripts/validate_data.py
+
+  - name: Build Discord announcement draft
+    run: python scripts/build_discord_message.py
+
+  - name: Commit updated data
+    uses: stefanzweifel/git-auto-commit-action@v5
+    with:
+      commit_message: "Auto-update DuneHa data"
+      file_pattern: "data/*.json data/*.md data/raw/*.json data/raw/*.html"
+
+  - name: Configure GitHub Pages
+    uses: actions/configure-pages@v5
+
+  - name: Upload GitHub Pages artifact
+    uses: actions/upload-pages-artifact@v3
+    with:
+      path: "."
+```
+
+deploy:
+needs: update-and-build
+runs-on: ubuntu-latest
+timeout-minutes: 10
+
+```
+environment:
+  name: github-pages
+  url: ${{ steps.deployment.outputs.page_url }}
+
+steps:
+  - name: Deploy to GitHub Pages
+    id: deployment
+    uses: actions/deploy-pages@v4
+```
