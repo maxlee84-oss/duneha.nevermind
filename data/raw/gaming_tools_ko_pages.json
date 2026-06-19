@@ -1,0 +1,417 @@
+{
+  "items": [
+    {
+      "url": "https://dune.gaming.tools/ko/items/landsraadnavigationlog",
+      "title": "âë´ë¹ê²ì´ì  ìê±°ìì´ì´ ë¡ê·¸â",
+      "sha256": "352f3a285db4711b09867b6f81138826c484e51587548baefd5995f7df350c68",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/landsraadengineeringlog",
+      "title": "âê³µí ìê±°ìì´ì´ ë¡ê·¸â",
+      "sha256": "0757e85421b8e580176314fddcee33dfd72995c0f440d04a975267278c13a300",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/fremencomponent1",
+      "title": "EMF ë°ì ê¸°",
+      "sha256": "48b488e7f5334f304c4a652fb06fee5fbeee86dff149294fcda7f6539bdd6d8d",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/mtx_atre_breakfastroomset_patent",
+      "title": "EMPTY_TEXT",
+      "sha256": "6f9299df056f5b9aa92bb61f6fafcd55f220129ae40f816184c840ec1cd47f8f",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun8",
+      "title": "GRDA 44 ë¯¸ì¸ ê°ì± ì½í",
+      "sha256": "152b0a5fa727ffa2c99fb7564f95a52e5614d0e303bea75a2d80a0d8b8fe4a1d",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun7",
+      "title": "GRDA 44 ë¶ì¬ê¸°",
+      "sha256": "57ec9c2d783b3ed3553fe67e9d66d571d0075a7c43a608e9961480ca6cf87487",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun2",
+      "title": "GRDA 44 ì ì ì¦í­ê¸°",
+      "sha256": "b20fbd7d9e513e6e5fe0fc14437a93901ade93bee8d618f4ba153fbe0718f8be",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun5",
+      "title": "GRDA 44 ì¦í­ê¸°",
+      "sha256": "7d49152c941a896800371542940d637b37623cc08f3dd943d5aaa076813883b8",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun6",
+      "title": "GRDA 44 ìµì íê¸°",
+      "sha256": "78a6a67275e5e6a7a12504395806d226172f96e11f0878ad5ca7ea4e18bad9a9",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun4",
+      "title": "GRDA 44 íì¥ê¸°",
+      "sha256": "40a5b3e6756ed06412792c2e4acc191c81782c9d7825faaadcb42521f7faf8f7",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/mtx_neut_muralpainting_01_patent",
+      "title": "N/A - Auto generated",
+      "sha256": "21201d7ead8cc68ccf1656ac0e5f222a5b3dd3cb028288dd6f7f2746c7ab3cda",
+      "stats": 5,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/mtx_neut_muralpainting_02_patent",
+      "title": "N/A - Auto generated",
+      "sha256": "62b34c273f00e78c3db6d9d76075b9178f3a672c566b3f24bb3a16bcd912fef8",
+      "stats": 5,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/mtx_neut_muralpainting_03_patent",
+      "title": "N/A - Auto generated",
+      "sha256": "3a1d59b4919e482627ed003fb3fa0f6bb80f834e0680d5c143c9acfb144babf0",
+      "stats": 5,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/b1c4_unique_consumable_t2",
+      "title": "PH_Advanced Heat Pack",
+      "sha256": "2f072ebd3da759e6de778e3a0e3c838b06c7ec5f09dc650162edb4e933ac946f",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent7",
+      "title": "PH_Bjondax Whale Fur",
+      "sha256": "7af7604a36229d09f33421ce95c53856ff994c7a7a98935c265e34f62f3c1315",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent2",
+      "title": "PH_Cold Resistant Grease",
+      "sha256": "dc86e25e81b761de37d3a65f52e01943baa66e85a68b6a40cce5882d53105877",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent5",
+      "title": "PH_Cryo Adapters",
+      "sha256": "83f4b61992c7b50f012e392be94606b26098001f947f316236759fb3c93c44f5",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent4",
+      "title": "PH_Cryo Insulated Foam",
+      "sha256": "51b062ebb777813efc2a6e6fb7eb220fd8762c478d24cad83aa0e45c47a39c5d",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent9",
+      "title": "PH_Heated Coil",
+      "sha256": "60eb71fe1d75b643c48b8f29a262123812cbc380816d629abfebf386e719ebdf",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent8",
+      "title": "PH_Industrial Thermocore",
+      "sha256": "79df4a05e92949c0112c8271f74ffd85059b4e7d3986dc97f0a86055ca9f9ed7",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent6",
+      "title": "PH_Insulated Polymer Sheeting",
+      "sha256": "5ad3bf7c8c15b40dce77a6dbacd4c484ed7c7f271d431d0dbfc4be13c52b17da",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent1",
+      "title": "PH_Scrap Thermocore",
+      "sha256": "bfad930ef67a69bbd670387976cef6cbd576c8398596ccfdc6fedfd1bd380c3b",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/heatconsumable",
+      "title": "PH_Simple Heat Pack",
+      "sha256": "b6efc65c0b51d158cf5440ee7b795a6ebfade1d4e946558502640279c5007c84",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent3",
+      "title": "PH_Thick Fabric",
+      "sha256": "38fdd07358300b370c5d8e3c195dbe02b78407e28201600bf446087a9b6a403b",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/shotgun_unique_explosive_04",
+      "title": "TK-43 ì°íì´",
+      "sha256": "ec66b82eacae95173d51d48a906aaf96b14cdb0e57b7d42a0fdc33a2bbdc11f9",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/floursand",
+      "title": "ê°ë£¨ ëª¨ë",
+      "sha256": "ed35ed015a73fe60f75fc63daa9ac8aa4d0f45e0c64e9f58ed2152f9ee7e2ecc",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/scattergun_prototype1",
+      "title": "ê°ë¬¸ GRDA 44",
+      "sha256": "5ed93cd19e3a05be24d1dae70c44099bcac02ea6c27020ec7aa9093c2bc3fe5e",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/choamsword_1",
+      "title": "ê°ë¬¸ ê²",
+      "sha256": "d7a6467d35df48031bbad96e40709faea3f0864e185c651e3379d017319198c1",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/dirk_0",
+      "title": "ê°ë¬¸ ëí¬",
+      "sha256": "87e4a494a4377fa5254cef50cb4411ef532fd16d7020bdc369828b719d5db664",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/smugshot3",
+      "title": "ê°ë¬¸ ëë¦´ì· FK7",
+      "sha256": "5985f862eb05c90d5caa7ef242f6d46d42fb946b0ffa389875ddf2403ebdb716",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/atresmg4",
+      "title": "ê°ë¬¸ ëì¤í í° M11",
+      "sha256": "341dbab28f2f44218a9f99b5c14d2c7d6249e0227bd37e12adfeb706ef470738",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/harkheavypistol3",
+      "title": "ê°ë¬¸ ë¼í¼í¬ ì¤ëë ¸ì¦",
+      "sha256": "721093bf754eab93feea8de4f6e96d2c03fddf06745c5a237ff48b51c77bb876",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/rapier",
+      "title": "ê°ë¬¸ ë ì´í¼ì´",
+      "sha256": "c8a5ed1957401bc812e5ac2ed7a66ed9139390d50c3d9a22086a59f6548d8df4",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/choamsda5",
+      "title": "ê°ë¬¸ ë§ì¸ë¼ ê¶ì´",
+      "sha256": "450af7f7c45dcfc2202d98d50c8d49e3dca7c7e65359d00ef8b140d987ddd5b7",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/atrelmg3",
+      "title": "ê°ë¬¸ ë²ì»¨ GAU-92",
+      "sha256": "464c1d216539cb6997da70bd8606d0609bd1178f6a601ed47252bbd6e9a0f845",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/smugdmr4",
+      "title": "ê°ë¬¸ ìë° ì¤íë¤í¸",
+      "sha256": "f1475428b1fafcf11143308ffe1c73c5e735a8262309a6f04e4703da7298ec24",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/harkar5",
+      "title": "ê°ë¬¸ ì¹´ë¥´í¬í 38",
+      "sha256": "5c11dccb53563f36fa1962168ff6a7d822cdaf7f7d9ab4ea82c3adae7e9305a6",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/kindjal_2",
+      "title": "ê°ë¬¸ í¨ì",
+      "sha256": "2ba8219ad803991c829015afa4aad6954bc92f9c2fa80844af639b2a4fbd4537",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/powerpack_unique_capacity_06",
+      "title": "ê°ìê¸° íì í©",
+      "sha256": "8d55a8ad24b038d06f0d59d49434571e83ea967c9e3b19cb2eef3a78b9562544",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/unique_sword_bleedyblocky_6",
+      "title": "ê°ì ë°í ì¹¼ìë£¨ ê²",
+      "sha256": "1693d65e9e18d94225ba398cd762e1d789e125c287840b393ba31f78e26031ae",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_biomeheat_top_03",
+      "title": "ê°ì£½ ìê° ì¬í·",
+      "sha256": "1d9dbba13b4263e6126d69f4ca2fad96f38bdf866a71fe12ca5388a58406aeaa",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_bottom",
+      "title": "ê°ì´ ë°ì§",
+      "sha256": "d039542cde5932516ed661abe904c285fab5dfe48abed766b330b729d015897b",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_boots",
+      "title": "ê°ì´ ì ë°",
+      "sha256": "1ea9e9b51177e9272224ab4cc649fae8e7581288767a646db8ba5f2eeb7a22be",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_gloves",
+      "title": "ê°ì´ ì¥ê°",
+      "sha256": "7069fc37064a77c2a3ec6fbb46a37e602c0bc8202ca8c525578bd389dea89642",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_top",
+      "title": "ê°ì´ ì¬í·",
+      "sha256": "034a3a370cdf3e84a62a4beef3b26a0b3fd8096bb0893481489de591d15c8680",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_helmet",
+      "title": "ê°ì´ íë",
+      "sha256": "4aa7193b4fd1212c471230d0fb687dd0107511a4bdc1a54659061b2c1594e6a6",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/landsraadsurveillancesensor",
+      "title": "ê°ì ì¼ì",
+      "sha256": "13e82d67c4db5d4ff3e34ba62dc837eaee8d1e917def5178293655aced5602c8",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/steelbar",
+      "title": "ê°ì² ì£¼ê´´",
+      "sha256": "f641d255e7fd566d9c222dce930b9a6d5ac0ba25e296844ec1c476516fd0a3a9",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_mentat_boots",
+      "title": "ê°íë ë©íí¸ ë¶ì¸",
+      "sha256": "b369035a8f9b4e240a3cd175ec699af7caeebae2bc5f0f91fc10b08493d01ae9",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_reducesuspensor_top_04",
+      "title": "ê°ëí ë°ì¤ë ¥ ì¥ì¹ ì¬í·",
+      "sha256": "6187948429c3f1ecfd388c09eb9f1d3bf072c147d0a582b63ea82eadfac8b1ba",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6watertube",
+      "title": "ê°ëí ì§ì íë¸",
+      "sha256": "d0787e4de46b4a959acd524ac72cd1b8222bdbda102679b5b650f290a0de816a",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_dewreap_gloves_04",
+      "title": "ê°ëí ì±ì·¨ê¸° ì¥ê°",
+      "sha256": "bc2fc9a22c3437fef9562dbff8fe11b9c34c72e6a6e173fb8082d607c96b3fc7",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6holtzmanactuator",
+      "title": "ê°ëí íì¸ ë§ ìëê¸°",
+      "sha256": "cbbf0480e67e3d7b33615ab067b185b9de3e69086ea01d7a86b9b3a739237161",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/portablelight",
+      "title": "ê°ì¸ ì¡°ëª",
+      "sha256": "0201642d9c0934650a531a7fc7e817b5ce4a32075f056b571cdcc06c2a86a5bb",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/bloodsack_t6",
+      "title": "ê±°ë íì¡ ì£¼ë¨¸ë",
+      "sha256": "d732cacb35465c41610ae95a46d92cb5e8372cc45c4d4cd3997894dbb8cc2e32",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/basicbuildingtool",
+      "title": "ê±´ì¤ ëêµ¬",
+      "sha256": "fc653deb38c0f41e236ce0a00c0ab2c912914b8c87ed11db5b8c7125036e5baf",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/ammo",
+      "title": "ê²½ë ë¤í¸",
+      "sha256": "f913fe9c4170b687de686ca66e38a0d41125da542e548d096c8c5ccff1344bd0",
+      "stats": 4,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/ornithopterlightchassis_4",
+      "title": "ê²½ë ì ì°° ì¤ëìí° ì°¨ë 4í¸",
+      "sha256": "063c97d565a7a19828b75bb2f1d86957981d23ff5bef25e912d5993bfe01ccd8",
+      "stats": 3,
+      "materials": 0
+    },
+    {
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_melee5",
+      "title": "ê²½ë ì¡°ì ê¸°",
+      "sha256": "8407324be20e402356304934d121f41f49d6efd91afe3f50994123dd0f37c3b6",
+      "stats": 4,
+      "materials": 0
+    }
+  ]
+}

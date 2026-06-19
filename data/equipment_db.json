@@ -1,81 +1,1697 @@
 {
   "metadata": {
     "schema_version": "2.0",
-    "mode": "ko_seed_until_full_crawl",
+    "mode": "full_ko_crawl_from_gaming_tools",
     "primary_source": "dune.gaming.tools/ko",
     "items_url": "https://dune.gaming.tools/ko/items",
     "crafting_url": "https://dune.gaming.tools/ko/crafting-calculator",
-    "updated_at": "2026-06-16T08:52:55+00:00",
-    "note": "GitHub Actions의 fetch_gaming_tools_ko_db.py 실행 후 한글 아이템명, 스펙, 제작 재료 DB로 갱신됩니다."
+    "updated_at": "2026-06-19T08:34:16+00:00",
+    "link_count": 59,
+    "item_count": 59,
+    "failures": 0,
+    "note": "dune.gaming.tools/ko의 한글 아이템명, 장비 스펙, 제작 재료를 수집했습니다."
   },
   "items": [
     {
-      "id": "ko_spice_melange",
-      "name": "스파이스 멜란지",
-      "category": "refined_resource",
-      "category_label": "기타 - 정제된 자원",
-      "station": "데이터 확인 중",
-      "status": "ko_source_seed",
+      "id": "fremencomponent1",
+      "name": "EMF ë°ì ê¸°",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
       "source": "dune.gaming.tools/ko",
-      "url": "https://dune.gaming.tools/ko/items",
-      "note": "한글 DB 연결 확인용 seed 항목입니다.",
+      "url": "https://dune.gaming.tools/ko/items/fremencomponent1",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
       "stats": [
         {
-          "label": "분류",
-          "value": "정제된 자원"
+          "label": "Stack",
+          "value": "500"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/fremencomponent1"
         }
       ],
-      "materials": []
+      "materials": [],
+      "variants": []
     },
     {
-      "id": "carrier_ornithopter_full_user_seed",
-      "name": "수송 오니솝터 전체 구성",
-      "category": "vehicle_bundle",
-      "category_label": "차량 - 수송 오니솝터",
-      "station": "차량 제작기 / 고급 차량 제작기",
-      "status": "user_provided_pending_verification",
-      "source": "사용자 제공 재료 합산",
-      "note": "전체 구성 합산 후보입니다. dune.gaming.tools/ko 부품별 제작식 교차 확인 전까지 검증 중으로 표시합니다.",
+      "id": "mtx_atre_breakfastroomset_patent",
+      "name": "EMPTY_TEXT",
+      "category": "unknown",
+      "category_label": "ê±´ì¤ - ê±´ì¤ë¬¼",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/mtx_atre_breakfastroomset_patent",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
       "stats": [
         {
-          "label": "용도",
-          "value": "대형 물류 / 길드 운반"
+          "label": "DLC",
+          "value": "Caladan Palace Building Set"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/mtx_atre_breakfastroomset_patent"
         }
       ],
-      "materials": [
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_scattergun8",
+      "name": "GRDA 44 ë¯¸ì¸ ê°ì± ì½í",
+      "category": "unknown",
+      "category_label": "ê°í - ìê±°ë¦¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun8",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
         {
-          "name": "플래스틸 합성 장갑판",
-          "qty": 144
+          "label": "(Min Grade",
+          "value": "3)"
         },
         {
-          "name": "다이아몬딘 가루",
-          "qty": 75
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
         },
         {
-          "name": "입자 축전기",
-          "qty": 54
+          "label": "Last Updated",
+          "value": "June 10, 2026"
         },
         {
-          "name": "복잡한 기계",
-          "qty": 30
-        },
-        {
-          "name": "산업용 펌프",
-          "qty": 16
-        },
-        {
-          "name": "탄화물 조각",
-          "qty": 15
-        },
-        {
-          "name": "삼중 단조 유압 피스톤",
-          "qty": 9
-        },
-        {
-          "name": "오버클럭 전력 조절기",
-          "qty": 9
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_scattergun8"
         }
-      ]
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_scattergun7",
+      "name": "GRDA 44 ë¶ì¬ê¸°",
+      "category": "unknown",
+      "category_label": "ê°í - ìê±°ë¦¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun7",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "(Min Grade",
+          "value": "2)"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_scattergun7"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_scattergun2",
+      "name": "GRDA 44 ì ì ì¦í­ê¸°",
+      "category": "unknown",
+      "category_label": "ê°í - ìê±°ë¦¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun2",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "(Min Grade",
+          "value": "2)"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_scattergun2"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_scattergun5",
+      "name": "GRDA 44 ì¦í­ê¸°",
+      "category": "unknown",
+      "category_label": "ê°í - ìê±°ë¦¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun5",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "(Min Grade",
+          "value": "4)"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_scattergun5"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_scattergun6",
+      "name": "GRDA 44 ìµì íê¸°",
+      "category": "unknown",
+      "category_label": "ê°í - ìê±°ë¦¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun6",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "(Min Grade",
+          "value": "3)"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_scattergun6"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_scattergun4",
+      "name": "GRDA 44 íì¥ê¸°",
+      "category": "unknown",
+      "category_label": "ê°í - ìê±°ë¦¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_scattergun4",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "(Min Grade",
+          "value": "2)"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_scattergun4"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "mtx_neut_muralpainting_01_patent",
+      "name": "N/A - Auto generated",
+      "category": "unknown",
+      "category_label": "ê±´ì¤ - ê±´ì¤ë¬¼",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/mtx_neut_muralpainting_01_patent",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Giveaway",
+          "value": "Mural: A Memory of Pain"
+        },
+        {
+          "label": "ë²½í",
+          "value": "ê³ íµì ê¸°ìµ"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/mtx_neut_muralpainting_01_patent"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "mtx_neut_muralpainting_02_patent",
+      "name": "N/A - Auto generated",
+      "category": "unknown",
+      "category_label": "ê±´ì¤ - ê±´ì¤ë¬¼",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/mtx_neut_muralpainting_02_patent",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Giveaway",
+          "value": "Mural: Arrakis Rising"
+        },
+        {
+          "label": "ë²½í",
+          "value": "ìë¼í¤ì¤ì ë¶ì"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/mtx_neut_muralpainting_02_patent"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "mtx_neut_muralpainting_03_patent",
+      "name": "N/A - Auto generated",
+      "category": "unknown",
+      "category_label": "ê±´ì¤ - ê±´ì¤ë¬¼",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/mtx_neut_muralpainting_03_patent",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Giveaway",
+          "value": "Mural: Call to Adventure"
+        },
+        {
+          "label": "ë²½í",
+          "value": "ëª¨íì´ ë¶ë¥¸ë¤"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/mtx_neut_muralpainting_03_patent"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "b1c4_unique_consumable_t2",
+      "name": "PH_Advanced Heat Pack",
+      "category": "unknown",
+      "category_label": "ì í¸ë¦¬í° - ìëª¨í",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/b1c4_unique_consumable_t2",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "20"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/b1c4_unique_consumable_t2"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent7",
+      "name": "PH_Bjondax Whale Fur",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent7",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent7"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent2",
+      "name": "PH_Cold Resistant Grease",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent2",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent2"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent5",
+      "name": "PH_Cryo Adapters",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent5",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent5"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent4",
+      "name": "PH_Cryo Insulated Foam",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent4",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent4"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent9",
+      "name": "PH_Heated Coil",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent9",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent9"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent8",
+      "name": "PH_Industrial Thermocore",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent8",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent8"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent6",
+      "name": "PH_Insulated Polymer Sheeting",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent6",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent6"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent1",
+      "name": "PH_Scrap Thermocore",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent1",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent1"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "heatconsumable",
+      "name": "PH_Simple Heat Pack",
+      "category": "unknown",
+      "category_label": "ì í¸ë¦¬í° - ìëª¨í",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/heatconsumable",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "20"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/heatconsumable"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "polarcapcomponent3",
+      "name": "PH_Thick Fabric",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/polarcapcomponent3",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/polarcapcomponent3"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "shotgun_unique_explosive_04",
+      "name": "TK-43 ì°íì´",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ì°íì´",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/shotgun_unique_explosive_04",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/shotgun_unique_explosive_04"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "landsraadnavigationlog",
+      "name": "âë´ë¹ê²ì´ì  ìê±°ìì´ì´ ë¡ê·¸â",
+      "category": "unknown",
+      "category_label": "ê¸°í - ê³ì½ ìì´í ",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/landsraadnavigationlog",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/landsraadnavigationlog"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "landsraadengineeringlog",
+      "name": "âê³µí ìê±°ìì´ì´ ë¡ê·¸â",
+      "category": "unknown",
+      "category_label": "ê¸°í - ê³ì½ ìì´í ",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/landsraadengineeringlog",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/landsraadengineeringlog"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "floursand",
+      "name": "ê°ë£¨ ëª¨ë",
+      "category": "unknown",
+      "category_label": "ê¸°í - ììì¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/floursand",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "1,000"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/floursand"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "scattergun_prototype1",
+      "name": "ê°ë¬¸ GRDA 44",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ì°íì´",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/scattergun_prototype1",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/scattergun_prototype1"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "choamsword_1",
+      "name": "ê°ë¬¸ ê²",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ê¸´ ë¸ë ì´ë",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/choamsword_1",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/choamsword_1"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "rapier",
+      "name": "ê°ë¬¸ ë ì´í¼ì´",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ê¸´ ë¸ë ì´ë",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/rapier",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/rapier"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "dirk_0",
+      "name": "ê°ë¬¸ ëí¬",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ì§§ì ë¸ë ì´ë",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/dirk_0",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/dirk_0"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "smugshot3",
+      "name": "ê°ë¬¸ ëë¦´ì· FK7",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ì°íì´",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/smugshot3",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/smugshot3"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "atresmg4",
+      "name": "ê°ë¬¸ ëì¤í í° M11",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ë³´ì¡° ë¬´ê¸°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/atresmg4",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/atresmg4"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "harkheavypistol3",
+      "name": "ê°ë¬¸ ë¼í¼í¬ ì¤ëë ¸ì¦",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ë³´ì¡° ë¬´ê¸°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/harkheavypistol3",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/harkheavypistol3"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "choamsda5",
+      "name": "ê°ë¬¸ ë§ì¸ë¼ ê¶ì´",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ë³´ì¡° ë¬´ê¸°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/choamsda5",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/choamsda5"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "atrelmg3",
+      "name": "ê°ë¬¸ ë²ì»¨ GAU-92",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ì¤íê¸°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/atrelmg3",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/atrelmg3"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "smugdmr4",
+      "name": "ê°ë¬¸ ìë° ì¤íë¤í¸",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ìì´",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/smugdmr4",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/smugdmr4"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "harkar5",
+      "name": "ê°ë¬¸ ì¹´ë¥´í¬í 38",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ìì´",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/harkar5",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/harkar5"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "kindjal_2",
+      "name": "ê°ë¬¸ í¨ì",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ì§§ì ë¸ë ì´ë",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/kindjal_2",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/kindjal_2"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "powerpack_unique_capacity_06",
+      "name": "ê°ìê¸° íì í©",
+      "category": "unknown",
+      "category_label": "ì í¸ë¦¬í° - ì í¸ë¦¬í° ëêµ¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/powerpack_unique_capacity_06",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/powerpack_unique_capacity_06"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "unique_sword_bleedyblocky_6",
+      "name": "ê°ì ë°í ì¹¼ìë£¨ ê²",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - ê¸´ ë¸ë ì´ë",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/unique_sword_bleedyblocky_6",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/unique_sword_bleedyblocky_6"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_light_unique_biomeheat_top_03",
+      "name": "ê°ì£½ ìê° ì¬í·",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_biomeheat_top_03",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_light_unique_biomeheat_top_03"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_nati_sandtroutleathers01_bottom",
+      "name": "ê°ì´ ë°ì§",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_bottom",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_bottom"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_nati_sandtroutleathers01_boots",
+      "name": "ê°ì´ ì ë°",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_boots",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_boots"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_nati_sandtroutleathers01_gloves",
+      "name": "ê°ì´ ì¥ê°",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_gloves",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_gloves"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_nati_sandtroutleathers01_top",
+      "name": "ê°ì´ ì¬í·",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_top",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_top"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_nati_sandtroutleathers01_helmet",
+      "name": "ê°ì´ íë",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_helmet",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_nati_sandtroutleathers01_helmet"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "landsraadsurveillancesensor",
+      "name": "ê°ì ì¼ì",
+      "category": "unknown",
+      "category_label": "ê¸°í - ê³ì½ ìì´í ",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/landsraadsurveillancesensor",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/landsraadsurveillancesensor"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "steelbar",
+      "name": "ê°ì² ì£¼ê´´",
+      "category": "unknown",
+      "category_label": "ê¸°í - ì ì ë ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/steelbar",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "500"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/steelbar"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_light_unique_mentat_boots",
+      "name": "ê°íë ë©íí¸ ë¶ì¸",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_mentat_boots",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_light_unique_mentat_boots"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_light_unique_reducesuspensor_top_04",
+      "name": "ê°ëí ë°ì¤ë ¥ ì¥ì¹ ì¬í·",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_reducesuspensor_top_04",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_light_unique_reducesuspensor_top_04"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6watertube",
+      "name": "ê°ëí ì§ì íë¸",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6watertube",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "500"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6watertube"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "combat_light_unique_dewreap_gloves_04",
+      "name": "ê°ëí ì±ì·¨ê¸° ì¥ê°",
+      "category": "unknown",
+      "category_label": "ìë³µ - ê²½ê°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/combat_light_unique_dewreap_gloves_04",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/combat_light_unique_dewreap_gloves_04"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6holtzmanactuator",
+      "name": "ê°ëí íì¸ ë§ ìëê¸°",
+      "category": "unknown",
+      "category_label": "ê¸°í - êµ¬ì± ìì",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6holtzmanactuator",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "500"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6holtzmanactuator"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "portablelight",
+      "name": "ê°ì¸ ì¡°ëª",
+      "category": "unknown",
+      "category_label": "ì í¸ë¦¬í° - ì í¸ë¦¬í° ëêµ¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/portablelight",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/portablelight"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "bloodsack_t6",
+      "name": "ê±°ë íì¡ ì£¼ë¨¸ë",
+      "category": "unknown",
+      "category_label": "ì í¸ë¦¬í° - ìë¶ ê³µê¸ ëêµ¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/bloodsack_t6",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/bloodsack_t6"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "basicbuildingtool",
+      "name": "ê±´ì¤ ëêµ¬",
+      "category": "unknown",
+      "category_label": "ì í¸ë¦¬í° - ê±´ì¤ ëêµ¬",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/basicbuildingtool",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/basicbuildingtool"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "ammo",
+      "name": "ê²½ë ë¤í¸",
+      "category": "unknown",
+      "category_label": "ë¬´ê¸° - íì½",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/ammo",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Stack",
+          "value": "1,000"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/ammo"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "ornithopterlightchassis_4",
+      "name": "ê²½ë ì ì°° ì¤ëìí° ì°¨ë 4í¸",
+      "category": "unknown",
+      "category_label": "ì°¨ë - ê²½ë ì¤ëìí°",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/ornithopterlightchassis_4",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/ornithopterlightchassis_4"
+        }
+      ],
+      "materials": [],
+      "variants": []
+    },
+    {
+      "id": "t6_augment_melee5",
+      "name": "ê²½ë ì¡°ì ê¸°",
+      "category": "unknown",
+      "category_label": "ê°í - ê·¼ì ",
+      "station": "",
+      "status": "ko_source_detected",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items/t6_augment_melee5",
+      "note": "dune.gaming.tools/ko 한글 DB에서 수집",
+      "stats": [
+        {
+          "label": "(Min Grade",
+          "value": "3)"
+        },
+        {
+          "label": "Dune Awakening Version",
+          "value": "1.4.0.0"
+        },
+        {
+          "label": "Last Updated",
+          "value": "June 10, 2026"
+        },
+        {
+          "label": "https",
+          "value": "//dune.gaming.tools/ko/items/t6_augment_melee5"
+        }
+      ],
+      "materials": [],
+      "variants": []
     }
   ]
 }

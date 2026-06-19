@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-06-19T08:33:40+00:00",
+  "sources": {
+    "dune_gaming_deep_desert": {
+      "url": "https://dune.gaming.tools/deep-desert",
+      "sha256": "ba1b0de002684d18c11dd20d29807999201277f7585d30eda8eec4c8368d7f90",
+      "status_code": 200,
+      "title": "Weekly Dune Awakening Deep Desert Map and Drops"
+    },
+    "method_deep_desert": {
+      "url": "https://www.method.gg/dune-awakening/deep-desert-companion",
+      "sha256": "35204d2ae0df2bf73682dddf2b426eee06c41b18c571fa5f48064fe98480c6b0",
+      "status_code": 200,
+      "title": "Deep Desert Map & Loot Tables - Dune Awakening"
+    },
+    "method_overland": {
+      "url": "https://www.method.gg/dune-awakening/overland-companion",
+      "sha256": "e408dfe41e6815b8eb6696a2f3c3de357fb3d08ca25a230ac496df9726b412c3",
+      "status_code": 200,
+      "title": "Overland Map & Loot Tables - Dune Awakening"
+    },
+    "method_database": {
+      "url": "https://www.method.gg/dune-awakening/database",
+      "sha256": "97714314d6bdd04e261d1d8266c7428e7da1721e6e14953629babec981b2ae96",
+      "status_code": 200,
+      "title": "Dune: Awakening Database"
+    },
+    "official_news": {
+      "url": "https://duneawakening.com/en/news",
+      "sha256": "6c34a73cfa0927351e2620c9dd5d5f3566bf59de5d5f492da81089f861bc4e4e",
+      "status_code": 200,
+      "title": "Latest News » Dune: Awakening"
+    }
+  }
+}

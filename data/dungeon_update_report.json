@@ -1,20 +1,14 @@
 {
-  "ok": null,
-  "status": "awaiting_first_run",
-  "prepared_at": "2026-06-19T07:56:53+00:00",
-  "routes": [
-    "route-the-old-quarry",
-    "route-testing-station-24",
-    "route-testing-station-89",
-    "route-testing-station-136",
-    "route-testing-station-152",
-    "route-testing-station-195"
-  ],
-  "validation_policy": {
-    "required_routes": 6,
-    "minimum_drops_per_route": 6,
-    "duplicate_ratio_minimum": 0.75,
-    "failure_behavior": "preserve previous dungeon data",
-    "personalized_priority_fields": "excluded"
+  "ok": false,
+  "status": "preserved",
+  "reason": "route-the-old-quarry drop count 0 < 6; route-testing-station-24 drop count 0 < 6; route-testing-station-89 drop count 0 < 6; route-testing-station-136 drop count 0 < 6; route-testing-station-152 drop count 0 < 6; route-testing-station-195 drop count 0 < 6",
+  "checked_at": "2026-06-19T08:34:20Z",
+  "counts": {
+    "route-the-old-quarry": 0,
+    "route-testing-station-24": 0,
+    "route-testing-station-89": 0,
+    "route-testing-station-136": 0,
+    "route-testing-station-152": 0,
+    "route-testing-station-195": 0
   }
 }

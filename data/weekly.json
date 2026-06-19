@@ -13,14 +13,23 @@
     "automation": "no_gemini_source_check",
     "db_source": "dune.gaming.tools/ko"
   },
-  "generated_at": "2026-06-19T07:46:06Z",
+  "generated_at": "2026-06-19T08:34:16Z",
   "automation_status": {
-    "mode": "dd_auto_update_ready",
-    "confidence": "last_verified_data_until_first_run",
-    "message": "DD/던전 자동 갱신 구조가 준비되었습니다. 첫 GitHub Actions 실행 전까지 마지막 검증본을 표시합니다.",
-    "checked_at": "2026-06-19T07:46:06Z",
+    "mode": "dd_previous_preserved",
+    "confidence": "last_verified_data",
+    "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
+    "checked_at": "2026-06-19T08:34:20Z",
+    "checked_sources": [
+      "dune_gaming_deep_desert",
+      "method_deep_desert",
+      "method_overland",
+      "method_database",
+      "official_news"
+    ],
+    "changed_source_count": 5,
+    "source_errors": [],
     "render_mode": "weekly_json_single_source",
-    "dungeon_mode": "auto_update_ready"
+    "dungeon_mode": "previous_preserved"
   },
   "week": {
     "start": "2026-06-16",
@@ -2072,20 +2081,16 @@
     }
   ],
   "dd_update": {
-    "status": "awaiting_first_run",
-    "source": "Method Deep Desert Companion",
+    "status": "preserved",
+    "source": "Method 딥 데저트 Companion",
     "source_url": "https://www.method.gg/dune-awakening/deep-desert-companion",
-    "secondary_source": "dune.gaming.tools/ko/deep-desert",
-    "secondary_source_url": "https://dune.gaming.tools/ko/deep-desert",
-    "prepared_at": "2026-06-19T07:51:46+00:00",
-    "note": "GitHub Actions 첫 실행 후 현재 주차 파싱 결과가 검증 기준을 통과하면 자동 갱신됩니다."
+    "checked_at": "2026-06-19T08:34:17Z",
+    "reason": "rowa count 0 < 8"
   },
   "dungeon_update": {
-    "status": "awaiting_first_run",
-    "source": "Method Testing Stations",
-    "source_url": "https://www.method.gg/dune-awakening/testing-stations",
-    "secondary_source": "dune.gaming.tools/ko",
-    "prepared_at": "2026-06-19T07:56:53+00:00",
-    "note": "GitHub Actions 첫 실행 후 6개 루트가 검증 기준을 통과하면 자동 갱신됩니다."
+    "status": "preserved",
+    "source": "Method 테스팅 스테이션s",
+    "checked_at": "2026-06-19T08:34:20Z",
+    "reason": "route-the-old-quarry drop count 0 < 6; route-testing-station-24 drop count 0 < 6; route-testing-station-89 drop count 0 < 6; route-testing-station-136 drop count 0 < 6; route-testing-station-152 drop count 0 < 6; route-testing-station-195 drop count 0 < 6"
   }
 }

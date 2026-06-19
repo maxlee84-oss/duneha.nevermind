@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "crafting DB has very few items"
+  ],
+  "dd_counts": {
+    "notable": 8,
+    "pve": 16,
+    "pvp": 14,
+    "rowa": 16
+  },
+  "dungeon_counts": {
+    "route-the-old-quarry": 12,
+    "route-testing-station-24": 12,
+    "route-testing-station-89": 10,
+    "route-testing-station-136": 14,
+    "route-testing-station-152": 11,
+    "route-testing-station-195": 13
+  },
+  "automation_status": {
+    "mode": "dd_previous_preserved",
+    "confidence": "last_verified_data",
+    "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
+    "checked_at": "2026-06-19T08:34:20Z",
+    "checked_sources": [
+      "dune_gaming_deep_desert",
+      "method_deep_desert",
+      "method_overland",
+      "method_database",
+      "official_news"
+    ],
+    "changed_source_count": 5,
+    "source_errors": [],
+    "render_mode": "weekly_json_single_source",
+    "dungeon_mode": "previous_preserved"
+  },
+  "weekly_render_mode": "weekly_json_single_source",
+  "dd_update_status": "preserved",
+  "dungeon_update_status": "preserved",
+  "crafting_items": 0,
+  "crafting_mode": "derived_from_equipment_db",
+  "equipment_items": 59,
+  "equipment_mode": "full_ko_crawl_from_gaming_tools"
+}

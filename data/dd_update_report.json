@@ -1,17 +1,21 @@
 {
-  "ok": null,
-  "status": "awaiting_first_run",
-  "prepared_at": "2026-06-19T07:51:46+00:00",
-  "source": "Method Deep Desert Companion",
-  "validation_policy": {
-    "minimum_counts": {
-      "notable": 4,
-      "pve": 8,
-      "pvp": 8,
-      "rowa": 8
-    },
-    "period_must_match_asia_window": true,
-    "duplicate_ratio_minimum": 0.65,
-    "failure_behavior": "preserve previous weekly.json DD data"
+  "ok": false,
+  "status": "preserved",
+  "reason": "rowa count 0 < 8",
+  "checked_at": "2026-06-19T08:34:17Z",
+  "counts": {
+    "notable": 12,
+    "pve": 74,
+    "pvp": 74,
+    "rowa": 0
+  },
+  "source_period": {
+    "start": "2026-06-16",
+    "end": "2026-06-23",
+    "label": "Updated for:\n16th June > 23rd June"
+  },
+  "expected_period": {
+    "start": "2026-06-16",
+    "end": "2026-06-23"
   }
 }

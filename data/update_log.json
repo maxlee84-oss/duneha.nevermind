@@ -2,6 +2,94 @@
   "generated_at": "2026-06-16T05:40:57Z",
   "entries": [
     {
+      "time": "2026-06-19T08:34:20Z",
+      "type": "dungeon-auto-update",
+      "status": "preserved",
+      "message": "route-the-old-quarry drop count 0 < 6; route-testing-station-24 drop count 0 < 6; route-testing-station-89 drop count 0 < 6; route-testing-station-136 drop count 0 < 6; route-testing-station-152 drop count 0 < 6; route-testing-station-195 drop count 0 < 6",
+      "counts": {
+        "route-the-old-quarry": 0,
+        "route-testing-station-24": 0,
+        "route-testing-station-89": 0,
+        "route-testing-station-136": 0,
+        "route-testing-station-152": 0,
+        "route-testing-station-195": 0
+      }
+    },
+    {
+      "time": "2026-06-19T08:34:17Z",
+      "type": "dd-weekly-auto-update",
+      "status": "preserved",
+      "message": "rowa count 0 < 8",
+      "counts": {
+        "notable": 12,
+        "pve": 74,
+        "pvp": 74,
+        "rowa": 0
+      },
+      "source_period": {
+        "start": "2026-06-16",
+        "end": "2026-06-23",
+        "label": "Updated for:\n16th June > 23rd June"
+      },
+      "expected_period": {
+        "start": "2026-06-16",
+        "end": "2026-06-23"
+      }
+    },
+    {
+      "time": "2026-06-19T08:34:16+00:00",
+      "type": "gaming-tools-ko-db",
+      "status": "updated",
+      "message": "한글 장비/제작 DB 갱신 완료: 59개",
+      "link_count": 59,
+      "item_count": 59,
+      "failures": 0
+    },
+    {
+      "time": "2026-06-19T08:33:40+00:00",
+      "type": "daily-source-check",
+      "status": "source-changed",
+      "message": "소스 변경 감지: 5개. 데이터는 마지막 검증본을 유지합니다.",
+      "changed_sources": [
+        {
+          "name": "dune_gaming_deep_desert",
+          "url": "https://dune.gaming.tools/deep-desert",
+          "old": null,
+          "new": "ba1b0de002684d18c11dd20d29807999201277f7585d30eda8eec4c8368d7f90",
+          "reason": "new source signature"
+        },
+        {
+          "name": "method_deep_desert",
+          "url": "https://www.method.gg/dune-awakening/deep-desert-companion",
+          "old": null,
+          "new": "35204d2ae0df2bf73682dddf2b426eee06c41b18c571fa5f48064fe98480c6b0",
+          "reason": "new source signature"
+        },
+        {
+          "name": "method_overland",
+          "url": "https://www.method.gg/dune-awakening/overland-companion",
+          "old": null,
+          "new": "e408dfe41e6815b8eb6696a2f3c3de357fb3d08ca25a230ac496df9726b412c3",
+          "reason": "new source signature"
+        },
+        {
+          "name": "method_database",
+          "url": "https://www.method.gg/dune-awakening/database",
+          "old": null,
+          "new": "97714314d6bdd04e261d1d8266c7428e7da1721e6e14953629babec981b2ae96",
+          "reason": "new source signature"
+        },
+        {
+          "name": "official_news",
+          "url": "https://duneawakening.com/en/news",
+          "old": null,
+          "new": "6c34a73cfa0927351e2620c9dd5d5f3566bf59de5d5f492da81089f861bc4e4e",
+          "reason": "new source signature"
+        }
+      ],
+      "errors": []
+    },
+    {
       "time": "2026-06-16T06:01:45Z",
       "type": "design-pass",
       "status": "v7.5",
