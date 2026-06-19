@@ -1,0 +1,20 @@
+{
+  "ok": null,
+  "status": "awaiting_first_run",
+  "prepared_at": "2026-06-19T07:56:53+00:00",
+  "routes": [
+    "route-the-old-quarry",
+    "route-testing-station-24",
+    "route-testing-station-89",
+    "route-testing-station-136",
+    "route-testing-station-152",
+    "route-testing-station-195"
+  ],
+  "validation_policy": {
+    "required_routes": 6,
+    "minimum_drops_per_route": 6,
+    "duplicate_ratio_minimum": 0.75,
+    "failure_behavior": "preserve previous dungeon data",
+    "personalized_priority_fields": "excluded"
+  }
+}

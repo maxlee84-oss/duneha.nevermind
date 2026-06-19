@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "black-market-k-28-lasgun",
+    "name": "블랙마켓 K-28 라스건",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B8%94%EB%9E%99%EB%A7%88%EC%BC%93%20K-28%20%EB%9D%BC%EC%8A%A4%EA%B1%B4"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-black-market-k-28-lasgun"
+      },
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-black-market-k-28-lasgun"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-black-market-k-28-lasgun"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Black Market K-28 Lasgun",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "perforator",
+    "name": "퍼포레이터",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%8D%BC%ED%8F%AC%EB%A0%88%EC%9D%B4%ED%84%B0"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-perforator"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-perforator"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Perforator",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "regis-disruptor-pistol",
+    "name": "레지스 디스럽터 피스톨",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "⌁ 사이드암",
+      "⌁",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%A0%88%EC%A7%80%EC%8A%A4%20%EB%94%94%EC%8A%A4%EB%9F%BD%ED%84%B0%20%ED%94%BC%EC%8A%A4%ED%86%A8"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-regis-disruptor-pistol"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-regis-disruptor-pistol"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Regis Disruptor Pistol",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "kynes-s-cutteray",
+    "name": "카인즈 커터레이",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "✦ 도구",
+      "✦",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%B9%B4%EC%9D%B8%EC%A6%88%20%EC%BB%A4%ED%84%B0%EB%A0%88%EC%9D%B4"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-kynes-s-cutteray"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-kynes-s-cutteray"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Kynes's Cutteray",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "adaptive-holtzman-shield",
+    "name": "적응형 홀츠먼 실드",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◌ 실드",
+      "◌",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A0%81%EC%9D%91%ED%98%95%20%ED%99%80%EC%B8%A0%EB%A8%BC%20%EC%8B%A4%EB%93%9C"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-adaptive-holtzman-shield"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-adaptive-holtzman-shield"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Adaptive Holtzman Shield",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "power-harness",
+    "name": "파워 하네스",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◧ 방어구",
+      "◧",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%8C%8C%EC%9B%8C%20%ED%95%98%EB%84%A4%EC%8A%A4"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-power-harness"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-power-harness"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Power Harness",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "focused-buggy-cutteray-mk6",
+    "name": "집중형 버기 커터레이 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "▰ 차량",
+      "▰",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%EC%A4%91%ED%98%95%20%EB%B2%84%EA%B8%B0%20%EC%BB%A4%ED%84%B0%EB%A0%88%EC%9D%B4%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-focused-buggy-cutteray-mk6"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-focused-buggy-cutteray-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Focused Buggy Cutteray Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "hummingbird-wing-module-mk6",
+    "name": "허밍버드 날개 모듈 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "▰ 차량",
+      "▰",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%97%88%EB%B0%8D%EB%B2%84%EB%93%9C%20%EB%82%A0%EA%B0%9C%20%EB%AA%A8%EB%93%88%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "notable",
+        "ref": "notable-hummingbird-wing-module-mk6"
+      },
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-hummingbird-wing-module-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Hummingbird Wing Module Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "replica-pulse-sword",
+    "name": "복제 펄스 소드",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B3%B5%EC%A0%9C%20%ED%8E%84%EC%8A%A4%20%EC%86%8C%EB%93%9C"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-extra-replica-pulse-sword"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-replica-pulse-sword"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Replica Pulse-sword",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "replica-pulse-knife",
+    "name": "복제 펄스 나이프",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B3%B5%EC%A0%9C%20%ED%8E%84%EC%8A%A4%20%EB%82%98%EC%9D%B4%ED%94%84"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-extra-replica-pulse-knife"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-replica-pulse-knife"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Replica Pulse-knife",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "compact-compactor-mk6",
+    "name": "소형 컴팩터 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "✦ 도구",
+      "✦",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%86%8C%ED%98%95%20%EC%BB%B4%ED%8C%A9%ED%84%B0%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-compact-compactor-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Compact Compactor Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "filter-extractor-mk6",
+    "name": "필터 추출기 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "✦ 도구",
+      "✦",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%95%84%ED%84%B0%20%EC%B6%94%EC%B6%9C%EA%B8%B0%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-extra-filter-extractor-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Filter Extractor Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "tactical-radiation-suit",
+    "name": "전술 방사능 슈트",
+    "type": null,
+    "tags": [
+      "PvE",
+      "◧ 방어구",
+      "◧",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A0%84%EC%88%A0%20%EB%B0%A9%EC%82%AC%EB%8A%A5%20%EC%8A%88%ED%8A%B8"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-tactical-radiation-suit"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Tactical Radiation Suit",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "the-forge-chestpiece",
+    "name": "포지 흉갑",
+    "type": null,
+    "tags": [
+      "PvE",
+      "◧ 방어구",
+      "◧",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%8F%AC%EC%A7%80%20%ED%9D%89%EA%B0%91"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-the-forge-chestpiece"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "The Forge Chestpiece",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "executor-s-chestpiece",
+    "name": "집행자의 흉갑",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◧ 방어구",
+      "◧",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%ED%96%89%EC%9E%90%EC%9D%98%20%ED%9D%89%EA%B0%91"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-extra-executor-s-chestpiece"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Executor's Chestpiece",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "mohandis-sandbike-engine-mk6",
+    "name": "모한디스 샌드바이크 엔진 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "▰ 차량",
+      "▰",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%AA%A8%ED%95%9C%EB%94%94%EC%8A%A4%20%EC%83%8C%EB%93%9C%EB%B0%94%EC%9D%B4%ED%81%AC%20%EC%97%94%EC%A7%84%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-extra-mohandis-sandbike-engine-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Mohandis Sandbike Engine Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "roc-carrier-wing",
+    "name": "로크 캐리어 날개",
+    "type": null,
+    "tags": [
+      "PvE",
+      "▰ 차량",
+      "▰",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%A1%9C%ED%81%AC%20%EC%BA%90%EB%A6%AC%EC%96%B4%20%EB%82%A0%EA%B0%9C"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pve",
+        "ref": "pve-extra-roc-carrier-wing"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Roc Carrier Wing",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "regis-tripleshot-repeating-rifle",
+    "name": "레지스 트리플샷 연발 소총",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%A0%88%EC%A7%80%EC%8A%A4%20%ED%8A%B8%EB%A6%AC%ED%94%8C%EC%83%B7%20%EC%97%B0%EB%B0%9C%20%EC%86%8C%EC%B4%9D"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-regis-tripleshot-repeating-rifle"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Regis Tripleshot Repeating Rifle",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "plasma-cannon",
+    "name": "플라즈마 캐논",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%94%8C%EB%9D%BC%EC%A6%88%EB%A7%88%20%EC%BA%90%EB%85%BC"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-plasma-cannon"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Plasma Cannon",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "sardaukar-intimidator",
+    "name": "사다우카르 인티미데이터",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%82%AC%EB%8B%A4%EC%9A%B0%EC%B9%B4%EB%A5%B4%20%EC%9D%B8%ED%8B%B0%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-sardaukar-intimidator"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Sardaukar Intimidator",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "cauterizer",
+    "name": "카터라이저",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%B9%B4%ED%84%B0%EB%9D%BC%EC%9D%B4%EC%A0%80"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-cauterizer"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Cauterizer",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "dunewatcher",
+    "name": "듄워처",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%93%84%EC%9B%8C%EC%B2%98"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-dunewatcher"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Dunewatcher",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "bulwark-set",
+    "name": "불워크 세트",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B6%88%EC%9B%8C%ED%81%AC%20%EC%84%B8%ED%8A%B8"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-bulwark-set"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Bulwark set",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "indara-s-lullaby",
+    "name": "인다라의 자장가",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◆ 무기",
+      "◆",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%9D%B8%EB%8B%A4%EB%9D%BC%EC%9D%98%20%EC%9E%90%EC%9E%A5%EA%B0%80"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-extra-indara-s-lullaby"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Indara's Lullaby",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "impure-extractor-mk6",
+    "name": "불순물 추출기 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "✦ 도구",
+      "✦",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B6%88%EC%88%9C%EB%AC%BC%20%EC%B6%94%EC%B6%9C%EA%B8%B0%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-extra-impure-extractor-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Impure Extractor Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "collapsible-dew-reaper-mk6",
+    "name": "접이식 이슬 채집기 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "✦ 도구",
+      "✦",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A0%91%EC%9D%B4%EC%8B%9D%20%EC%9D%B4%EC%8A%AC%20%EC%B1%84%EC%A7%91%EA%B8%B0%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-extra-collapsible-dew-reaper-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Collapsible Dew Reaper Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "pincushion-chestpiece",
+    "name": "핀쿠션 흉갑",
+    "type": null,
+    "tags": [
+      "PvP",
+      "◧ 방어구",
+      "◧",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%95%80%EC%BF%A0%EC%85%98%20%ED%9D%89%EA%B0%91"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-pincushion-chestpiece"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Pincushion Chestpiece",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "circuit-gauntlets",
+    "name": "회로 건틀릿",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "◧ 방어구",
+      "◧",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%9A%8C%EB%A1%9C%20%EA%B1%B4%ED%8B%80%EB%A6%BF"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-extra-circuit-gauntlets"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Circuit Gauntlets",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "stormrider-boost-module-mk6",
+    "name": "스톰라이더 부스트 모듈 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "▰ 차량",
+      "▰",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%8A%A4%ED%86%B0%EB%9D%BC%EC%9D%B4%EB%8D%94%20%EB%B6%80%EC%8A%A4%ED%8A%B8%20%EB%AA%A8%EB%93%88%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-stormrider-boost-module-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Stormrider Boost Module Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "steady-assault-boost-module-mk6",
+    "name": "안정형 어썰트 부스트 모듈 Mk6",
+    "type": null,
+    "tags": [
+      "PvE",
+      "PvP",
+      "▰ 차량",
+      "▰",
+      "Mk6"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%95%88%EC%A0%95%ED%98%95%20%EC%96%B4%EC%8D%B0%ED%8A%B8%20%EB%B6%80%EC%8A%A4%ED%8A%B8%20%EB%AA%A8%EB%93%88%20Mk6"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "pvp",
+        "ref": "pvp-steady-assault-boost-module-mk6"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Steady Assault Boost Module Mk6",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "arhun-k-28-lasgun",
+    "name": "아르훈 K-28 라스건",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◆ 무기",
+      "◆",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%95%84%EB%A5%B4%ED%9B%88%20K-28%20%EB%9D%BC%EC%8A%A4%EA%B1%B4"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-arhun-k-28-lasgun"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Arhun K-28 Lasgun",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "shaitan-s-tongue",
+    "name": "샤이탄의 혀",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◆ 무기",
+      "◆",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%83%A4%EC%9D%B4%ED%83%84%EC%9D%98%20%ED%98%80"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-shaitan-s-tongue"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Shaitan's Tongue",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "syndicate-impaler",
+    "name": "신디케이트 임페일러",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◆ 무기",
+      "◆",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%8B%A0%EB%94%94%EC%BC%80%EC%9D%B4%ED%8A%B8%20%EC%9E%84%ED%8E%98%EC%9D%BC%EB%9F%AC"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-syndicate-impaler"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Syndicate Impaler",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "piter-s-disruptor",
+    "name": "파이터의 디스럽터",
+    "type": null,
+    "tags": [
+      "Row A",
+      "⌁ 사이드암",
+      "⌁",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%8C%8C%EC%9D%B4%ED%84%B0%EC%9D%98%20%EB%94%94%EC%8A%A4%EB%9F%BD%ED%84%B0"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-piter-s-disruptor"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Piter's Disruptor",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "compact-compactor-mk5",
+    "name": "소형 컴팩터 Mk5",
+    "type": null,
+    "tags": [
+      "Row A",
+      "✦ 도구",
+      "✦",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%86%8C%ED%98%95%20%EC%BB%B4%ED%8C%A9%ED%84%B0%20Mk5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-compact-compactor-mk5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Compact Compactor Mk5",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "long-range-scanner",
+    "name": "장거리 스캐너",
+    "type": null,
+    "tags": [
+      "Row A",
+      "✦ 도구",
+      "✦",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%9E%A5%EA%B1%B0%EB%A6%AC%20%EC%8A%A4%EC%BA%90%EB%84%88"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-long-range-scanner"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Long Range Scanner",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "the-emperor-s-wings-mk5",
+    "name": "황제의 날개 Mk5",
+    "type": null,
+    "tags": [
+      "Row A",
+      "✦ 도구",
+      "✦",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%99%A9%EC%A0%9C%EC%9D%98%20%EB%82%A0%EA%B0%9C%20Mk5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-the-emperor-s-wings-mk5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "The Emperor's Wings Mk5",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "focused-reaper-mk5",
+    "name": "집중형 채집기 Mk5",
+    "type": null,
+    "tags": [
+      "Row A",
+      "✦ 도구",
+      "✦",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%EC%A4%91%ED%98%95%20%EC%B1%84%EC%A7%91%EA%B8%B0%20Mk5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-focused-reaper-mk5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Focused Reaper Mk5",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "station-garb",
+    "name": "스테이션 의복",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◧ 방어구",
+      "◧",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%9D%98%EB%B3%B5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-station-garb"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Station Garb",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "saturnine-stillsuit-garment",
+    "name": "새터닌 스틸슈트 의복",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◧ 방어구",
+      "◧",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%83%88%ED%84%B0%EB%8B%8C%20%EC%8A%A4%ED%8B%B8%EC%8A%88%ED%8A%B8%20%EC%9D%98%EB%B3%B5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-saturnine-stillsuit-garment"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Saturnine Stillsuit Garment",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "mendek-s-chestplate",
+    "name": "멘덱의 흉갑",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◧ 방어구",
+      "◧",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%A9%98%EB%8D%B1%EC%9D%98%20%ED%9D%89%EA%B0%91"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-mendek-s-chestplate"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Mendek's Chestplate",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "batigh-stillsuit-garment",
+    "name": "바티그 스틸슈트 의복",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◧ 방어구",
+      "◧",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B0%94%ED%8B%B0%EA%B7%B8%20%EC%8A%A4%ED%8B%B8%EC%8A%88%ED%8A%B8%20%EC%9D%98%EB%B3%B5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-batigh-stillsuit-garment"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Batigh Stillsuit Garment",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "advanced-suspensor-jacket",
+    "name": "고급 서스펜서 재킷",
+    "type": null,
+    "tags": [
+      "Row A",
+      "◧ 방어구",
+      "◧",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8A%A4%ED%8E%9C%EC%84%9C%20%EC%9E%AC%ED%82%B7"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-advanced-suspensor-jacket"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Advanced Suspensor Jacket",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "hummingbird-wing-module-mk5",
+    "name": "허밍버드 날개 모듈 Mk5",
+    "type": null,
+    "tags": [
+      "Row A",
+      "▰ 차량",
+      "▰",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%97%88%EB%B0%8D%EB%B2%84%EB%93%9C%20%EB%82%A0%EA%B0%9C%20%EB%AA%A8%EB%93%88%20Mk5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-station-hummingbird-wing-module-mk5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Hummingbird Wing Module Mk5",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "focused-buggy-cutteray-mk5",
+    "name": "집중형 버기 커터레이 Mk5",
+    "type": null,
+    "tags": [
+      "Row A",
+      "▰ 차량",
+      "▰",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%EC%A4%91%ED%98%95%20%EB%B2%84%EA%B8%B0%20%EC%BB%A4%ED%84%B0%EB%A0%88%EC%9D%B4%20Mk5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-focused-buggy-cutteray-mk5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Focused Buggy Cutteray Mk5",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "stormrider-boost-module-mk5",
+    "name": "스톰라이더 부스트 모듈 Mk5",
+    "type": null,
+    "tags": [
+      "Row A",
+      "▰ 차량",
+      "▰",
+      "Mk5"
+    ],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%8A%A4%ED%86%B0%EB%9D%BC%EC%9D%B4%EB%8D%94%20%EB%B6%80%EC%8A%A4%ED%8A%B8%20%EB%AA%A8%EB%93%88%20Mk5"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dd",
+        "section": "rowa",
+        "ref": "rowa-wreck-stormrider-boost-module-mk5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "original_name": "Stormrider Boost Module Mk5",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "the-ancient-way",
+    "name": "The Ancient Way",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=The%20Ancient%20Way"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-the-ancient-way"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "blind-fury",
+    "name": "Blind Fury",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Blind%20Fury"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-blind-fury"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "prescient-edge",
+    "name": "Prescient Edge",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Prescient%20Edge"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-prescient-edge"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "spitting-cobra",
+    "name": "Spitting Cobra",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Spitting%20Cobra"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-spitting-cobra"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "combat-exoskeleton-chestpiece",
+    "name": "Combat Exoskeleton Chestpiece",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Combat%20Exoskeleton%20Chestpiece"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-combat-exoskeleton-chestpiece"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "phantom-whisper-chestpiece",
+    "name": "Phantom Whisper Chestpiece",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Phantom%20Whisper%20Chestpiece"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-phantom-whisper-chestpiece"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "phantom-whisper-helm",
+    "name": "Phantom Whisper Helm",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Phantom%20Whisper%20Helm"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-phantom-whisper-helm"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "heavy-caliber-upgrade-12-14",
+    "name": "Heavy Caliber Upgrade 12-14%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Heavy%20Caliber%20Upgrade%2012-14%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-heavy-caliber-upgrade-12-14"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-heavy-caliber-upgrade-12-14"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-heavy-caliber-upgrade-12-14"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-heavy-caliber-upgrade-12-14"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-heavy-caliber-upgrade-12-14"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-heavy-caliber-upgrade-12-14"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "heavy-metal-blade-coating",
+    "name": "Heavy Metal Blade Coating",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Heavy%20Metal%20Blade%20Coating"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-heavy-metal-blade-coating"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "blade-sharpener",
+    "name": "Blade Sharpener",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Blade%20Sharpener"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-blade-sharpener"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-blade-sharpener"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "lasgun-amplifier",
+    "name": "Lasgun Amplifier",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Lasgun%20Amplifier"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-the-old-quarry",
+        "ref": "route-the-old-quarry-lasgun-amplifier"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "replica-pulse-sword-24-10",
+    "name": "복제 펄스 소드 24% / 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B3%B5%EC%A0%9C%20%ED%8E%84%EC%8A%A4%20%EC%86%8C%EB%93%9C%2024%25%20/%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-replica-pulse-sword-24-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "replica-pulse-knife-10-17",
+    "name": "복제 펄스 나이프 10% / 17%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B3%B5%EC%A0%9C%20%ED%8E%84%EC%8A%A4%20%EB%82%98%EC%9D%B4%ED%94%84%2010%25%20/%2017%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-replica-pulse-knife-10-17"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "the-ancient-way-3",
+    "name": "The Ancient Way 3%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=The%20Ancient%20Way%203%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-the-ancient-way-3"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-the-ancient-way-3"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "black-market-k-28-lasgun-1",
+    "name": "블랙마켓 K-28 라스건 <1%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B8%94%EB%9E%99%EB%A7%88%EC%BC%93%20K-28%20%EB%9D%BC%EC%8A%A4%EA%B1%B4%20%3C1%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-black-market-k-28-lasgun-1"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-black-market-k-28-lasgun-1"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-black-market-k-28-lasgun-1"
+      },
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-black-market-k-28-lasgun-1"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "elohim-class-suspensor-belt-9",
+    "name": "Elohim-Class Suspensor Belt 9%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Elohim-Class%20Suspensor%20Belt%209%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-elohim-class-suspensor-belt-9"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "executor-set-10",
+    "name": "Executor set 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Executor%20set%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-executor-set-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "wayfinder-helm-24",
+    "name": "Wayfinder Helm 24%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Wayfinder%20Helm%2024%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-wayfinder-helm-24"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "villari-s-stillsuit-pieces-5",
+    "name": "Villari's Stillsuit pieces 5%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Villari%27s%20Stillsuit%20pieces%205%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-villari-s-stillsuit-pieces-5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "blade-warding-weave-9",
+    "name": "Blade-warding Weave 9%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Blade-warding%20Weave%209%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-blade-warding-weave-9"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "dart-proof-latticing-9",
+    "name": "Dart-proof Latticing 9%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Dart-proof%20Latticing%209%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-24",
+        "ref": "route-testing-station-24-dart-proof-latticing-9"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "shishakli-s-bite-25",
+    "name": "Shishakli's Bite 25%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Shishakli%27s%20Bite%2025%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-shishakli-s-bite-25"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "penetrator-9",
+    "name": "Penetrator 9%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Penetrator%209%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-penetrator-9"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "regis-burst-drillshot-9",
+    "name": "Regis Burst Drillshot 9%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Regis%20Burst%20Drillshot%209%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-regis-burst-drillshot-9"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "tactical-radiation-suit-12",
+    "name": "전술 방사능 슈트 12%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%A0%84%EC%88%A0%20%EB%B0%A9%EC%82%AC%EB%8A%A5%20%EC%8A%88%ED%8A%B8%2012%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-tactical-radiation-suit-12"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "pincushion-set-9",
+    "name": "Pincushion set 9%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Pincushion%20set%209%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-pincushion-set-9"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "tabr-softstep-boots-5",
+    "name": "Tabr Softstep Boots 5%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Tabr%20Softstep%20Boots%205%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-tabr-softstep-boots-5"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "grda-44-amplifier-7",
+    "name": "GRDA 44 Amplifier 7%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=GRDA%2044%20Amplifier%207%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-grda-44-amplifier-7"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "heavy-blade-adjuster-7",
+    "name": "Heavy Blade Adjuster 7%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Heavy%20Blade%20Adjuster%207%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-89",
+        "ref": "route-testing-station-89-heavy-blade-adjuster-7"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "perforator-10",
+    "name": "퍼포레이터 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%8D%BC%ED%8F%AC%EB%A0%88%EC%9D%B4%ED%84%B0%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-perforator-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "shellburster-14",
+    "name": "Shellburster 14%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Shellburster%2014%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-shellburster-14"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "static-needle-10",
+    "name": "Static Needle 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Static%20Needle%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-static-needle-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "burning-blades-10",
+    "name": "Burning Blades 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Burning%20Blades%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-burning-blades-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "halleck-s-pick-10",
+    "name": "Halleck's Pick 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Halleck%27s%20Pick%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-halleck-s-pick-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "glasser-14",
+    "name": "Glasser 14%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Glasser%2014%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-glasser-14"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "plastanium-pyrocket-14",
+    "name": "Plastanium Pyrocket 14%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Plastanium%20Pyrocket%2014%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-plastanium-pyrocket-14"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "vaporizer-14",
+    "name": "Vaporizer 14%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Vaporizer%2014%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-vaporizer-14"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "bulwark-set-10",
+    "name": "불워크 세트 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%B6%88%EC%9B%8C%ED%81%AC%20%EC%84%B8%ED%8A%B8%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-bulwark-set-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "drillshot-fk7-optimizer-12",
+    "name": "Drillshot FK7 Optimizer 12%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Drillshot%20FK7%20Optimizer%2012%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-drillshot-fk7-optimizer-12"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "drillshot-fk7-sprayer-12",
+    "name": "Drillshot FK7 Sprayer 12%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Drillshot%20FK7%20Sprayer%2012%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-136",
+        "ref": "route-testing-station-136-drillshot-fk7-sprayer-12"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "regis-tripleshot-repeating-rifle-11",
+    "name": "레지스 트리플샷 연발 소총 11%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%A0%88%EC%A7%80%EC%8A%A4%20%ED%8A%B8%EB%A6%AC%ED%94%8C%EC%83%B7%20%EC%97%B0%EB%B0%9C%20%EC%86%8C%EC%B4%9D%2011%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-regis-tripleshot-repeating-rifle-11"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "plasma-cannon-11",
+    "name": "플라즈마 캐논 11%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%94%8C%EB%9D%BC%EC%A6%88%EB%A7%88%20%EC%BA%90%EB%85%BC%2011%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-plasma-cannon-11"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "bashar-s-command-11",
+    "name": "Bashar's Command 11%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Bashar%27s%20Command%2011%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-bashar-s-command-11"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "salusan-vengeance-11",
+    "name": "Salusan Vengeance 11%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Salusan%20Vengeance%2011%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-salusan-vengeance-11"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "circuit-gauntlets-13",
+    "name": "회로 건틀릿 13%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%9A%8C%EB%A1%9C%20%EA%B1%B4%ED%8B%80%EB%A6%BF%2013%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-circuit-gauntlets-13"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "power-harness-13",
+    "name": "파워 하네스 13%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%ED%8C%8C%EC%9B%8C%20%ED%95%98%EB%84%A4%EC%8A%A4%2013%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-power-harness-13"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "the-forge-set-11",
+    "name": "The Forge set 11%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=The%20Forge%20set%2011%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-the-forge-set-11"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "rafiq-snubnose-heavy-kit-12",
+    "name": "Rafiq Snubnose Heavy Kit 12%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Rafiq%20Snubnose%20Heavy%20Kit%2012%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-rafiq-snubnose-heavy-kit-12"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "rafiq-snubnose-expander-12",
+    "name": "Rafiq Snubnose Expander 12%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Rafiq%20Snubnose%20Expander%2012%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-152",
+        "ref": "route-testing-station-152-rafiq-snubnose-expander-12"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "seethe-15",
+    "name": "Seethe 15%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Seethe%2015%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-seethe-15"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "a-dart-for-every-man-15",
+    "name": "A Dart for Every Man 15%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=A%20Dart%20for%20Every%20Man%2015%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-a-dart-for-every-man-15"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "sardaukar-intimidator-15",
+    "name": "사다우카르 인티미데이터 15%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EC%82%AC%EB%8B%A4%EC%9A%B0%EC%B9%B4%EB%A5%B4%20%EC%9D%B8%ED%8B%B0%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0%2015%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-sardaukar-intimidator-15"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "regis-disruptor-pistol-15",
+    "name": "레지스 디스럽터 피스톨 15%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=%EB%A0%88%EC%A7%80%EC%8A%A4%20%EB%94%94%EC%8A%A4%EB%9F%BD%ED%84%B0%20%ED%94%BC%EC%8A%A4%ED%86%A8%2015%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-regis-disruptor-pistol-15"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "ix-core-leggings-15",
+    "name": "Ix-core Leggings 15%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Ix-core%20Leggings%2015%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-ix-core-leggings-15"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "imperial-stillsuit-pieces-8",
+    "name": "Imperial Stillsuit pieces 8%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Imperial%20Stillsuit%20pieces%208%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-imperial-stillsuit-pieces-8"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "pardot-s-hood-8",
+    "name": "Pardot's Hood 8%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Pardot%27s%20Hood%208%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-pardot-s-hood-8"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "shaddam-s-bladder-8",
+    "name": "Shaddam's Bladder 8%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=Shaddam%27s%20Bladder%208%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-shaddam-s-bladder-8"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "vulcan-gau-92-disruptive-coating-10",
+    "name": "VULCAN GAU-92 Disruptive Coating 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=VULCAN%20GAU-92%20Disruptive%20Coating%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-vulcan-gau-92-disruptive-coating-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  },
+  {
+    "id": "vulcan-gau-92-expander-10",
+    "name": "VULCAN GAU-92 Expander 10%",
+    "type": null,
+    "tags": [],
+    "image": null,
+    "links": [
+      {
+        "label": "한글 DB 검색",
+        "url": "https://dune.gaming.tools/ko/items?search=VULCAN%20GAU-92%20Expander%2010%25"
+      }
+    ],
+    "sources": [
+      {
+        "type": "dungeon",
+        "route": "route-testing-station-195",
+        "ref": "route-testing-station-195-vulcan-gau-92-expander-10"
+      }
+    ],
+    "confidence": "verified_seed",
+    "db_source": "dune.gaming.tools/ko"
+  }
+]

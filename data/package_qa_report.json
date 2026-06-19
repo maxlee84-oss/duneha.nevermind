@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-06-19T07:57:30+00:00",
+  "package": "DuneHa v7.6.1 Dungeon AutoUpdate KO",
+  "checks": {
+    "dungeon_fetch_script_present": true,
+    "dungeon_parser_test_passed": true,
+    "six_routes_configured": true,
+    "method_testing_station_sources": true,
+    "hazard_parser_present": true,
+    "drop_probability_parser_present": true,
+    "preserve_previous_logic": true,
+    "workflow_runs_dungeon_update": true,
+    "workflow_dd_before_dungeon": true,
+    "renderer_shows_dungeon_status": true,
+    "generic_drop_wording": true,
+    "recommendation_fields_removed": true,
+    "weekly_status_ready": true,
+    "gemini_removed": true,
+    "version_updated": true
+  },
+  "smoke_test_output": "{\"drops\": 10, \"hazards\": [\"화염 피해\", \"함정 피해\"], \"info\": {\"element\": \"Fire\", \"party_size\": \"4\", \"loot_grades\": \"0-5\"}}",
+  "index_md5": "a57e0ce1434982e315c60a5223a66c9f"
+}

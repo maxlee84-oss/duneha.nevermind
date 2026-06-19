@@ -1,0 +1,68 @@
+[
+  {
+    "id": "route-the-old-quarry",
+    "name": "올드 쿼리",
+    "subtitle": "채석장 · 쉬움 · ~15min · 보스",
+    "drop_count": 12,
+    "tags": [
+      "dungeon",
+      "overland"
+    ],
+    "risk": "standard"
+  },
+  {
+    "id": "route-testing-station-24",
+    "name": "테스팅 스테이션 #24",
+    "subtitle": "암흑 · 암흑 · 25-30min · 복제 펄스 소드",
+    "drop_count": 12,
+    "tags": [
+      "dungeon",
+      "overland"
+    ],
+    "risk": "standard"
+  },
+  {
+    "id": "route-testing-station-89",
+    "name": "테스팅 스테이션 #89",
+    "subtitle": "방사능 · 방사능 · 전술 방사능 슈트",
+    "drop_count": 10,
+    "tags": [
+      "dungeon",
+      "overland"
+    ],
+    "risk": "standard"
+  },
+  {
+    "id": "route-testing-station-136",
+    "name": "테스팅 스테이션 #136",
+    "subtitle": "화염 · 화염 · Shellburster / 퍼포레이터",
+    "drop_count": 14,
+    "tags": [
+      "dungeon",
+      "overland"
+    ],
+    "risk": "standard"
+  },
+  {
+    "id": "route-testing-station-152",
+    "name": "테스팅 스테이션 #152",
+    "subtitle": "전기 · 전기 · 파워 하네스 / 플라즈마 캐논",
+    "drop_count": 11,
+    "tags": [
+      "dungeon",
+      "overland"
+    ],
+    "risk": "standard"
+  },
+  {
+    "id": "route-testing-station-195",
+    "name": "테스팅 스테이션 #195",
+    "subtitle": "독성 · 독성 · Regis Disruptor / Seethe",
+    "drop_count": 13,
+    "tags": [
+      "dungeon",
+      "overland"
+    ],
+    "risk": "standard"
+  }
+]

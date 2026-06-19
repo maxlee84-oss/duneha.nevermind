@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-06-16T05:40:57Z",
+  "sources": [
+    {
+      "id": "dune-gaming-dd",
+      "label": "dune.gaming.tools 딥 데저트",
+      "url": "https://dune.gaming.tools/deep-desert",
+      "role": "딥 데저트 맵 / 타이머 / POI"
+    },
+    {
+      "id": "method-dd",
+      "label": "Method.gg 딥 데저트 컴패니언",
+      "url": "https://www.method.gg/dune-awakening/deep-desert-companion",
+      "role": "딥 데저트 컴패니언 / 드랍"
+    },
+    {
+      "id": "method-overland",
+      "label": "Method.gg 오버랜드 컴패니언",
+      "url": "https://www.method.gg/dune-awakening/overland-companion",
+      "role": "던전 / 테스팅 스테이션 루트"
+    },
+    {
+      "id": "method-db",
+      "label": "Method.gg 데이터베이스",
+      "url": "https://www.method.gg/dune-awakening/database",
+      "role": "아이템 / 장비 데이터"
+    },
+    {
+      "id": "official-news",
+      "label": "공식 Dune: Awakening 뉴스",
+      "url": "https://duneawakening.com/en/news",
+      "role": "패치 / 뉴스"
+    },
+    {
+      "id": "black-market-k-28-lasgun",
+      "label": "Black Market K-28 Lasgun",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/black-market-k-28-lasgun",
+      "role": "참고 링크"
+    },
+    {
+      "id": "perforator",
+      "label": "Perforator",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/perforator",
+      "role": "참고 링크"
+    },
+    {
+      "id": "regis-disruptor-pistol",
+      "label": "Regis Disruptor Pistol",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/regis-disruptor-pistol",
+      "role": "참고 링크"
+    },
+    {
+      "id": "kynes-s-cutteray",
+      "label": "Kynes's Cutteray",
+      "url": "https://www.method.gg/dune-awakening/database/tools/kyness-cutteray",
+      "role": "참고 링크"
+    },
+    {
+      "id": "adaptive-holtzman-shield",
+      "label": "Adaptive Holtzman Shield",
+      "url": "https://www.method.gg/dune-awakening/database/tools/adaptive-holtzman-shield",
+      "role": "참고 링크"
+    },
+    {
+      "id": "power-harness",
+      "label": "Power Harness",
+      "url": "https://www.method.gg/dune-awakening/database/garments/power-harness",
+      "role": "참고 링크"
+    },
+    {
+      "id": "focused-buggy-cutteray-mk6",
+      "label": "Focused Buggy Cutteray Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/vehicle-components/focused-buggy-cutteray-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "hummingbird-wing-module-mk6",
+      "label": "Hummingbird Wing Module Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/vehicle-components/hummingbird-wing-module-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "replica-pulse-sword",
+      "label": "Replica Pulse-sword",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/replica-pulse-sword",
+      "role": "참고 링크"
+    },
+    {
+      "id": "replica-pulse-knife",
+      "label": "Replica Pulse-knife",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/replica-pulse-knife",
+      "role": "참고 링크"
+    },
+    {
+      "id": "compact-compactor-mk6",
+      "label": "Compact Compactor Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/tools/compact-compactor-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "filter-extractor-mk6",
+      "label": "Filter Extractor Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/tools/filter-extractor-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "tactical-radiation-suit",
+      "label": "Tactical Radiation Suit",
+      "url": "https://www.method.gg/dune-awakening/database/garments/tactical-radiation-suit",
+      "role": "참고 링크"
+    },
+    {
+      "id": "the-forge-chestpiece",
+      "label": "The Forge Chestpiece",
+      "url": "https://www.method.gg/dune-awakening/database/garments/the-forge-chestpiece",
+      "role": "참고 링크"
+    },
+    {
+      "id": "executor-s-chestpiece",
+      "label": "Executor's Chestpiece",
+      "url": "https://www.method.gg/dune-awakening/database/garments/executors-chestpiece",
+      "role": "참고 링크"
+    },
+    {
+      "id": "mohandis-sandbike-engine-mk6",
+      "label": "Mohandis Sandbike Engine Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/vehicle-components/mohandis-sandbike-engine-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "roc-carrier-wing",
+      "label": "Roc Carrier Wing",
+      "url": "https://www.method.gg/dune-awakening/database/vehicle-components/roc-carrier-wing",
+      "role": "참고 링크"
+    },
+    {
+      "id": "regis-tripleshot-repeating-rifle",
+      "label": "Regis Tripleshot Repeating Rifle",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/regis-tripleshot-repeating-rifle",
+      "role": "참고 링크"
+    },
+    {
+      "id": "plasma-cannon",
+      "label": "Plasma Cannon",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/plasma-cannon",
+      "role": "참고 링크"
+    },
+    {
+      "id": "sardaukar-intimidator",
+      "label": "Sardaukar Intimidator",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/sardaukar-intimidator",
+      "role": "참고 링크"
+    },
+    {
+      "id": "cauterizer",
+      "label": "Cauterizer",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/cauterizer",
+      "role": "참고 링크"
+    },
+    {
+      "id": "dunewatcher",
+      "label": "Dunewatcher",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/dunewatcher",
+      "role": "참고 링크"
+    },
+    {
+      "id": "bulwark-set",
+      "label": "Bulwark set",
+      "url": "https://www.method.gg/dune-awakening/database/garments/bulwark-set",
+      "role": "참고 링크"
+    },
+    {
+      "id": "indara-s-lullaby",
+      "label": "Indara's Lullaby",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/indaras-lullaby",
+      "role": "참고 링크"
+    },
+    {
+      "id": "impure-extractor-mk6",
+      "label": "Impure Extractor Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/tools/impure-extractor-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "collapsible-dew-reaper-mk6",
+      "label": "Collapsible Dew Reaper Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/tools/collapsible-dew-reaper-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "pincushion-chestpiece",
+      "label": "Pincushion Chestpiece",
+      "url": "https://www.method.gg/dune-awakening/database/garments/pincushion-chestpiece",
+      "role": "참고 링크"
+    },
+    {
+      "id": "circuit-gauntlets",
+      "label": "Circuit Gauntlets",
+      "url": "https://www.method.gg/dune-awakening/database/garments/circuit-gauntlets",
+      "role": "참고 링크"
+    },
+    {
+      "id": "stormrider-boost-module-mk6",
+      "label": "Stormrider Boost Module Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/vehicle-components/stormrider-boost-module-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "steady-assault-boost-module-mk6",
+      "label": "Steady Assault Boost Module Mk6",
+      "url": "https://www.method.gg/dune-awakening/database/vehicle-components/steady-assault-boost-module-mk6",
+      "role": "참고 링크"
+    },
+    {
+      "id": "arhun-k-28-lasgun",
+      "label": "Arhun K-28 Lasgun",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/arhun-k-28-lasgun",
+      "role": "참고 링크"
+    },
+    {
+      "id": "shaitan-s-tongue",
+      "label": "Shaitan's Tongue",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/shaitans-tongue",
+      "role": "참고 링크"
+    },
+    {
+      "id": "syndicate-impaler",
+      "label": "Syndicate Impaler",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/syndicate-impaler",
+      "role": "참고 링크"
+    },
+    {
+      "id": "piter-s-disruptor",
+      "label": "Piter's Disruptor",
+      "url": "https://www.method.gg/dune-awakening/database/weapons/piters-disruptor",
+      "role": "참고 링크"
+    },
+    {
+      "id": "compact-compactor-mk5",
+      "label": "Compact Compactor Mk5",
+      "url": "https://www.method.gg/dune-awakening/database/tools/compact-compactor-mk5",
+      "role": "참고 링크"
+    }
+  ],
+  "language": "ko-KR"
+}

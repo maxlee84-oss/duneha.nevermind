@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "mode": "weekly_static_aliases_until_exact_ko_db_match",
+    "source": "dune.gaming.tools/ko",
+    "updated_at": "2026-06-16T10:08:49+00:00"
+  },
+  "items": [
+    {
+      "original": "Black Market K-28 Lasgun",
+      "ko": "블랙마켓 K-28 라스건",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%B8%94%EB%9E%99%EB%A7%88%EC%BC%93%20K-28%20%EB%9D%BC%EC%8A%A4%EA%B1%B4"
+    },
+    {
+      "original": "Perforator",
+      "ko": "퍼포레이터",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%8D%BC%ED%8F%AC%EB%A0%88%EC%9D%B4%ED%84%B0"
+    },
+    {
+      "original": "Regis Disruptor Pistol",
+      "ko": "레지스 디스럽터 피스톨",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%A0%88%EC%A7%80%EC%8A%A4%20%EB%94%94%EC%8A%A4%EB%9F%BD%ED%84%B0%20%ED%94%BC%EC%8A%A4%ED%86%A8"
+    },
+    {
+      "original": "Kynes's Cutteray",
+      "ko": "카인즈 커터레이",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%B9%B4%EC%9D%B8%EC%A6%88%20%EC%BB%A4%ED%84%B0%EB%A0%88%EC%9D%B4"
+    },
+    {
+      "original": "Adaptive Holtzman Shield",
+      "ko": "적응형 홀츠먼 실드",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A0%81%EC%9D%91%ED%98%95%20%ED%99%80%EC%B8%A0%EB%A8%BC%20%EC%8B%A4%EB%93%9C"
+    },
+    {
+      "original": "Power Harness",
+      "ko": "파워 하네스",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%8C%8C%EC%9B%8C%20%ED%95%98%EB%84%A4%EC%8A%A4"
+    },
+    {
+      "original": "Focused Buggy Cutteray Mk6",
+      "ko": "집중형 버기 커터레이 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%EC%A4%91%ED%98%95%20%EB%B2%84%EA%B8%B0%20%EC%BB%A4%ED%84%B0%EB%A0%88%EC%9D%B4%20Mk6"
+    },
+    {
+      "original": "Hummingbird Wing Module Mk6",
+      "ko": "허밍버드 날개 모듈 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%97%88%EB%B0%8D%EB%B2%84%EB%93%9C%20%EB%82%A0%EA%B0%9C%20%EB%AA%A8%EB%93%88%20Mk6"
+    },
+    {
+      "original": "Replica Pulse-sword",
+      "ko": "복제 펄스 소드",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%B3%B5%EC%A0%9C%20%ED%8E%84%EC%8A%A4%20%EC%86%8C%EB%93%9C"
+    },
+    {
+      "original": "Replica Pulse-knife",
+      "ko": "복제 펄스 나이프",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%B3%B5%EC%A0%9C%20%ED%8E%84%EC%8A%A4%20%EB%82%98%EC%9D%B4%ED%94%84"
+    },
+    {
+      "original": "Compact Compactor Mk6",
+      "ko": "소형 컴팩터 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%86%8C%ED%98%95%20%EC%BB%B4%ED%8C%A9%ED%84%B0%20Mk6"
+    },
+    {
+      "original": "Filter Extractor Mk6",
+      "ko": "필터 추출기 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%95%84%ED%84%B0%20%EC%B6%94%EC%B6%9C%EA%B8%B0%20Mk6"
+    },
+    {
+      "original": "Tactical 방사능 Suit",
+      "ko": "전술 방사능 슈트",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A0%84%EC%88%A0%20%EB%B0%A9%EC%82%AC%EB%8A%A5%20%EC%8A%88%ED%8A%B8"
+    },
+    {
+      "original": "Tactical Radiation Suit",
+      "ko": "전술 방사능 슈트",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A0%84%EC%88%A0%20%EB%B0%A9%EC%82%AC%EB%8A%A5%20%EC%8A%88%ED%8A%B8"
+    },
+    {
+      "original": "The Forge Chestpiece",
+      "ko": "포지 흉갑",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%8F%AC%EC%A7%80%20%ED%9D%89%EA%B0%91"
+    },
+    {
+      "original": "Executor's Chestpiece",
+      "ko": "집행자의 흉갑",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%ED%96%89%EC%9E%90%EC%9D%98%20%ED%9D%89%EA%B0%91"
+    },
+    {
+      "original": "Mohandis Sandbike Engine Mk6",
+      "ko": "모한디스 샌드바이크 엔진 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%AA%A8%ED%95%9C%EB%94%94%EC%8A%A4%20%EC%83%8C%EB%93%9C%EB%B0%94%EC%9D%B4%ED%81%AC%20%EC%97%94%EC%A7%84%20Mk6"
+    },
+    {
+      "original": "Roc Carrier Wing",
+      "ko": "로크 캐리어 날개",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%A1%9C%ED%81%AC%20%EC%BA%90%EB%A6%AC%EC%96%B4%20%EB%82%A0%EA%B0%9C"
+    },
+    {
+      "original": "Regis Tripleshot Repeating Rifle",
+      "ko": "레지스 트리플샷 연발 소총",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%A0%88%EC%A7%80%EC%8A%A4%20%ED%8A%B8%EB%A6%AC%ED%94%8C%EC%83%B7%20%EC%97%B0%EB%B0%9C%20%EC%86%8C%EC%B4%9D"
+    },
+    {
+      "original": "Plasma Cannon",
+      "ko": "플라즈마 캐논",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%94%8C%EB%9D%BC%EC%A6%88%EB%A7%88%20%EC%BA%90%EB%85%BC"
+    },
+    {
+      "original": "Sardaukar Intimidator",
+      "ko": "사다우카르 인티미데이터",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%82%AC%EB%8B%A4%EC%9A%B0%EC%B9%B4%EB%A5%B4%20%EC%9D%B8%ED%8B%B0%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0"
+    },
+    {
+      "original": "Cauterizer",
+      "ko": "카터라이저",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%B9%B4%ED%84%B0%EB%9D%BC%EC%9D%B4%EC%A0%80"
+    },
+    {
+      "original": "Dunewatcher",
+      "ko": "듄워처",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%93%84%EC%9B%8C%EC%B2%98"
+    },
+    {
+      "original": "Bulwark set",
+      "ko": "불워크 세트",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%B6%88%EC%9B%8C%ED%81%AC%20%EC%84%B8%ED%8A%B8"
+    },
+    {
+      "original": "Indara's Lullaby",
+      "ko": "인다라의 자장가",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%9D%B8%EB%8B%A4%EB%9D%BC%EC%9D%98%20%EC%9E%90%EC%9E%A5%EA%B0%80"
+    },
+    {
+      "original": "Impure Extractor Mk6",
+      "ko": "불순물 추출기 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%B6%88%EC%88%9C%EB%AC%BC%20%EC%B6%94%EC%B6%9C%EA%B8%B0%20Mk6"
+    },
+    {
+      "original": "Collapsible Dew Reaper Mk6",
+      "ko": "접이식 이슬 채집기 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A0%91%EC%9D%B4%EC%8B%9D%20%EC%9D%B4%EC%8A%AC%20%EC%B1%84%EC%A7%91%EA%B8%B0%20Mk6"
+    },
+    {
+      "original": "Pincushion Chestpiece",
+      "ko": "핀쿠션 흉갑",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%95%80%EC%BF%A0%EC%85%98%20%ED%9D%89%EA%B0%91"
+    },
+    {
+      "original": "Circuit Gauntlets",
+      "ko": "회로 건틀릿",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%9A%8C%EB%A1%9C%20%EA%B1%B4%ED%8B%80%EB%A6%BF"
+    },
+    {
+      "original": "Stormrider Boost Module Mk6",
+      "ko": "스톰라이더 부스트 모듈 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%8A%A4%ED%86%B0%EB%9D%BC%EC%9D%B4%EB%8D%94%20%EB%B6%80%EC%8A%A4%ED%8A%B8%20%EB%AA%A8%EB%93%88%20Mk6"
+    },
+    {
+      "original": "Steady Assault Boost Module Mk6",
+      "ko": "안정형 어썰트 부스트 모듈 Mk6",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%95%88%EC%A0%95%ED%98%95%20%EC%96%B4%EC%8D%B0%ED%8A%B8%20%EB%B6%80%EC%8A%A4%ED%8A%B8%20%EB%AA%A8%EB%93%88%20Mk6"
+    },
+    {
+      "original": "Arhun K-28 Lasgun",
+      "ko": "아르훈 K-28 라스건",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%95%84%EB%A5%B4%ED%9B%88%20K-28%20%EB%9D%BC%EC%8A%A4%EA%B1%B4"
+    },
+    {
+      "original": "Shaitan's Tongue",
+      "ko": "샤이탄의 혀",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%83%A4%EC%9D%B4%ED%83%84%EC%9D%98%20%ED%98%80"
+    },
+    {
+      "original": "Syndicate Impaler",
+      "ko": "신디케이트 임페일러",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%8B%A0%EB%94%94%EC%BC%80%EC%9D%B4%ED%8A%B8%20%EC%9E%84%ED%8E%98%EC%9D%BC%EB%9F%AC"
+    },
+    {
+      "original": "Piter's Disruptor",
+      "ko": "파이터의 디스럽터",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%8C%8C%EC%9D%B4%ED%84%B0%EC%9D%98%20%EB%94%94%EC%8A%A4%EB%9F%BD%ED%84%B0"
+    },
+    {
+      "original": "Compact Compactor Mk5",
+      "ko": "소형 컴팩터 Mk5",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%86%8C%ED%98%95%20%EC%BB%B4%ED%8C%A9%ED%84%B0%20Mk5"
+    },
+    {
+      "original": "Long Range Scanner",
+      "ko": "장거리 스캐너",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%9E%A5%EA%B1%B0%EB%A6%AC%20%EC%8A%A4%EC%BA%90%EB%84%88"
+    },
+    {
+      "original": "The Emperor's Wings Mk5",
+      "ko": "황제의 날개 Mk5",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%99%A9%EC%A0%9C%EC%9D%98%20%EB%82%A0%EA%B0%9C%20Mk5"
+    },
+    {
+      "original": "Focused Reaper Mk5",
+      "ko": "집중형 채집기 Mk5",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%EC%A4%91%ED%98%95%20%EC%B1%84%EC%A7%91%EA%B8%B0%20Mk5"
+    },
+    {
+      "original": "Station Garb",
+      "ko": "스테이션 의복",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%9D%98%EB%B3%B5"
+    },
+    {
+      "original": "Saturnine Stillsuit Garment",
+      "ko": "새터닌 스틸슈트 의복",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%83%88%ED%84%B0%EB%8B%8C%20%EC%8A%A4%ED%8B%B8%EC%8A%88%ED%8A%B8%20%EC%9D%98%EB%B3%B5"
+    },
+    {
+      "original": "Mendek's Chestplate",
+      "ko": "멘덱의 흉갑",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%A9%98%EB%8D%B1%EC%9D%98%20%ED%9D%89%EA%B0%91"
+    },
+    {
+      "original": "Batigh Stillsuit Garment",
+      "ko": "바티그 스틸슈트 의복",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EB%B0%94%ED%8B%B0%EA%B7%B8%20%EC%8A%A4%ED%8B%B8%EC%8A%88%ED%8A%B8%20%EC%9D%98%EB%B3%B5"
+    },
+    {
+      "original": "Advanced Suspensor Jacket",
+      "ko": "고급 서스펜서 재킷",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8A%A4%ED%8E%9C%EC%84%9C%20%EC%9E%AC%ED%82%B7"
+    },
+    {
+      "original": "Focused Buggy Cutteray Mk5",
+      "ko": "집중형 버기 커터레이 Mk5",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%A7%91%EC%A4%91%ED%98%95%20%EB%B2%84%EA%B8%B0%20%EC%BB%A4%ED%84%B0%EB%A0%88%EC%9D%B4%20Mk5"
+    },
+    {
+      "original": "Hummingbird Wing Module Mk5",
+      "ko": "허밍버드 날개 모듈 Mk5",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%ED%97%88%EB%B0%8D%EB%B2%84%EB%93%9C%20%EB%82%A0%EA%B0%9C%20%EB%AA%A8%EB%93%88%20Mk5"
+    },
+    {
+      "original": "Stormrider Boost Module Mk5",
+      "ko": "스톰라이더 부스트 모듈 Mk5",
+      "search_url": "https://dune.gaming.tools/ko/items?search=%EC%8A%A4%ED%86%B0%EB%9D%BC%EC%9D%B4%EB%8D%94%20%EB%B6%80%EC%8A%A4%ED%8A%B8%20%EB%AA%A8%EB%93%88%20Mk5"
+    }
+  ],
+  "routes": {
+    "The Old Quarry": "올드 쿼리",
+    "Old Quarry": "올드 쿼리",
+    "Testing Station": "테스팅 스테이션",
+    "Deep Desert": "딥 데저트",
+    "Wreck": "잔해",
+    "Boss": "보스",
+    "Easy": "쉬움",
+    "Dark": "암흑",
+    "Radiation": "방사능",
+    "Fire": "화염",
+    "Poison": "독성",
+    "Electric": "전기",
+    "Short run": "짧은 루트",
+    "Full clear": "전체 클리어",
+    "Boss clear": "보스 클리어",
+    "Top Drops": "주요 드랍",
+    "Source": "출처",
+    "Chance": "확률",
+    "Spec": "스펙",
+    "Detailed numeric stats": "상세 수치",
+    "Detailed stats": "상세 스펙",
+    "Vehicle Components": "차량 부품",
+    "Weapons": "무기",
+    "Garments": "방어구",
+    "Tools": "도구",
+    "Sidearms": "사이드암",
+    "Ranged": "원거리",
+    "Unique": "유니크",
+    "Common": "공통",
+    "Dungeon": "던전",
+    "Overland": "오버랜드"
+  }
+}

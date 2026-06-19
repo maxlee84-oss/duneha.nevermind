@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "schema_version": "2.0",
+    "mode": "ko_seed_until_full_crawl",
+    "primary_source": "dune.gaming.tools/ko",
+    "items_url": "https://dune.gaming.tools/ko/items",
+    "crafting_url": "https://dune.gaming.tools/ko/crafting-calculator",
+    "updated_at": "2026-06-16T08:52:55+00:00",
+    "note": "GitHub Actions의 fetch_gaming_tools_ko_db.py 실행 후 한글 아이템명, 스펙, 제작 재료 DB로 갱신됩니다."
+  },
+  "items": [
+    {
+      "id": "ko_spice_melange",
+      "name": "스파이스 멜란지",
+      "category": "refined_resource",
+      "category_label": "기타 - 정제된 자원",
+      "station": "데이터 확인 중",
+      "status": "ko_source_seed",
+      "source": "dune.gaming.tools/ko",
+      "url": "https://dune.gaming.tools/ko/items",
+      "note": "한글 DB 연결 확인용 seed 항목입니다.",
+      "stats": [
+        {
+          "label": "분류",
+          "value": "정제된 자원"
+        }
+      ],
+      "materials": []
+    },
+    {
+      "id": "carrier_ornithopter_full_user_seed",
+      "name": "수송 오니솝터 전체 구성",
+      "category": "vehicle_bundle",
+      "category_label": "차량 - 수송 오니솝터",
+      "station": "차량 제작기 / 고급 차량 제작기",
+      "status": "user_provided_pending_verification",
+      "source": "사용자 제공 재료 합산",
+      "note": "전체 구성 합산 후보입니다. dune.gaming.tools/ko 부품별 제작식 교차 확인 전까지 검증 중으로 표시합니다.",
+      "stats": [
+        {
+          "label": "용도",
+          "value": "대형 물류 / 길드 운반"
+        }
+      ],
+      "materials": [
+        {
+          "name": "플래스틸 합성 장갑판",
+          "qty": 144
+        },
+        {
+          "name": "다이아몬딘 가루",
+          "qty": 75
+        },
+        {
+          "name": "입자 축전기",
+          "qty": 54
+        },
+        {
+          "name": "복잡한 기계",
+          "qty": 30
+        },
+        {
+          "name": "산업용 펌프",
+          "qty": 16
+        },
+        {
+          "name": "탄화물 조각",
+          "qty": 15
+        },
+        {
+          "name": "삼중 단조 유압 피스톤",
+          "qty": 9
+        },
+        {
+          "name": "오버클럭 전력 조절기",
+          "qty": 9
+        }
+      ]
+    }
+  ]
+}

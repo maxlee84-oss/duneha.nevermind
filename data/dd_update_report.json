@@ -1,0 +1,17 @@
+{
+  "ok": null,
+  "status": "awaiting_first_run",
+  "prepared_at": "2026-06-19T07:51:46+00:00",
+  "source": "Method Deep Desert Companion",
+  "validation_policy": {
+    "minimum_counts": {
+      "notable": 4,
+      "pve": 8,
+      "pvp": 8,
+      "rowa": 8
+    },
+    "period_must_match_asia_window": true,
+    "duplicate_ratio_minimum": 0.65,
+    "failure_behavior": "preserve previous weekly.json DD data"
+  }
+}
