@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T00:41:34.529058+00:00",
+  "fetched_at": "2026-06-20T10:16:01.073658+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -137,7 +137,7 @@
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
         "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1f2pnyo = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1)\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.BfPQ6JQC.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.2OCJWGmg.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "5d70f3b1616999470f70dd2a51e26bb8c6fc7a5a574a945f16372895cfdae575",
+      "html_sha256": "61324f967aa3628130548ee889bf5afe81540183530f051f5b3b9370b95adccb",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -2671,7 +2671,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "e7d1743b97664a91206d9748a6b38388e93ecf91f1085780b1a61648b3b8091b",
+      "html_sha256": "0b1f3a28a5e307be9d2022aef5bd2271fe9df7c6544dbda82d580acde81f5a6f",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -5161,7 +5161,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "5e65e9628ffccb8eb5b9048b01b1637e75669166e2b11f40d46a79704959fe96",
+      "html_sha256": "f2a4dba222235eb517cb617b6f1b2cdcf309208e4c912febfb592eede36c5a43",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -6923,7 +6923,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "e6f0ab3dee1baa555e23d62c53cff4523f7334221eca19cd5369300670f3f096",
+      "html_sha256": "b2e24892e5d8084cda7ba5154b4a82e22a2465330272f3db847de888c333518f",
       "raw_path": "data/raw/method_database.html"
     },
     {

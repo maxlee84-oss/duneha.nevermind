@@ -7,7 +7,7 @@
     "crafting_url": "https://dune.gaming.tools/ko/crafting-calculator",
     "updated_at": "2026-06-16T08:52:55+00:00",
     "note": "GitHub Actions의 fetch_gaming_tools_ko_db.py 실행 후 한글 아이템명, 스펙, 제작 재료 DB로 갱신됩니다.",
-    "checked_at": "2026-06-20T00:41:45+00:00",
+    "checked_at": "2026-06-20T10:16:13+00:00",
     "warning": "한글 아이템 링크 수가 30개로 기준(50) 미만입니다."
   },
   "items": [
