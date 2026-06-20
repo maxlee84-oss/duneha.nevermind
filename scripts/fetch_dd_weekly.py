@@ -525,5 +525,123 @@ def main():
             return
         raise
 
+
+def validate_sections(candidate):
+    minimums = {"notable": 4, "pve": 8, "pvp": 8, "rowa": 4}
+    maximums = {"notable": 20, "pve": 120, "pvp": 120, "rowa": 120}
+    result = {}
+    for key in ("notable", "pve", "pvp", "rowa"):
+        items = candidate.get(key, {}).get("items", [])
+        slugs = [x.get("slug") for x in items if x.get("slug")]
+        unique_ratio = len(set(slugs)) / len(slugs) if slugs else 0
+        valid = minimums[key] <= len(items) <= maximums[key]
+        if key in {"pve", "pvp", "rowa"}:
+            valid = valid and unique_ratio >= 0.65
+        result[key] = {
+            "valid": valid, "count": len(items),
+            "unique_ratio": round(unique_ratio, 4),
+        }
+    return result
+
+_original_main = main
+
+def main():
+    weekly = load_json(WEEKLY, None)
+    if not weekly:
+        raise SystemExit("weekly.json missing or invalid")
+
+    expected = {
+        "start": weekly.get("week", {}).get("start"),
+        "end": weekly.get("week", {}).get("end"),
+    }
+    expected_start = datetime.fromisoformat(expected["start"]).date()
+    expected_end = datetime.fromisoformat(expected["end"]).date()
+
+    try:
+        method_html = fetch_or_read(METHOD_RAW, METHOD_URL)
+        lines = text_lines(method_html)
+        period = parse_period(lines, expected_start, expected_end)
+        if period is None or period["start"] != expected["start"] or period["end"] != expected["end"]:
+            preserve_previous(weekly, "source period mismatch or missing", {
+                "source_period": period, "expected_period": expected
+            })
+            return
+
+        sections = locate_sections(lines)
+        localize = build_localizer()
+        pve_items = parse_mode(lines, *sections["pve"], "PvE", "pve", localize)
+        pvp_items = parse_mode(lines, *sections["pvp"], "PvP", "pvp", localize)
+        rowa_items = parse_rowa(lines, *sections["rowa"], localize)
+        candidate = {
+            "pve": {"id":"pve","label":"PvE","items":pve_items},
+            "pvp": {"id":"pvp","label":"PvP","items":pvp_items},
+            "rowa": {"id":"rowa","label":"Row A","items":rowa_items},
+        }
+        candidate["notable"] = {
+            "id":"notable","label":"희귀",
+            "items":notable_items(pve_items,pvp_items)
+        }
+
+        checks = validate_sections(candidate)
+        previous_dd = copy.deepcopy(weekly.get("dd", {}))
+        updated, preserved = [], []
+        merged = copy.deepcopy(previous_dd)
+
+        for key in ("pve","pvp","rowa"):
+            if checks[key]["valid"]:
+                merged[key] = candidate[key]
+                updated.append(key)
+            else:
+                preserved.append(key)
+
+        # Notable is rebuilt only when at least one rotating section updated.
+        if updated and checks["notable"]["valid"]:
+            merged["notable"] = candidate["notable"]
+            updated.append("notable")
+        else:
+            preserved.append("notable")
+
+        if not updated:
+            preserve_previous(weekly, "all DD sections failed validation", {"sections":checks})
+            return
+
+        write_json(PREVIOUS, {
+            "saved_at":now_iso(), "week":weekly.get("week"),
+            "dd":previous_dd, "dd_update":weekly.get("dd_update")
+        })
+        weekly["dd"] = merged
+        weekly["generated_at"] = now_iso()
+        status_name = "updated" if not preserved else "partial"
+        weekly["dd_update"] = {
+            "status":status_name,
+            "source":"Method Deep Desert Companion",
+            "source_url":METHOD_URL,
+            "secondary_source":"dune.gaming.tools/ko/deep-desert",
+            "source_period":period,
+            "sections":checks,
+            "updated_sections":updated,
+            "preserved_sections":list(dict.fromkeys(preserved)),
+            "updated_at":now_iso(),
+        }
+        weekly.setdefault("automation_status", {}).update({
+            "mode":"dd_auto_updated" if status_name=="updated" else "dd_partial_updated",
+            "confidence":"validated_external_data",
+            "checked_at":now_iso(),
+            "message":"DD 데이터를 섹션별 검증 후 갱신했습니다. 실패 섹션은 마지막 검증본을 유지합니다.",
+            "render_mode":"weekly_json_single_source",
+        })
+        write_json(WEEKLY, weekly)
+        report = {
+            "ok":True,"status":status_name,"sections":checks,
+            "updated_sections":updated,"preserved_sections":preserved,
+            "source_period":period,"expected_period":expected,"updated_at":now_iso()
+        }
+        write_json(REPORT,report)
+        append_log(status_name,"DD section-level update",report)
+        print(json.dumps(report,ensure_ascii=False,indent=2))
+    except Exception as exc:
+        preserve_previous(weekly,f"parser error: {repr(exc)[:400]}")
+
+
 if __name__ == "__main__":
     main()

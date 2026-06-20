@@ -116,13 +116,16 @@ def append_log(status, message, extra=None):
     write_json(UPDATE_LOG, log)
 
 def fetch(url, raw_path):
-    if raw_path.exists() and raw_path.stat().st_size > 5000:
-        return raw_path.read_text(encoding="utf-8", errors="ignore")
     response = requests.get(url, headers=HEADERS, timeout=60)
     response.raise_for_status()
+    try:
+        text = response.content.decode("utf-8")
+    except UnicodeDecodeError:
+        response.encoding = response.apparent_encoding or "utf-8"
+        text = response.text
     raw_path.parent.mkdir(parents=True, exist_ok=True)
-    raw_path.write_text(response.text, encoding="utf-8", errors="ignore")
-    return response.text
+    raw_path.write_text(text, encoding="utf-8", errors="ignore")
+    return text
 
 def text_lines(html):
     soup = BeautifulSoup(html, "html.parser")
@@ -394,6 +397,167 @@ def main():
         if isinstance(exc,(ValueError,RuntimeError)):
             return
         raise
+
+
+def parse_loot_flexible(html, lines, localize):
+    drops = parse_loot(lines, localize) if "Testing Station Loot" in lines else []
+    if drops:
+        return drops
+
+    # Fallback 1: visible text without exact section markers.
+    joined_lines = lines
+    pattern = re.compile(
+        r"(?:(<1%|\d+(?:\.\d+)?%)\s*)?([SABC])\s+"
+        r"(Weapons|Garments|Tools|Vehicle Components|Augmentations|Resources|Consumables)\s+"
+        r"([^|]{2,100})$"
+    )
+    for line in joined_lines:
+        m = pattern.search(line)
+        if not m:
+            continue
+        chance, rank, category_en, original = m.groups()
+        original = clean(original)
+        if any(x in original.lower() for x in ("looking for", "build guide", "return to")):
+            continue
+        ko_name, url, match_state = localize(original)
+        category_ko, type_class, icon = CATEGORY_MAP[category_en]
+        drops.append({
+            "id":slugify(original),"slug":slugify(original),
+            "original_name":original,"name":ko_name,
+            "display_name":f"{icon} {ko_name}","url":url,
+            "category":category_ko,"category_en":category_en,
+            "rank":rank,"chance":chance or "확률 미표기",
+            "type_class":type_class,"source_match":match_state,
+            "confidence":"auto_parsed_method_flexible","image":None,
+        })
+
+    # Fallback 2: embedded JSON blobs such as __NEXT_DATA__.
+    if len(drops) < 6:
+        soup = BeautifulSoup(html, "html.parser")
+        blob_text = "\n".join(
+            s.get_text(" ", strip=True) for s in soup.find_all("script")
+            if s.get_text(strip=True)
+        )
+        json_pattern = re.compile(
+            r'"(?:name|title)"\s*:\s*"([^"]{2,100})".{0,300}?'
+            r'"(?:grade|rank|rarity)"\s*:\s*"([SABC])".{0,300}?'
+            r'"(?:chance|dropChance|probability)"\s*:\s*"?([0-9.]+%?|<1%)"?',
+            re.I|re.S
+        )
+        for m in json_pattern.finditer(blob_text):
+            original, rank, chance = m.groups()
+            if slugify(original) in {x["slug"] for x in drops}:
+                continue
+            ko_name, url, match_state = localize(original)
+            drops.append({
+                "id":slugify(original),"slug":slugify(original),
+                "original_name":original,"name":ko_name,
+                "display_name":f"◇ {ko_name}","url":url,
+                "category":"기타","category_en":"Unknown",
+                "rank":rank.upper(),"chance":chance if "%" in chance else chance+"%",
+                "type_class":"drop-chip type-misc","source_match":match_state,
+                "confidence":"auto_parsed_embedded_json","image":None,
+            })
+
+    dedup = {}
+    for d in drops:
+        dedup.setdefault((d["slug"],d.get("rank"),d.get("chance")),d)
+    return list(dedup.values())
+
+_original_parse_route = parse_route
+def parse_route(route, localize):
+    raw_path = RAW / f"dungeon_{route['id']}.html"
+    html = fetch(route["url"], raw_path)
+    lines = text_lines(html)
+    drops = parse_loot_flexible(html, lines, localize)
+    hazards = parse_hazards(lines)
+    info = parse_info(lines)
+    return {
+        "id":route["id"],"name":route["name"],"source_name":route["source_name"],
+        "subtitle":make_subtitle(route,hazards,info,drops),
+        "hazards":hazards,"info":info,"drop_count":len(drops),"drops":drops,
+        "source":"Method Testing Stations","source_url":route["url"],
+        "updated_at":now_iso(),"confidence":"auto_parsed_method",
+    }
+
+_original_main = main
+def main():
+    weekly = load_json(WEEKLY,None)
+    if not weekly:
+        raise SystemExit("weekly.json missing")
+    localize = build_localizer()
+    previous = copy.deepcopy(weekly.get("dungeons",{}))
+    merged = copy.deepcopy(previous)
+    route_results = {}
+    updated, preserved = [], []
+
+    for route in ROUTES:
+        try:
+            parsed = parse_route(route,localize)
+            names = [x.get("slug") for x in parsed.get("drops",[]) if x.get("slug")]
+            unique_ratio = len(set(names))/len(names) if names else 0
+            valid = len(names) >= 6 and unique_ratio >= 0.75
+            route_results[route["id"]] = {
+                "valid":valid,"drop_count":len(names),
+                "unique_ratio":round(unique_ratio,4)
+            }
+            if valid:
+                merged[route["id"]] = parsed
+                updated.append(route["id"])
+            else:
+                preserved.append(route["id"])
+        except Exception as exc:
+            route_results[route["id"]] = {"valid":False,"error":repr(exc)[:240]}
+            preserved.append(route["id"])
+
+    if not updated:
+        preserve(weekly,"all dungeon routes failed validation",{"routes":route_results})
+        return
+
+    write_json(PREVIOUS,{
+        "saved_at":now_iso(),"dungeons":previous,
+        "dungeon_update":weekly.get("dungeon_update")
+    })
+    weekly["dungeons"] = merged
+    weekly["generated_at"] = now_iso()
+    status_name = "updated" if not preserved else "partial"
+    weekly["dungeon_update"] = {
+        "status":status_name,"source":"Method Testing Stations",
+        "source_url":"https://www.method.gg/dune-awakening/testing-stations",
+        "secondary_source":"dune.gaming.tools/ko",
+        "routes":route_results,"updated_routes":updated,
+        "preserved_routes":preserved,"updated_at":now_iso(),
+    }
+    weekly.setdefault("automation_status",{}).update({
+        "dungeon_mode":"auto_updated" if status_name=="updated" else "partial_updated",
+        "checked_at":now_iso(),
+        "message":"던전 데이터를 루트별 검증 후 갱신했습니다. 실패 루트는 마지막 검증본을 유지합니다.",
+        "render_mode":"weekly_json_single_source",
+    })
+    write_json(WEEKLY,weekly)
+
+    route_index=[]
+    for route in ROUTES:
+        parsed=merged.get(route["id"],{})
+        route_index.append({
+            "id":route["id"],"name":parsed.get("name",route["name"]),
+            "subtitle":parsed.get("subtitle",""),
+            "hazards":parsed.get("hazards",[]),"info":parsed.get("info",{}),
+            "drop_count":len(parsed.get("drops",[])),
+            "tags":["dungeon","overland"],
+            "source_url":parsed.get("source_url",route["url"]),
+            "updated_at":parsed.get("updated_at"),
+        })
+    write_json(ROUTES_JSON,route_index)
+    report={
+        "ok":True,"status":status_name,"routes":route_results,
+        "updated_routes":updated,"preserved_routes":preserved,
+        "updated_at":now_iso()
+    }
+    write_json(REPORT,report)
+    append_log(status_name,"Dungeon route-level update",report)
+    print(json.dumps(report,ensure_ascii=False,indent=2))
+
 
 if __name__ == "__main__":
     main()

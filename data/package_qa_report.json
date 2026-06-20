@@ -1,23 +1,31 @@
 {
-  "generated_at": "2026-06-19T07:57:30+00:00",
-  "package": "DuneHa v7.6.1 Dungeon AutoUpdate KO",
+  "generated_at": "2026-06-19T08:47:16+00:00",
+  "package": "DuneHa v7.6.1.2 Stability Hotfix KO",
   "checks": {
-    "dungeon_fetch_script_present": true,
-    "dungeon_parser_test_passed": true,
-    "six_routes_configured": true,
-    "method_testing_station_sources": true,
-    "hazard_parser_present": true,
-    "drop_probability_parser_present": true,
-    "preserve_previous_logic": true,
-    "workflow_runs_dungeon_update": true,
-    "workflow_dd_before_dungeon": true,
-    "renderer_shows_dungeon_status": true,
-    "generic_drop_wording": true,
-    "recommendation_fields_removed": true,
-    "weekly_status_ready": true,
-    "gemini_removed": true,
-    "version_updated": true
+    "workflow_same_workspace_artifact": true,
+    "workflow_cleanup_step": true,
+    "equipment_pagination": true,
+    "equipment_url_stat_filter": true,
+    "dd_section_level_update": true,
+    "dungeon_route_level_update": true,
+    "generic_wording": true,
+    "header_period_sync": true,
+    "version_updated": true,
+    "all_changed_scripts_compile": true
   },
-  "smoke_test_output": "{\"drops\": 10, \"hazards\": [\"화염 피해\", \"함정 피해\"], \"info\": {\"element\": \"Fire\", \"party_size\": \"4\", \"loot_grades\": \"0-5\"}}",
-  "index_md5": "a57e0ce1434982e315c60a5223a66c9f"
+  "compile_results": {
+    "fetch_gaming_tools_ko_db.py": {
+      "ok": true,
+      "stderr": "readsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/generated/interface/models.py\", line 30820, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+    },
+    "fetch_dd_weekly.py": {
+      "ok": true,
+      "stderr": "readsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/generated/interface/models.py\", line 30820, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+    },
+    "fetch_dungeons.py": {
+      "ok": true,
+      "stderr": "readsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/generated/interface/models.py\", line 30820, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+    }
+  },
+  "index_md5": "f4e603fbbf33ec431fa7f005f5bc8fbd"
 }

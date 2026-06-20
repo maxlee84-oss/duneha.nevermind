@@ -13,23 +13,14 @@
     "automation": "no_gemini_source_check",
     "db_source": "dune.gaming.tools/ko"
   },
-  "generated_at": "2026-06-19T08:34:16Z",
+  "generated_at": "2026-06-19T07:46:06Z",
   "automation_status": {
-    "mode": "dd_previous_preserved",
-    "confidence": "last_verified_data",
-    "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
-    "checked_at": "2026-06-19T08:34:20Z",
-    "checked_sources": [
-      "dune_gaming_deep_desert",
-      "method_deep_desert",
-      "method_overland",
-      "method_database",
-      "official_news"
-    ],
-    "changed_source_count": 5,
-    "source_errors": [],
+    "mode": "dd_auto_update_ready",
+    "confidence": "last_verified_data_until_first_run",
+    "message": "안정화 패치 적용 완료. 다음 Actions 실행에서 섹션/루트별 검증 후 갱신합니다.",
+    "checked_at": "2026-06-19T07:46:06Z",
     "render_mode": "weekly_json_single_source",
-    "dungeon_mode": "previous_preserved"
+    "dungeon_mode": "auto_update_ready"
   },
   "week": {
     "start": "2026-06-16",
@@ -2081,16 +2072,30 @@
     }
   ],
   "dd_update": {
-    "status": "preserved",
-    "source": "Method 딥 데저트 Companion",
+    "status": "awaiting_first_run",
+    "source": "Method Deep Desert Companion",
     "source_url": "https://www.method.gg/dune-awakening/deep-desert-companion",
-    "checked_at": "2026-06-19T08:34:17Z",
-    "reason": "rowa count 0 < 8"
+    "secondary_source": "dune.gaming.tools/ko/deep-desert",
+    "secondary_source_url": "https://dune.gaming.tools/ko/deep-desert",
+    "prepared_at": "2026-06-19T07:51:46+00:00",
+    "note": "GitHub Actions 첫 실행 후 현재 주차 파싱 결과가 검증 기준을 통과하면 자동 갱신됩니다."
   },
   "dungeon_update": {
-    "status": "preserved",
-    "source": "Method 테스팅 스테이션s",
-    "checked_at": "2026-06-19T08:34:20Z",
-    "reason": "route-the-old-quarry drop count 0 < 6; route-testing-station-24 drop count 0 < 6; route-testing-station-89 drop count 0 < 6; route-testing-station-136 drop count 0 < 6; route-testing-station-152 drop count 0 < 6; route-testing-station-195 drop count 0 < 6"
+    "status": "awaiting_first_run",
+    "source": "Method Testing Stations",
+    "source_url": "https://www.method.gg/dune-awakening/testing-stations",
+    "secondary_source": "dune.gaming.tools/ko",
+    "prepared_at": "2026-06-19T07:56:53+00:00",
+    "note": "GitHub Actions 첫 실행 후 6개 루트가 검증 기준을 통과하면 자동 갱신됩니다."
+  },
+  "stability_patch": {
+    "version": "v7.6.1.2",
+    "prepared_at": "2026-06-19T08:46:44+00:00",
+    "changes": [
+      "UTF-8 DB 검증",
+      "DD 섹션별 보존",
+      "던전 루트별 보존",
+      "동일 작업공간 Pages 배포"
+    ]
   }
 }

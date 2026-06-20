@@ -1,15 +1,120 @@
 {
   "metadata": {
-    "schema_version": "2.0",
-    "mode": "derived_from_equipment_db",
-    "primary_source": "dune.gaming.tools/ko",
-    "items_url": "https://dune.gaming.tools/ko/items",
-    "crafting_url": "https://dune.gaming.tools/ko/crafting-calculator",
-    "updated_at": "2026-06-19T08:34:16+00:00",
-    "link_count": 59,
-    "item_count": 59,
-    "failures": 0,
-    "note": "dune.gaming.tools/ko의 한글 아이템명, 장비 스펙, 제작 재료를 수집했습니다."
+    "schema_version": "1.0",
+    "mode": "seed_until_full_crawl",
+    "primary_source": "dune.gaming.tools",
+    "secondary_sources": [
+      "questlog.gg",
+      "awakening.wiki"
+    ],
+    "updated_at": "2026-06-16T08:12:18Z",
+    "note": "GitHub Actions의 fetch_crafting_recipes.py 실행 후 전체 제작 가능 아이템 DB로 갱신됩니다."
   },
-  "items": []
+  "items": [
+    {
+      "id": "plastanium_ingot",
+      "name": "Plastanium Ingot",
+      "category": "refined_resource",
+      "station": "Medium Ore Refinery",
+      "status": "source_verified",
+      "source": "dune.gaming.tools",
+      "note": "Medium Ore Refinery 기준. Large Ore Refinery는 Titanium Ore 수량이 다릅니다.",
+      "materials": [
+        {
+          "name": "Water",
+          "qty": 1250,
+          "unit": "mL"
+        },
+        {
+          "name": "Titanium Ore",
+          "qty": 6
+        },
+        {
+          "name": "Stravidium Fiber",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "station": "Medium Ore Refinery",
+          "materials": [
+            {
+              "name": "Water",
+              "qty": 1250,
+              "unit": "mL"
+            },
+            {
+              "name": "Titanium Ore",
+              "qty": 6
+            },
+            {
+              "name": "Stravidium Fiber",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "station": "Large Ore Refinery",
+          "materials": [
+            {
+              "name": "Water",
+              "qty": 1250,
+              "unit": "mL"
+            },
+            {
+              "name": "Titanium Ore",
+              "qty": 4
+            },
+            {
+              "name": "Stravidium Fiber",
+              "qty": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carrier_ornithopter_full_user_seed",
+      "name": "Carrier Ornithopter 전체 구성",
+      "category": "vehicle_bundle",
+      "station": "Vehicle Fabricator / Advanced Vehicle Fabricator",
+      "status": "user_provided_pending_verification",
+      "source": "사용자 제공 재료 합산",
+      "note": "전체 구성 합산 후보입니다. 부품별 제작식 교차 확인 전까지 검증 중으로 표시합니다.",
+      "materials": [
+        {
+          "name": "Plasteel Composite Armor Plating",
+          "qty": 144
+        },
+        {
+          "name": "Diamondine Dust",
+          "qty": 75
+        },
+        {
+          "name": "Particle Capacitor",
+          "qty": 54
+        },
+        {
+          "name": "Complex Machinery",
+          "qty": 30
+        },
+        {
+          "name": "Industrial Pump",
+          "qty": 16
+        },
+        {
+          "name": "Carbide Scraps",
+          "qty": 15
+        },
+        {
+          "name": "Tri-Forged Hydraulic Piston",
+          "qty": 9
+        },
+        {
+          "name": "Overclocked Power Regulator",
+          "qty": 9
+        }
+      ]
+    }
+  ]
 }

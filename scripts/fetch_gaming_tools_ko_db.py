@@ -59,9 +59,63 @@ def write_log(status, message, extra=None):
 def fetch(url):
     r = requests.get(url, headers=HEADERS, timeout=60)
     r.raise_for_status()
-    return r.text
+
+    # gaming.tools can omit a charset in Content-Type. requests then assumes
+    # ISO-8859-1 and corrupts Korean UTF-8 text into strings such as
+    # "ì•„ì�´í…œ". Always decode the response bytes as UTF-8 first.
+    try:
+        text = r.content.decode("utf-8")
+    except UnicodeDecodeError:
+        r.encoding = r.apparent_encoding or "utf-8"
+        text = r.text
+
+    return repair_mojibake(text)
+
+
+MOJIBAKE_MARKERS = (
+    "Ã", "Â", "â€", "â€™", "â€œ", "â€\x9d", "ì", "ë", "ê", "í", "ðŸ", "�"
+)
+
+def mojibake_score(value):
+    text = str(value or "")
+    if not text:
+        return 0
+    return sum(text.count(marker) for marker in MOJIBAKE_MARKERS)
+
+def repair_mojibake(value):
+    text = str(value or "")
+    if mojibake_score(text) == 0:
+        return text
+
+    # Typical failure mode: UTF-8 bytes decoded as latin-1/cp1252.
+    for source_encoding in ("latin1", "cp1252"):
+        try:
+            repaired = text.encode(source_encoding).decode("utf-8")
+            if mojibake_score(repaired) < mojibake_score(text):
+                return repaired
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
+    return text
+
+def validate_korean_text(items):
+    names = [str(item.get("name") or "") for item in items]
+    if not names:
+        return False, {"item_count": 0, "bad_names": 0, "korean_names": 0}
+
+    bad = [name for name in names if mojibake_score(name) > 0]
+    korean = [name for name in names if re.search(r"[가-힣]", name)]
+    stats = {
+        "item_count": len(names),
+        "bad_names": len(bad),
+        "korean_names": len(korean),
+        "bad_ratio": round(len(bad) / len(names), 4),
+        "korean_ratio": round(len(korean) / len(names), 4),
+    }
+    valid = stats["bad_ratio"] <= 0.02 and stats["korean_ratio"] >= 0.15
+    return valid, stats
 
 def clean(s):
+    s = repair_mojibake(s)
     s = re.sub(r"\s+", " ", (s or "")).strip()
     s = re.sub(r"^Image:\s*", "", s)
     # remove duplicated token sequences commonly produced by img alt + text
@@ -130,7 +184,12 @@ def parse_stats(lines):
         # key: value
         if ":" in line and len(line) < 90:
             k, v = [clean(x) for x in line.split(":", 1)]
-            if k and v and len(k) <= 32:
+            if (
+                k and v and len(k) <= 32
+                and k.lower() not in {"http", "https", "url", "image", "link"}
+                and not v.startswith("//")
+                and "dune.gaming.tools/" not in v
+            ):
                 stats.append({"label": k, "value": v})
         # common labels followed by value
         elif line in {"피해 유형", "발사 방식", "발당 피해", "고유 효과", "방어도", "내구도", "전력 소비", "제작대", "Tier", "Rarity", "희귀도"} and idx + 1 < len(lines):
@@ -265,6 +324,15 @@ def main():
             if preserve_previous(f"수집된 한글 아이템이 {len(parsed)}개로 기준({MIN_ITEMS}) 미만입니다.", {"link_count": len(links), "item_count": len(parsed), "failures": failures}):
                 return
 
+        ko_valid, ko_stats = validate_korean_text(parsed)
+        if not ko_valid:
+            if preserve_previous(
+                "한글 DB 인코딩 검증 실패. 깨진 문자열을 저장하지 않고 기존 DB를 유지합니다.",
+                {"item_count": len(parsed), "failures": failures, "korean_text": ko_stats},
+            ):
+                return
+            raise RuntimeError(f"Korean text validation failed: {ko_stats}")
+
         data = {
             "metadata": {
                 "schema_version": "2.0",
@@ -276,6 +344,8 @@ def main():
                 "link_count": len(links),
                 "item_count": len(parsed),
                 "failures": failures,
+                "encoding": "utf-8",
+                "korean_text_validation": ko_stats,
                 "note": "dune.gaming.tools/ko의 한글 아이템명, 장비 스펙, 제작 재료를 수집했습니다."
             },
             "items": sorted(parsed, key=lambda x: x.get("name",""))
@@ -298,6 +368,124 @@ def main():
             OUT.write_text(json.dumps({"metadata": {"mode": "ko_crawl_failed_empty", "updated_at": now(), "warning": reason}, "items": []}, ensure_ascii=False, indent=2), encoding="utf-8")
             write_log("failed_empty", reason)
         print(json.dumps({"warning": reason}, ensure_ascii=False))
+
+
+def discover_item_links():
+    """Collect item detail links from the Korean item index and pagination pages."""
+    queue = [ITEMS_URL]
+    seen_pages = set()
+    links = {}
+    max_pages = int(os.getenv("KO_DB_MAX_PAGES", "40") or "40")
+
+    while queue and len(seen_pages) < max_pages:
+        page_url = queue.pop(0)
+        if page_url in seen_pages:
+            continue
+        seen_pages.add(page_url)
+        html = fetch(page_url)
+        soup = BeautifulSoup(html, "html.parser")
+
+        for row in parse_links_from_page(html, page_url):
+            links[row["url"]] = row
+
+        for a in soup.find_all("a", href=True):
+            href = urljoin(BASE, a.get("href") or "")
+            if not href.startswith(ITEMS_URL):
+                continue
+            if href in seen_pages or href in queue:
+                continue
+            # Follow explicit page/pagination links only.
+            if re.search(r"(?:[?&](?:page|p)=\d+|/page/\d+)", href):
+                queue.append(href)
+
+    return list(links.values()), sorted(seen_pages)
+
+_original_main = main
+
+def main():
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    RAW.mkdir(parents=True, exist_ok=True)
+    try:
+        links, crawled_pages = discover_item_links()
+        if LIMIT > 0:
+            links = links[:LIMIT]
+
+        # 50 is the absolute safety floor, not a claim that this is the full DB.
+        if len(links) < MIN_ITEMS:
+            if preserve_previous(
+                f"한글 아이템 링크 수가 {len(links)}개로 기준({MIN_ITEMS}) 미만입니다.",
+                {"link_count": len(links), "pages": crawled_pages},
+            ):
+                return
+
+        parsed, raw_pages, failures = [], [], 0
+        for idx, link in enumerate(links, 1):
+            try:
+                item, meta = parse_item_page(link)
+                parsed.append(item)
+                raw_pages.append(meta)
+                print(json.dumps({
+                    "idx": idx, "total": len(links), "name": item["name"],
+                    "stats": len(item.get("stats", [])),
+                    "materials": len(item.get("materials", []))
+                }, ensure_ascii=False))
+                time.sleep(DELAY)
+            except Exception as exc:
+                failures += 1
+                raw_pages.append({"url": link["url"], "error": repr(exc)[:240]})
+
+        ko_valid, ko_stats = validate_korean_text(parsed)
+        if not ko_valid:
+            if preserve_previous(
+                "한글 DB 인코딩 검증 실패. 깨진 문자열을 저장하지 않고 기존 DB를 유지합니다.",
+                {"item_count": len(parsed), "failures": failures, "korean_text": ko_stats},
+            ):
+                return
+            raise RuntimeError(f"Korean text validation failed: {ko_stats}")
+
+        mode = "full_ko_crawl_from_gaming_tools"
+        if len(parsed) < 200:
+            mode = "partial_ko_crawl_from_gaming_tools"
+
+        data = {
+            "metadata": {
+                "schema_version": "2.1",
+                "mode": mode,
+                "primary_source": "dune.gaming.tools/ko",
+                "items_url": ITEMS_URL,
+                "crafting_url": CRAFTING_URL,
+                "updated_at": now(),
+                "page_count": len(crawled_pages),
+                "link_count": len(links),
+                "item_count": len(parsed),
+                "failures": failures,
+                "encoding": "utf-8",
+                "korean_text_validation": ko_stats,
+                "note": "한글 아이템명·스펙·직접 제작 재료. 전체성은 item_count와 mode로 판단합니다."
+            },
+            "items": sorted(parsed, key=lambda x: x.get("name", ""))
+        }
+        OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        CRAFTING_OUT.write_text(json.dumps({
+            "metadata": {**data["metadata"], "mode": "derived_from_equipment_db"},
+            "items": [i for i in data["items"] if i.get("materials")]
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
+        RAW_OUT.write_text(json.dumps({"pages": crawled_pages, "items": raw_pages}, ensure_ascii=False, indent=2), encoding="utf-8")
+        write_log("updated", f"한글 장비 DB 갱신: {len(parsed)}개", {
+            "page_count": len(crawled_pages), "item_count": len(parsed),
+            "failures": failures, "mode": mode
+        })
+        print(json.dumps(data["metadata"], ensure_ascii=False, indent=2))
+    except Exception as exc:
+        reason = f"한글 장비 DB 수집 실패. 기존 DB 유지: {repr(exc)[:240]}"
+        if not preserve_previous(reason):
+            OUT.write_text(json.dumps({
+                "metadata": {"mode": "ko_crawl_failed_empty", "updated_at": now(), "warning": reason},
+                "items": []
+            }, ensure_ascii=False, indent=2), encoding="utf-8")
+            write_log("failed_empty", reason)
+        print(json.dumps({"warning": reason}, ensure_ascii=False))
+
 
 if __name__ == "__main__":
     main()
