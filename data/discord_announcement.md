@@ -12,10 +12,10 @@ Asia 기준: **KST/JST · 06/16 04:00 → 06/23 04:00**
 - 출처 및 업데이트 로그 확인 가능
 
 업데이트 상태
-- Mode: `dd_previous_preserved`
-- Confidence: `last_verified_data`
+- Mode: `dd_partial_updated`
+- Confidence: `validated_external_data`
 
-DD 항목 수: 54
+DD 항목 수: 176
 던전 드랍 수: 72
 
 페이지 링크:

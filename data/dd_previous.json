@@ -1,0 +1,1039 @@
+{
+  "saved_at": "2026-06-20T00:41:46Z",
+  "week": {
+    "start": "2026-06-16",
+    "end": "2026-06-23",
+    "label": "2026-06-16 to 2026-06-23",
+    "regions": {
+      "asia": "KST/JST · 06/16 04:00 → 06/23 04:00"
+    }
+  },
+  "dd": {
+    "notable": {
+      "id": "notable",
+      "label": "희귀",
+      "items": [
+        {
+          "id": "notable-black-market-k-28-lasgun",
+          "slug": "black-market-k-28-lasgun",
+          "name": "블랙마켓 K-28 라스건",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 1% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 1% 핵심 스펙 Damage Type: Energy 화염 Mode: Automatic Damage Per Shot: 84.7",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-perforator",
+          "slug": "perforator",
+          "name": "퍼포레이터",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 12% PvP · Downed Ship · Off-map · Downed Ships · 12% PvE · 잔해 · D2 · Deep 암흑 잔해 · 7% 핵심 스펙 유니크 Effect: Deals Bleed Damage on hit Accuracy: 1.1 Ammo Per Shot: 12",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-regis-disruptor-pistol",
+          "slug": "regis-disruptor-pistol",
+          "name": "레지스 디스럽터 피스톨",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "PvP",
+            "⌁ 사이드암",
+            "⌁",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 9% PvP · Downed Ship · Off-map · Downed Ships · 9% PvE · 잔해 · D2 · Deep 암흑 잔해 · 6% 핵심 스펙 Damage Type: Heavy Dart 화염 Mode: Semi-Automatic Damage Per Shot: 450.4",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-kynes-s-cutteray",
+          "slug": "kynes-s-cutteray",
+          "name": "카인즈 커터레이",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "PvP",
+            "✦ 도구",
+            "✦",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 6% PvP · Cave · C7 · Loot Cave · 6% PvP · Cave · I5 · Loot Cave · 6% 핵심 스펙 Copper, Granite, Salvaged Metal: 250% Iron: 209% Carbon and Erythrite: 212%",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-adaptive-holtzman-shield",
+          "slug": "adaptive-holtzman-shield",
+          "name": "적응형 홀츠먼 실드",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◌ 실드",
+            "◌",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 5% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 5% PvE · 테스팅 스테이션 · D4 · Cactus Chaos · <1% 핵심 스펙 Power Drain: 100% Refresh Time: 0.5",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-power-harness",
+          "slug": "power-harness",
+          "name": "파워 하네스",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 8% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 8% PvE · 테스팅 스테이션 · D4 · Cactus Chaos · 5% 핵심 스펙 Armor Value: 525 Dash Stamina Cost: +7.5% Maximum Power: +50",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-focused-buggy-cutteray-mk6",
+          "slug": "focused-buggy-cutteray-mk6",
+          "name": "집중형 버기 커터레이 Mk6",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Cave · C3 · Loot Cave · 8% PvE · Cave · C7 · Loot Cave · 8% PvE · Cave · I5 · Loot Cave · 8% 핵심 스펙 Basalt, Aluminum: x243 Carbon, Erythrite: x398 Copper, Granite, Salvaged Metal: x468",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "notable-hummingbird-wing-module-mk6",
+          "slug": "hummingbird-wing-module-mk6",
+          "name": "허밍버드 날개 모듈 Mk6",
+          "category": "gear",
+          "section": "notable",
+          "badges": [
+            "PvE",
+            "PvP",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 12% PvP · Downed Ship · Off-map · Downed Ships · 12% PvE · 잔해 · D2 · Deep 암흑 잔해 · 7% 핵심 스펙 Vehicle handling/stat details: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        }
+      ]
+    },
+    "pve": {
+      "id": "pve",
+      "label": "PvE",
+      "items": [
+        {
+          "id": "pve-perforator",
+          "slug": "perforator",
+          "name": "퍼포레이터",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 12% PvE · 잔해 · D2 · Deep 암흑 잔해 · 7% PvE · 잔해 · D7 · The Walkway · 7% 핵심 스펙 유니크 Effect: Deals Bleed Damage on hit Accuracy: 1.1 Ammo Per Shot: 12",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-extra-replica-pulse-sword",
+          "slug": "replica-pulse-sword",
+          "name": "복제 펄스 소드",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 12% PvE · 잔해 · D2 · Deep 암흑 잔해 · 7% PvE · 잔해 · D7 · The Walkway · 7% 핵심 스펙 유니크 Effect: small Stamina boost on successful parry Attack Speed: 106 Block Stamina Cost: 7.8",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-extra-replica-pulse-knife",
+          "slug": "replica-pulse-knife",
+          "name": "복제 펄스 나이프",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 12% PvE · 잔해 · D2 · Deep 암흑 잔해 · 7% PvE · 잔해 · D7 · The Walkway · 7% 핵심 스펙 유니크 Effect: small Stamina boost on each successful hit Attack Speed: 140 Block Stamina Cost: 7.8",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-regis-disruptor-pistol",
+          "slug": "regis-disruptor-pistol",
+          "name": "레지스 디스럽터 피스톨",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "⌁ 사이드암",
+            "⌁",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 9% PvE · 잔해 · D2 · Deep 암흑 잔해 · 6% PvE · 잔해 · D7 · The Walkway · 6% 핵심 스펙 Damage Type: Heavy Dart 화염 Mode: Semi-Automatic Damage Per Shot: 450.4",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-kynes-s-cutteray",
+          "slug": "kynes-s-cutteray",
+          "name": "카인즈 커터레이",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "✦ 도구",
+            "✦",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · 테스팅 스테이션 · D4 · Cactus Chaos · <1% PvE · 테스팅 스테이션 · F6 · Spice Sanctum · <1% 핵심 스펙 Copper, Granite, Salvaged Metal: 250% Iron: 209% Carbon and Erythrite: 212%",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-compact-compactor-mk6",
+          "slug": "compact-compactor-mk6",
+          "name": "소형 컴팩터 Mk6",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "✦ 도구",
+            "✦",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Cave · C3 · Loot Cave · 8% PvE · Cave · C7 · Loot Cave · 8% PvE · Cave · I5 · Loot Cave · 8% 핵심 스펙 Gather Rate: Extreme Power Consumption: 116.6 Worm Attraction Intensity: Medium (10)",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-extra-filter-extractor-mk6",
+          "slug": "filter-extractor-mk6",
+          "name": "필터 추출기 Mk6",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "✦ 도구",
+            "✦",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Cave · C3 · Loot Cave · 8% PvE · Cave · C7 · Loot Cave · 8% PvE · Cave · I5 · Loot Cave · 8% 핵심 스펙 유니크 Effect: Siphons part of blood extracted directly into a Literjon as water Extraction Efficiency: 65%",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-adaptive-holtzman-shield",
+          "slug": "adaptive-holtzman-shield",
+          "name": "적응형 홀츠먼 실드",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◌ 실드",
+            "◌",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · 테스팅 스테이션 · D4 · Cactus Chaos · <1% PvE · 테스팅 스테이션 · F6 · Spice Sanctum · <1% 핵심 스펙 Power Drain: 100% Refresh Time: 0.5",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-power-harness",
+          "slug": "power-harness",
+          "name": "파워 하네스",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · 테스팅 스테이션 · D4 · Cactus Chaos · 5% PvE · 테스팅 스테이션 · F6 · Spice Sanctum · 5% 핵심 스펙 Armor Value: 525 Dash Stamina Cost: +7.5% Maximum Power: +50",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-tactical-radiation-suit",
+          "slug": "tactical-radiation-suit",
+          "name": "전술 방사능 슈트",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · 테스팅 스테이션 · D4 · Cactus Chaos · 5% PvE · 테스팅 스테이션 · F6 · Spice Sanctum · 5% 핵심 스펙 Armor Value: 1313 Energy Mitigation: -20.0% 화염 Mitigation: 30.0%",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-the-forge-chestpiece",
+          "slug": "the-forge-chestpiece",
+          "name": "포지 흉갑",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · 테스팅 스테이션 · D4 · Cactus Chaos · 5% PvE · 테스팅 스테이션 · F6 · Spice Sanctum · 5% 핵심 스펙 상세 수치: queued for full extraction Set theme: increased heat resistance and hard armor",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-extra-executor-s-chestpiece",
+          "slug": "executor-s-chestpiece",
+          "name": "집행자의 흉갑",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 9% PvE · 잔해 · D2 · Deep 암흑 잔해 · 6% PvE · 잔해 · D7 · The Walkway · 6% 핵심 스펙 유니크 Effect: Adds Concussive Mitigation 상세 수치: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-focused-buggy-cutteray-mk6",
+          "slug": "focused-buggy-cutteray-mk6",
+          "name": "집중형 버기 커터레이 Mk6",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Cave · C3 · Loot Cave · 8% PvE · Cave · C7 · Loot Cave · 8% PvE · Cave · I5 · Loot Cave · 8% 핵심 스펙 Basalt, Aluminum: x243 Carbon, Erythrite: x398 Copper, Granite, Salvaged Metal: x468",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-hummingbird-wing-module-mk6",
+          "slug": "hummingbird-wing-module-mk6",
+          "name": "허밍버드 날개 모듈 Mk6",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "PvP",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Downed Ship · Off-map · Downed Ships · 12% PvE · 잔해 · D2 · Deep 암흑 잔해 · 7% PvE · 잔해 · D7 · The Walkway · 7% 핵심 스펙 Vehicle handling/stat details: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-extra-mohandis-sandbike-engine-mk6",
+          "slug": "mohandis-sandbike-engine-mk6",
+          "name": "모한디스 샌드바이크 엔진 Mk6",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · Cave · C3 · Loot Cave · 8% PvE · Cave · C7 · Loot Cave · 8% PvE · Cave · I5 · Loot Cave · 8% 핵심 스펙 Acceleration: Medium Speed: 108 km/h Power Consumption: 8.06/s",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pve-extra-roc-carrier-wing",
+          "slug": "roc-carrier-wing",
+          "name": "로크 캐리어 날개",
+          "category": "gear",
+          "section": "pve",
+          "badges": [
+            "PvE",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvE · 테스팅 스테이션 · D4 · Cactus Chaos · 5% PvE · 테스팅 스테이션 · F6 · Spice Sanctum · 5% 핵심 스펙 Durability: 3000 Assembly Requirement: Mandatory Armor: 1500",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        }
+      ]
+    },
+    "pvp": {
+      "id": "pvp",
+      "label": "PvP",
+      "items": [
+        {
+          "id": "pvp-black-market-k-28-lasgun",
+          "slug": "black-market-k-28-lasgun",
+          "name": "블랙마켓 K-28 라스건",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 1% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 1% 핵심 스펙 Damage Type: Energy 화염 Mode: Automatic Damage Per Shot: 84.7",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-regis-tripleshot-repeating-rifle",
+          "slug": "regis-tripleshot-repeating-rifle",
+          "name": "레지스 트리플샷 연발 소총",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 6% PvP · Cave · C7 · Loot Cave · 6% PvP · Cave · I5 · Loot Cave · 6% 핵심 스펙 Pattern: horizontal tripleshot Payload: poison-coated darts Detailed numeric rifle stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-plasma-cannon",
+          "slug": "plasma-cannon",
+          "name": "플라즈마 캐논",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 7% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 7% 핵심 스펙 상세 수치: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-sardaukar-intimidator",
+          "slug": "sardaukar-intimidator",
+          "name": "사다우카르 인티미데이터",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 8% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 8% 핵심 스펙 무기 - 원거리 Mk6 유니크 Current week PvP 테스팅 스테이션 weapon. 상세 수치 pending.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-cauterizer",
+          "slug": "cauterizer",
+          "name": "카터라이저",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 7% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 7% 핵심 스펙 상세 수치: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-dunewatcher",
+          "slug": "dunewatcher",
+          "name": "듄워처",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 5% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 5% 핵심 스펙 상세 수치: queued for full extraction Current build records verified item identity/source only",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-bulwark-set",
+          "slug": "bulwark-set",
+          "name": "불워크 세트",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 7% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 7% 핵심 스펙 Individual piece stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-extra-indara-s-lullaby",
+          "slug": "indara-s-lullaby",
+          "name": "인다라의 자장가",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◆ 무기",
+            "◆",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 6% PvP · Cave · C7 · Loot Cave · 6% PvP · Cave · I5 · Loot Cave · 6% 핵심 스펙 상세 수치: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-extra-impure-extractor-mk6",
+          "slug": "impure-extractor-mk6",
+          "name": "불순물 추출기 Mk6",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvE",
+            "PvP",
+            "✦ 도구",
+            "✦",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 11% PvP · Cave · C7 · Loot Cave · 11% PvP · Cave · I5 · Loot Cave · 11% 핵심 스펙 Detailed hydration stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-extra-collapsible-dew-reaper-mk6",
+          "slug": "collapsible-dew-reaper-mk6",
+          "name": "접이식 이슬 채집기 Mk6",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvE",
+            "PvP",
+            "✦ 도구",
+            "✦",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 8% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 8% 핵심 스펙 Detailed gathering stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-pincushion-chestpiece",
+          "slug": "pincushion-chestpiece",
+          "name": "핀쿠션 흉갑",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvP",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 6% PvP · Cave · C7 · Loot Cave · 6% PvP · Cave · I5 · Loot Cave · 6% 핵심 스펙 Detailed armor stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-extra-circuit-gauntlets",
+          "slug": "circuit-gauntlets",
+          "name": "회로 건틀릿",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvE",
+            "PvP",
+            "◧ 방어구",
+            "◧",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 6% PvP · Cave · C7 · Loot Cave · 6% PvP · Cave · I5 · Loot Cave · 6% 핵심 스펙 유니크 Effect: Equipment power costs -10% Affects shield, suspensor belt, tools, and energy weapons Detailed armor stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-stormrider-boost-module-mk6",
+          "slug": "stormrider-boost-module-mk6",
+          "name": "스톰라이더 부스트 모듈 Mk6",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvE",
+            "PvP",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · 테스팅 스테이션 · D4 · Cactus Chaos · 8% PvP · 테스팅 스테이션 · F6 · Spice Sanctum · 8% 핵심 스펙 Detailed boost module stat values: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "pvp-steady-assault-boost-module-mk6",
+          "slug": "steady-assault-boost-module-mk6",
+          "name": "안정형 어썰트 부스트 모듈 Mk6",
+          "category": "gear",
+          "section": "pvp",
+          "badges": [
+            "PvE",
+            "PvP",
+            "▰ 차량",
+            "▰",
+            "Mk6"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 PvP · Cave · C3 · Loot Cave · 11% PvP · Cave · C7 · Loot Cave · 11% PvP · Cave · I5 · Loot Cave · 11% 핵심 스펙 Detailed boost module stat values: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        }
+      ]
+    },
+    "rowa": {
+      "id": "rowa",
+      "label": "Row A",
+      "items": [
+        {
+          "id": "rowa-station-arhun-k-28-lasgun",
+          "slug": "arhun-k-28-lasgun",
+          "name": "아르훈 K-28 라스건",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◆ 무기",
+            "◆",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A2 · Imperial 테스팅 스테이션 37 Row A · 테스팅 스테이션 · A3 · Imperial 테스팅 스테이션 185 핵심 스펙 무기 - Mk5 Lasgun Mk5 유니크 Row A / Mk5 테스팅 스테이션 weapon.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-shaitan-s-tongue",
+          "slug": "shaitan-s-tongue",
+          "name": "샤이탄의 혀",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◆ 무기",
+            "◆",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A3 · 잔해 of the Archidamas III Row A · 잔해 · A7 · 잔해 of the Proxenus Row A · 잔해 · A9 · 잔해 of the Stasanor 핵심 스펙 무기 - Mk5 Mk5 유니크 Row A / Mk5 잔해 weapon.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-syndicate-impaler",
+          "slug": "syndicate-impaler",
+          "name": "신디케이트 임페일러",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◆ 무기",
+            "◆",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A1 · 잔해 of the Hicetas Row A · 잔해 · A5 · 잔해 of the Xenophon 핵심 스펙 무기 - Mk5 Mk5 유니크 Row A / Mk5 잔해 weapon.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-piter-s-disruptor",
+          "slug": "piter-s-disruptor",
+          "name": "파이터의 디스럽터",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "⌁ 사이드암",
+            "⌁",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A3 · 잔해 of the Archidamas III Row A · 잔해 · A7 · 잔해 of the Proxenus Row A · 잔해 · A9 · 잔해 of the Stasanor 핵심 스펙 무기 - Mk5 Disruptor Mk5 유니크 Row A / Mk5 잔해 weapon.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-compact-compactor-mk5",
+          "slug": "compact-compactor-mk5",
+          "name": "소형 컴팩터 Mk5",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "✦ 도구",
+            "✦",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A2 · Imperial 테스팅 스테이션 37 Row A · 테스팅 스테이션 · A3 · Imperial 테스팅 스테이션 185 핵심 스펙 도구 - Mk5 Compactor Mk5 유니크 Row A / Mk5 테스팅 스테이션 tool.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-long-range-scanner",
+          "slug": "long-range-scanner",
+          "name": "장거리 스캐너",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "✦ 도구",
+            "✦",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items/scanner_efficient_1",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A8 · Imperial 테스팅 스테이션 186 Row A · 테스팅 스테이션 · A9 · Imperial 테스팅 스테이션 217 핵심 스펙 도구 - Mk5 Scanner Mk5 유니크 Row A / Mk5 테스팅 스테이션 tool.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-the-emperor-s-wings-mk5",
+          "slug": "the-emperor-s-wings-mk5",
+          "name": "황제의 날개 Mk5",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "✦ 도구",
+            "✦",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A8 · Imperial 테스팅 스테이션 186 Row A · 테스팅 스테이션 · A9 · Imperial 테스팅 스테이션 217 핵심 스펙 도구 - Mk5 Suspensor Belt Mk5 유니크 Row A / Mk5 테스팅 스테이션 tool.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-focused-reaper-mk5",
+          "slug": "focused-reaper-mk5",
+          "name": "집중형 채집기 Mk5",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "✦ 도구",
+            "✦",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A8 · Imperial 테스팅 스테이션 186 Row A · 테스팅 스테이션 · A9 · Imperial 테스팅 스테이션 217 핵심 스펙 도구 - Mk5 Gathering Mk5 유니크 Row A / Mk5 테스팅 스테이션 tool.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-station-garb",
+          "slug": "station-garb",
+          "name": "스테이션 의복",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◧ 방어구",
+            "◧",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A8 · Imperial 테스팅 스테이션 186 Row A · 테스팅 스테이션 · A9 · Imperial 테스팅 스테이션 217 핵심 스펙 방어구 - Mk5 Garment Mk5 유니크 Row A / Mk5 테스팅 스테이션 garment.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-saturnine-stillsuit-garment",
+          "slug": "saturnine-stillsuit-garment",
+          "name": "새터닌 스틸슈트 의복",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◧ 방어구",
+            "◧",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A4 · Imperial 테스팅 스테이션 148 Row A · 테스팅 스테이션 · A5 · Imperial 테스팅 스테이션 93 핵심 스펙 방어구 - Mk5 Stillsuit Chest Mk5 유니크 Row A / Mk5 테스팅 스테이션 stillsuit item.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-mendek-s-chestplate",
+          "slug": "mendek-s-chestplate",
+          "name": "멘덱의 흉갑",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◧ 방어구",
+            "◧",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A1 · 잔해 of the Eumenes Row A · 잔해 · A2 · 잔해 of the Hyperbatas Row A · 잔해 · A3 · 잔해 of the Cycliadas 핵심 스펙 Detailed Mk5 stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-batigh-stillsuit-garment",
+          "slug": "batigh-stillsuit-garment",
+          "name": "바티그 스틸슈트 의복",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◧ 방어구",
+            "◧",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A1 · 잔해 of the Hicetas Row A · 잔해 · A5 · 잔해 of the Xenophon 핵심 스펙 Detailed Mk5 stillsuit stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-advanced-suspensor-jacket",
+          "slug": "advanced-suspensor-jacket",
+          "name": "고급 서스펜서 재킷",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "◧ 방어구",
+            "◧",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A1 · 잔해 of the Eumenes Row A · 잔해 · A2 · 잔해 of the Hyperbatas Row A · 잔해 · A3 · 잔해 of the Cycliadas 핵심 스펙 Detailed Mk5 stats: queued for full extraction",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-station-hummingbird-wing-module-mk5",
+          "slug": "hummingbird-wing-module-mk5",
+          "name": "허밍버드 날개 모듈 Mk5",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "▰ 차량",
+            "▰",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 테스팅 스테이션 · A4 · Imperial 테스팅 스테이션 148 Row A · 테스팅 스테이션 · A5 · Imperial 테스팅 스테이션 93 핵심 스펙 차량 부품 - Mk5 Assault Ornithopter Wing Mk5 유니크 Row A / Mk5 테스팅 스테이션 vehicle component.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-focused-buggy-cutteray-mk5",
+          "slug": "focused-buggy-cutteray-mk5",
+          "name": "집중형 버기 커터레이 Mk5",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "▰ 차량",
+            "▰",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A3 · 잔해 of the Archidamas III Row A · 잔해 · A7 · 잔해 of the Proxenus Row A · 잔해 · A9 · 잔해 of the Stasanor 핵심 스펙 차량 부품 - Mk5 Buggy Cutteray Mk5 유니크 Row A / Mk5 잔해 vehicle component.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        },
+        {
+          "id": "rowa-wreck-stormrider-boost-module-mk5",
+          "slug": "stormrider-boost-module-mk5",
+          "name": "스톰라이더 부스트 모듈 Mk5",
+          "category": "gear",
+          "section": "rowa",
+          "badges": [
+            "Row A",
+            "▰ 차량",
+            "▰",
+            "Mk5"
+          ],
+          "source_url": "https://dune.gaming.tools/ko/items",
+          "details": "드랍/스펙 보기 드랍 위치 Row A · 잔해 · A1 · 잔해 of the Hicetas Row A · 잔해 · A5 · 잔해 of the Xenophon 핵심 스펙 차량 부품 - Mk5 Boost Module Mk5 유니크 Row A / Mk5 잔해 vehicle component.",
+          "links": [],
+          "image": null,
+          "confidence": "verified_seed"
+        }
+      ]
+    }
+  },
+  "dd_update": {
+    "status": "awaiting_first_run",
+    "source": "Method Deep Desert Companion",
+    "source_url": "https://www.method.gg/dune-awakening/deep-desert-companion",
+    "secondary_source": "dune.gaming.tools/ko/deep-desert",
+    "secondary_source_url": "https://dune.gaming.tools/ko/deep-desert",
+    "prepared_at": "2026-06-19T07:51:46+00:00",
+    "note": "GitHub Actions 첫 실행 후 현재 주차 파싱 결과가 검증 기준을 통과하면 자동 갱신됩니다."
+  }
+}

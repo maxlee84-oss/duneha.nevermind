@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T08:33:29.021690+00:00",
+  "fetched_at": "2026-06-20T00:41:34.529058+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -28,6 +28,10 @@
           "href": "./"
         },
         {
+          "text": "Companion App NEW",
+          "href": "./companion-app"
+        },
+        {
           "text": "Deep Desert",
           "href": "./deep-desert"
         },
@@ -38,14 +42,6 @@
         {
           "text": "Server Status",
           "href": "./server-status"
-        },
-        {
-          "text": "Dungeons",
-          "href": "./dungeons"
-        },
-        {
-          "text": "Specializations",
-          "href": "./specializations"
         },
         {
           "text": "Game Server NEW",
@@ -139,9 +135,9 @@
       ],
       "json_script_samples": [
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
-        "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_q10bww = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1)\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.4ylt5wMA.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.BK90B_mQ.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 11],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
+        "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1f2pnyo = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1)\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.BfPQ6JQC.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.2OCJWGmg.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "ba1b0de002684d18c11dd20d29807999201277f7585d30eda8eec4c8368d7f90",
+      "html_sha256": "5d70f3b1616999470f70dd2a51e26bb8c6fc7a5a574a945f16372895cfdae575",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -2675,7 +2671,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "35204d2ae0df2bf73682dddf2b426eee06c41b18c571fa5f48064fe98480c6b0",
+      "html_sha256": "e7d1743b97664a91206d9748a6b38388e93ecf91f1085780b1a61648b3b8091b",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -5165,7 +5161,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "e408dfe41e6815b8eb6696a2f3c3de357fb3d08ca25a230ac496df9726b412c3",
+      "html_sha256": "5e65e9628ffccb8eb5b9048b01b1637e75669166e2b11f40d46a79704959fe96",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -6927,7 +6923,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "97714314d6bdd04e261d1d8266c7428e7da1721e6e14953629babec981b2ae96",
+      "html_sha256": "e6f0ab3dee1baa555e23d62c53cff4523f7334221eca19cd5369300670f3f096",
       "raw_path": "data/raw/method_database.html"
     },
     {
@@ -7202,6 +7198,22 @@
         },
         {
           "text": "",
+          "href": "https://duneawakening.com/news/upcoming-playstation-closed-beta-weekend-playtest/"
+        },
+        {
+          "text": "discover more",
+          "href": "https://duneawakening.com/news/upcoming-playstation-closed-beta-weekend-playtest/"
+        },
+        {
+          "text": "",
+          "href": "https://duneawakening.com/news/communinet-signal-18/"
+        },
+        {
+          "text": "discover more",
+          "href": "https://duneawakening.com/news/communinet-signal-18/"
+        },
+        {
+          "text": "",
           "href": "https://duneawakening.com/news/public-test-client-patch-1-4-10-0/"
         },
         {
@@ -7255,22 +7267,6 @@
         {
           "text": "discover more",
           "href": "https://duneawakening.com/news/self-hosted-servers-now-live/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/update-1-4-live-now/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/update-1-4-live-now/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/dune-awakening-1-4-0-0-patch-notes/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/dune-awakening-1-4-0-0-patch-notes/"
         },
         {
           "text": "2",
@@ -7281,8 +7277,8 @@
           "href": "https://duneawakening.com/news/page/3/"
         },
         {
-          "text": "18",
-          "href": "https://duneawakening.com/news/page/18/"
+          "text": "19",
+          "href": "https://duneawakening.com/news/page/19/"
         },
         {
           "text": "",
@@ -7430,7 +7426,7 @@
         "\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/bricks-child/*\",\"/wp-content/themes/bricks/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n",
         "\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://duneawakening.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4\"}}\n"
       ],
-      "html_sha256": "6c34a73cfa0927351e2620c9dd5d5f3566bf59de5d5f492da81089f861bc4e4e",
+      "html_sha256": "f6bea6302dfacde66fcc7cbdedabb3714e8ccba42e3d8684ee2560797ccb69e8",
       "raw_path": "data/raw/official_news.html"
     }
   ],

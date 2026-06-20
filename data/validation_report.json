@@ -1,13 +1,11 @@
 {
   "ok": true,
   "errors": [],
-  "warnings": [
-    "crafting DB has very few items"
-  ],
+  "warnings": [],
   "dd_counts": {
-    "notable": 8,
-    "pve": 16,
-    "pvp": 14,
+    "notable": 12,
+    "pve": 74,
+    "pvp": 74,
     "rowa": 16
   },
   "dungeon_counts": {
@@ -19,10 +17,10 @@
     "route-testing-station-195": 13
   },
   "automation_status": {
-    "mode": "dd_previous_preserved",
-    "confidence": "last_verified_data",
+    "mode": "dd_partial_updated",
+    "confidence": "validated_external_data",
     "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
-    "checked_at": "2026-06-19T08:34:20Z",
+    "checked_at": "2026-06-20T00:41:49Z",
     "checked_sources": [
       "dune_gaming_deep_desert",
       "method_deep_desert",
@@ -36,10 +34,10 @@
     "dungeon_mode": "previous_preserved"
   },
   "weekly_render_mode": "weekly_json_single_source",
-  "dd_update_status": "preserved",
+  "dd_update_status": "partial",
   "dungeon_update_status": "preserved",
-  "crafting_items": 0,
-  "crafting_mode": "derived_from_equipment_db",
-  "equipment_items": 59,
-  "equipment_mode": "full_ko_crawl_from_gaming_tools"
+  "crafting_items": 2,
+  "crafting_mode": "seed_until_full_crawl",
+  "equipment_items": 2,
+  "equipment_mode": "previous_ko_db_preserved"
 }
