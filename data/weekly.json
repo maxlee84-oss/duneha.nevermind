@@ -13,12 +13,12 @@
     "automation": "no_gemini_source_check",
     "db_source": "dune.gaming.tools/ko"
   },
-  "generated_at": "2026-06-20T10:16:13Z",
+  "generated_at": "2026-06-21T10:56:43Z",
   "automation_status": {
     "mode": "dd_partial_updated",
     "confidence": "validated_external_data",
     "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
-    "checked_at": "2026-06-20T10:16:18Z",
+    "checked_at": "2026-06-21T10:56:46Z",
     "checked_sources": [
       "dune_gaming_deep_desert",
       "method_deep_desert",
@@ -26,7 +26,7 @@
       "method_database",
       "official_news"
     ],
-    "changed_source_count": 4,
+    "changed_source_count": 5,
     "source_errors": [],
     "render_mode": "weekly_json_single_source",
     "dungeon_mode": "previous_preserved"
@@ -4775,12 +4775,12 @@
     "preserved_sections": [
       "rowa"
     ],
-    "updated_at": "2026-06-20T10:16:13Z"
+    "updated_at": "2026-06-21T10:56:43Z"
   },
   "dungeon_update": {
     "status": "preserved",
     "source": "Method 테스팅 스테이션s",
-    "checked_at": "2026-06-20T10:16:18Z",
+    "checked_at": "2026-06-21T10:56:46Z",
     "reason": "all dungeon routes failed validation"
   },
   "stability_patch": {
