@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T10:56:30.730475+00:00",
+  "fetched_at": "2026-06-22T16:20:34.784875+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -137,7 +137,7 @@
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
         "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1f2pnyo = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1)\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.BfPQ6JQC.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.2OCJWGmg.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "9bcbba5959a274a85595f769f62fa9107c423970550fe2825ac87f95d8f45094",
+      "html_sha256": "2e3e93ee0dc4dcabb59343a4b1a9bdf739d976aef451f98994f267ac7c74179c",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -172,8 +172,8 @@
           "href": "https://link.method.gg/MethodHoly"
         },
         {
-          "text": "Up to 84% Off VPN",
-          "href": "https://go.expressvpn.com/c/6925314/3784869/16063"
+          "text": "EAS3 Hero Guides! NEW",
+          "href": "https://www.method.gg/fellowship/heroes"
         },
         {
           "text": "Go Ad Free",
@@ -288,36 +288,40 @@
           "href": "https://arma.gg/collections/method"
         },
         {
-          "text": "Heroes Database",
-          "href": "/fellowship/database/heroes"
-        },
-        {
-          "text": "Hero Guides",
+          "text": "Hero Guides EAS3",
           "href": "/fellowship/heroes"
         },
         {
-          "text": "Dungeon Guides",
+          "text": "Dungeon Routes EAS3",
+          "href": "/fellowship/route-planner"
+        },
+        {
+          "text": "BiS Builder New",
+          "href": "/fellowship/bis-builder"
+        },
+        {
+          "text": "Gem Calculator EAS3",
+          "href": "/fellowship/gem-calculator"
+        },
+        {
+          "text": "Tier Lists EAS3",
+          "href": "/fellowship/tier-lists"
+        },
+        {
+          "text": "Heroes Database EAS3",
+          "href": "/fellowship/database/heroes"
+        },
+        {
+          "text": "Dungeon Guides EAS3",
           "href": "/fellowship/dungeons"
         },
         {
-          "text": "Dungeon Routes",
-          "href": "/fellowship/route-planner"
+          "text": "Affixes EAS3",
+          "href": "/fellowship/dungeons/affixes"
         },
         {
           "text": "Guides & Articles",
           "href": "/fellowship"
-        },
-        {
-          "text": "Tier Lists",
-          "href": "/fellowship/tier-lists"
-        },
-        {
-          "text": "Gem Calculator",
-          "href": "/fellowship/gem-calculator"
-        },
-        {
-          "text": "Affixes",
-          "href": "/fellowship/dungeons/affixes"
         },
         {
           "text": "All Ships",
@@ -2558,10 +2562,6 @@
         {
           "text": "A Garments Bulwark Boots",
           "href": "/dune-awakening/database/garments/bulwark-boots"
-        },
-        {
-          "text": "",
-          "href": "#collapseItem-pvp-bulwark-boots"
         }
       ],
       "tables": [],
@@ -2671,7 +2671,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "0ee686f48e0193fe80ec09a989032310656802df59d4f282e87934a44b76b865",
+      "html_sha256": "aaf127271db69aa865afb9b0a2e6eb6e0a6a76f3f1576fe8e2037d950c181915",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -2700,8 +2700,8 @@
           "href": "https://link.method.gg/MethodHoly"
         },
         {
-          "text": "Up to 84% Off VPN",
-          "href": "https://go.expressvpn.com/c/6925314/3784869/16063"
+          "text": "EAS3 Hero Guides! NEW",
+          "href": "https://www.method.gg/fellowship/heroes"
         },
         {
           "text": "Go Ad Free",
@@ -2816,36 +2816,40 @@
           "href": "https://arma.gg/collections/method"
         },
         {
-          "text": "Heroes Database",
-          "href": "/fellowship/database/heroes"
-        },
-        {
-          "text": "Hero Guides",
+          "text": "Hero Guides EAS3",
           "href": "/fellowship/heroes"
         },
         {
-          "text": "Dungeon Guides",
+          "text": "Dungeon Routes EAS3",
+          "href": "/fellowship/route-planner"
+        },
+        {
+          "text": "BiS Builder New",
+          "href": "/fellowship/bis-builder"
+        },
+        {
+          "text": "Gem Calculator EAS3",
+          "href": "/fellowship/gem-calculator"
+        },
+        {
+          "text": "Tier Lists EAS3",
+          "href": "/fellowship/tier-lists"
+        },
+        {
+          "text": "Heroes Database EAS3",
+          "href": "/fellowship/database/heroes"
+        },
+        {
+          "text": "Dungeon Guides EAS3",
           "href": "/fellowship/dungeons"
         },
         {
-          "text": "Dungeon Routes",
-          "href": "/fellowship/route-planner"
+          "text": "Affixes EAS3",
+          "href": "/fellowship/dungeons/affixes"
         },
         {
           "text": "Guides & Articles",
           "href": "/fellowship"
-        },
-        {
-          "text": "Tier Lists",
-          "href": "/fellowship/tier-lists"
-        },
-        {
-          "text": "Gem Calculator",
-          "href": "/fellowship/gem-calculator"
-        },
-        {
-          "text": "Affixes",
-          "href": "/fellowship/dungeons/affixes"
         },
         {
           "text": "All Ships",
@@ -5086,10 +5090,6 @@
         {
           "text": "14% S Augmentations Heavy Caliber Upgrade",
           "href": "/dune-awakening/database/augmentations/heavy-caliber-upgrade"
-        },
-        {
-          "text": "9% S Augmentations Blade Sharpener",
-          "href": "/dune-awakening/database/augmentations/blade-sharpener"
         }
       ],
       "tables": [],
@@ -5161,7 +5161,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "c63b08ec7ed4a3621997a53606e86394b515a988342867ce7b92bd90ee25f12a",
+      "html_sha256": "55274289ae4dde73f9a1929e496ef8f817ba112605b75d80977881db7476adf3",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -5186,8 +5186,8 @@
           "href": "https://link.method.gg/MethodHoly"
         },
         {
-          "text": "Up to 84% Off VPN",
-          "href": "https://go.expressvpn.com/c/6925314/3784869/16063"
+          "text": "EAS3 Hero Guides! NEW",
+          "href": "https://www.method.gg/fellowship/heroes"
         },
         {
           "text": "Go Ad Free",
@@ -5302,36 +5302,40 @@
           "href": "https://arma.gg/collections/method"
         },
         {
-          "text": "Heroes Database",
-          "href": "/fellowship/database/heroes"
-        },
-        {
-          "text": "Hero Guides",
+          "text": "Hero Guides EAS3",
           "href": "/fellowship/heroes"
         },
         {
-          "text": "Dungeon Guides",
+          "text": "Dungeon Routes EAS3",
+          "href": "/fellowship/route-planner"
+        },
+        {
+          "text": "BiS Builder New",
+          "href": "/fellowship/bis-builder"
+        },
+        {
+          "text": "Gem Calculator EAS3",
+          "href": "/fellowship/gem-calculator"
+        },
+        {
+          "text": "Tier Lists EAS3",
+          "href": "/fellowship/tier-lists"
+        },
+        {
+          "text": "Heroes Database EAS3",
+          "href": "/fellowship/database/heroes"
+        },
+        {
+          "text": "Dungeon Guides EAS3",
           "href": "/fellowship/dungeons"
         },
         {
-          "text": "Dungeon Routes",
-          "href": "/fellowship/route-planner"
+          "text": "Affixes EAS3",
+          "href": "/fellowship/dungeons/affixes"
         },
         {
           "text": "Guides & Articles",
           "href": "/fellowship"
-        },
-        {
-          "text": "Tier Lists",
-          "href": "/fellowship/tier-lists"
-        },
-        {
-          "text": "Gem Calculator",
-          "href": "/fellowship/gem-calculator"
-        },
-        {
-          "text": "Affixes",
-          "href": "/fellowship/dungeons/affixes"
         },
         {
           "text": "All Ships",
@@ -6923,7 +6927,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "e2708c33482d2862ef291afd100d9b048e71d5c59155ed64bab6c2a7b17893bf",
+      "html_sha256": "f29d56ebdf66f2f31444af7f45b4a235ee461cb781d00990e7cdc3f13ce880ea",
       "raw_path": "data/raw/method_database.html"
     },
     {
@@ -7426,7 +7430,7 @@
         "\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/bricks-child/*\",\"/wp-content/themes/bricks/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n",
         "\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://duneawakening.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4\"}}\n"
       ],
-      "html_sha256": "1861c6b52f4c87ec28798e169030f6698facf261e6edca28df5da0ce3d4a8a32",
+      "html_sha256": "77e0de6bbaec44b6988a9da12f42920fd15a527ef44ba389897944100aeefb5a",
       "raw_path": "data/raw/official_news.html"
     }
   ],
