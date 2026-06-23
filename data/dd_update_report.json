@@ -32,13 +32,13 @@
     "rowa"
   ],
   "source_period": {
-    "start": "2026-06-16",
-    "end": "2026-06-23",
-    "label": "Updated for:\n16th June > 23rd June"
+    "start": "2026-06-23",
+    "end": "2026-06-30",
+    "label": "Updated for:\n23rd June > 30th June"
   },
   "expected_period": {
-    "start": "2026-06-16",
-    "end": "2026-06-23"
+    "start": "2026-06-23",
+    "end": "2026-06-30"
   },
-  "updated_at": "2026-06-22T16:20:48Z"
+  "updated_at": "2026-06-23T10:50:09Z"
 }

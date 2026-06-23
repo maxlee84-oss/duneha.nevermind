@@ -13,12 +13,12 @@
     "automation": "no_gemini_source_check",
     "db_source": "dune.gaming.tools/ko"
   },
-  "generated_at": "2026-06-22T16:20:48Z",
+  "generated_at": "2026-06-23T10:50:09Z",
   "automation_status": {
     "mode": "dd_partial_updated",
     "confidence": "validated_external_data",
     "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
-    "checked_at": "2026-06-22T16:20:52Z",
+    "checked_at": "2026-06-23T10:50:13Z",
     "checked_sources": [
       "dune_gaming_deep_desert",
       "method_deep_desert",
@@ -32,11 +32,11 @@
     "dungeon_mode": "previous_preserved"
   },
   "week": {
-    "start": "2026-06-16",
-    "end": "2026-06-23",
-    "label": "2026-06-16 to 2026-06-23",
+    "start": "2026-06-23",
+    "end": "2026-06-30",
+    "label": "2026-06-23 to 2026-06-30",
     "regions": {
-      "asia": "KST/JST · 06/16 04:00 → 06/23 04:00"
+      "asia": "KST/JST · 06/23 04:00 → 06/30 04:00"
     }
   },
   "summary": {
@@ -4741,9 +4741,9 @@
     "source_url": "https://www.method.gg/dune-awakening/deep-desert-companion",
     "secondary_source": "dune.gaming.tools/ko/deep-desert",
     "source_period": {
-      "start": "2026-06-16",
-      "end": "2026-06-23",
-      "label": "Updated for:\n16th June > 23rd June"
+      "start": "2026-06-23",
+      "end": "2026-06-30",
+      "label": "Updated for:\n23rd June > 30th June"
     },
     "sections": {
       "notable": {
@@ -4775,12 +4775,12 @@
     "preserved_sections": [
       "rowa"
     ],
-    "updated_at": "2026-06-22T16:20:48Z"
+    "updated_at": "2026-06-23T10:50:09Z"
   },
   "dungeon_update": {
     "status": "preserved",
     "source": "Method 테스팅 스테이션s",
-    "checked_at": "2026-06-22T16:20:52Z",
+    "checked_at": "2026-06-23T10:50:13Z",
     "reason": "all dungeon routes failed validation"
   },
   "stability_patch": {
