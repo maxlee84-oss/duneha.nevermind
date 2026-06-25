@@ -2,6 +2,140 @@
   "generated_at": "2026-06-16T05:40:57Z",
   "entries": [
     {
+      "time": "2026-06-25T10:24:49Z",
+      "type": "dungeon-auto-update",
+      "status": "preserved",
+      "message": "all dungeon routes failed validation",
+      "routes": {
+        "route-the-old-quarry": {
+          "valid": false,
+          "drop_count": 0,
+          "unique_ratio": 0
+        },
+        "route-testing-station-24": {
+          "valid": false,
+          "drop_count": 0,
+          "unique_ratio": 0
+        },
+        "route-testing-station-89": {
+          "valid": false,
+          "drop_count": 0,
+          "unique_ratio": 0
+        },
+        "route-testing-station-136": {
+          "valid": false,
+          "drop_count": 0,
+          "unique_ratio": 0
+        },
+        "route-testing-station-152": {
+          "valid": false,
+          "drop_count": 0,
+          "unique_ratio": 0
+        },
+        "route-testing-station-195": {
+          "valid": false,
+          "drop_count": 0,
+          "unique_ratio": 0
+        }
+      }
+    },
+    {
+      "time": "2026-06-25T10:24:44Z",
+      "type": "dd-weekly-auto-update",
+      "status": "partial",
+      "message": "DD section-level update",
+      "ok": true,
+      "sections": {
+        "notable": {
+          "valid": true,
+          "count": 12,
+          "unique_ratio": 1.0
+        },
+        "pve": {
+          "valid": true,
+          "count": 74,
+          "unique_ratio": 1.0
+        },
+        "pvp": {
+          "valid": true,
+          "count": 74,
+          "unique_ratio": 1.0
+        },
+        "rowa": {
+          "valid": false,
+          "count": 0,
+          "unique_ratio": 0
+        }
+      },
+      "updated_sections": [
+        "pve",
+        "pvp",
+        "notable"
+      ],
+      "preserved_sections": [
+        "rowa"
+      ],
+      "source_period": {
+        "start": "2026-06-23",
+        "end": "2026-06-30",
+        "label": "Updated for:\n23rd June > 30th June"
+      },
+      "expected_period": {
+        "start": "2026-06-23",
+        "end": "2026-06-30"
+      },
+      "updated_at": "2026-06-25T10:24:44Z"
+    },
+    {
+      "time": "2026-06-25T10:24:44+00:00",
+      "type": "gaming-tools-ko-db",
+      "status": "preserved",
+      "message": "한글 아이템 링크 수가 30개로 기준(50) 미만입니다.",
+      "link_count": 30,
+      "pages": [
+        "https://dune.gaming.tools/ko/items"
+      ]
+    },
+    {
+      "time": "2026-06-25T10:24:43+00:00",
+      "type": "daily-source-check",
+      "status": "source-changed",
+      "message": "소스 변경 감지: 5개. 데이터는 마지막 검증본을 유지합니다.",
+      "changed_sources": [
+        {
+          "name": "dune_gaming_deep_desert",
+          "url": "https://dune.gaming.tools/deep-desert",
+          "old": "7b1b0d770f54e07cd52ba8e0478f53c599e88ea2c51a20b4dd6c2c5db75c77ae",
+          "new": "9f6dea9d0a5cb53319412f366e0fca2ec5bd19a5a7c6c8267b5ff7d95f3f420c"
+        },
+        {
+          "name": "method_deep_desert",
+          "url": "https://www.method.gg/dune-awakening/deep-desert-companion",
+          "old": "d1337f3bfb2a8e182d7d15a7f08b3846df39f03df41d92617c0e35eb8360569a",
+          "new": "100167dd3e31a9fb25367167e9c15db9ed88980af6657c8ff6c04e33eba36192"
+        },
+        {
+          "name": "method_overland",
+          "url": "https://www.method.gg/dune-awakening/overland-companion",
+          "old": "2f9aa253ba1afa28f3efdcae2d25498c0c71249b48b43da65d3e35b90ef95340",
+          "new": "1c363c3b54c7bfd10471ec894e544a16e2db3e6504b60e729c68a235a8f2fde5"
+        },
+        {
+          "name": "method_database",
+          "url": "https://www.method.gg/dune-awakening/database",
+          "old": "fb8606af86305f477e1c7a832c2315ae5662992f319b97504b28478b9db31012",
+          "new": "1d0725dc1c68914ad1017a4e72adcda66971a0efbd5b0afca366d934ac24cf0d"
+        },
+        {
+          "name": "official_news",
+          "url": "https://duneawakening.com/en/news",
+          "old": "00a6d02642fb971cdb57081346b643f688d0b8f4ae66eb8bd63421a9aef08c45",
+          "new": "fe2f7f5118f1427b310f977d6c01fc2e7968b342c5dddd4d9056f3ff1cd76176"
+        }
+      ],
+      "errors": []
+    },
+    {
       "time": "2026-06-24T10:34:56Z",
       "type": "dungeon-auto-update",
       "status": "preserved",
