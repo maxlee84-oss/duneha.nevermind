@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T10:24:32.238573+00:00",
+  "fetched_at": "2026-06-26T10:37:20.498241+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -135,9 +135,9 @@
       ],
       "json_script_samples": [
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
-        "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1f2pnyo = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1)\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.BfPQ6JQC.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.2OCJWGmg.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
+        "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1qnpruk = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1),\n\t\t\t\t\t\tenv: {\"PUBLIC_ENV_ID\":\"prod\"}\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.DNhdTg3Y.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.DYwBa5fW.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "9f6dea9d0a5cb53319412f366e0fca2ec5bd19a5a7c6c8267b5ff7d95f3f420c",
+      "html_sha256": "04e956937370589da1b4b188633bc90f40663a2c69a281fbbcc831001ba2b6bd",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -2671,7 +2671,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "100167dd3e31a9fb25367167e9c15db9ed88980af6657c8ff6c04e33eba36192",
+      "html_sha256": "363f9c7e9d2afd486a1e4e117d1fa38d50e0ce331db3904c32786aec1eef609d",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -5161,7 +5161,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "1c363c3b54c7bfd10471ec894e544a16e2db3e6504b60e729c68a235a8f2fde5",
+      "html_sha256": "2ad37f167bfeba1beef3ad9013e9e2c09ea6ba72a431f723fc5e4928179f4e6c",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -6927,7 +6927,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "1d0725dc1c68914ad1017a4e72adcda66971a0efbd5b0afca366d934ac24cf0d",
+      "html_sha256": "34e99b134dfdda1d13fc81259981b16519fb44edfe6b726ac98e4266ca0f8c88",
       "raw_path": "data/raw/method_database.html"
     },
     {
@@ -7431,7 +7431,7 @@
         "\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/bricks-child/*\",\"/wp-content/themes/bricks/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n",
         "\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://duneawakening.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4\"}}\n"
       ],
-      "html_sha256": "fe2f7f5118f1427b310f977d6c01fc2e7968b342c5dddd4d9056f3ff1cd76176",
+      "html_sha256": "10b47ac08d9b8ed9a8f642d2399185ea6727f8c7c63998299f0f25398ef0963a",
       "raw_path": "data/raw/official_news.html"
     }
   ],
