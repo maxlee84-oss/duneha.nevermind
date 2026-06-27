@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T10:37:20.498241+00:00",
+  "fetched_at": "2026-06-27T09:14:16.668473+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -135,9 +135,9 @@
       ],
       "json_script_samples": [
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
-        "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1qnpruk = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1),\n\t\t\t\t\t\tenv: {\"PUBLIC_ENV_ID\":\"prod\"}\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.DNhdTg3Y.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.DYwBa5fW.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
+        "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_4l8np5 = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1),\n\t\t\t\t\t\tenv: {\"PUBLIC_ENV_ID\":\"prod\"}\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.D6lJk3_5.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.DmxnxQeK.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "04e956937370589da1b4b188633bc90f40663a2c69a281fbbcc831001ba2b6bd",
+      "html_sha256": "37ade4f38788b9a0ac846279cba2e1d5b05b012063fb5a5adeef3aa1dbc051d2",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -2671,7 +2671,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "363f9c7e9d2afd486a1e4e117d1fa38d50e0ce331db3904c32786aec1eef609d",
+      "html_sha256": "d8a36c57055d719b621e1e6525892501128dcdcdc24c491cb8763adc6ec12de5",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -5161,7 +5161,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "2ad37f167bfeba1beef3ad9013e9e2c09ea6ba72a431f723fc5e4928179f4e6c",
+      "html_sha256": "e58d56cfa3511c15d69a9680b554a712bf6048af17b6c0dde42484e39b6a1d85",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -6927,14 +6927,14 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "34e99b134dfdda1d13fc81259981b16519fb44edfe6b726ac98e4266ca0f8c88",
+      "html_sha256": "67f2ece87143fa37ae9f660db5d371b1e91371c4fa8c1ba5bf14a5682f5d2866",
       "raw_path": "data/raw/method_database.html"
     },
     {
       "name": "official_news",
       "url": "https://duneawakening.com/en/news",
-      "status_code": 200,
-      "title": "Latest News » Dune: Awakening",
+      "status_code": 404,
+      "title": "Page Not Found » Dune: Awakening",
       "headings": [
         "sign-up for the NEWSLETTER",
         "Thank you for subscribing"
@@ -6982,55 +6982,55 @@
         },
         {
           "text": "Français",
-          "href": "https://duneawakening.com/fr/nouveau/"
+          "href": "https://duneawakening.com/fr/"
         },
         {
           "text": "Italiano",
-          "href": "https://duneawakening.com/it/ultime-notizie/"
+          "href": "https://duneawakening.com/it/"
         },
         {
           "text": "Deutsch",
-          "href": "https://duneawakening.com/de/aktuelles/"
+          "href": "https://duneawakening.com/de/"
         },
         {
           "text": "Español",
-          "href": "https://duneawakening.com/es/ultimas-noticias/"
+          "href": "https://duneawakening.com/es/"
         },
         {
           "text": "日本語",
-          "href": "https://duneawakening.com/ja/%e6%9c%80%e6%96%b0%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/"
+          "href": "https://duneawakening.com/ja/"
         },
         {
           "text": "한국어",
-          "href": "https://duneawakening.com/ko/%ec%b5%9c%ec%8b%a0-%eb%89%b4%ec%8a%a4/"
+          "href": "https://duneawakening.com/ko/"
         },
         {
           "text": "Polski",
-          "href": "https://duneawakening.com/pl/najnowsze-wiadomosci/"
+          "href": "https://duneawakening.com/pl/"
         },
         {
           "text": "Português",
-          "href": "https://duneawakening.com/pt-br/latest-news/"
+          "href": "https://duneawakening.com/pt-br/"
         },
         {
           "text": "Русский",
-          "href": "https://duneawakening.com/ru/latest-news/"
+          "href": "https://duneawakening.com/ru/"
         },
         {
           "text": "简体中文",
-          "href": "https://duneawakening.com/zh-hans/latest-news/"
+          "href": "https://duneawakening.com/zh-hans/"
         },
         {
           "text": "繁體中文",
-          "href": "https://duneawakening.com/zh-hant/latest-news/"
+          "href": "https://duneawakening.com/zh-hant/"
         },
         {
           "text": "Türkçe",
-          "href": "https://duneawakening.com/tr/haberler/"
+          "href": "https://duneawakening.com/tr/"
         },
         {
           "text": "Українська",
-          "href": "https://duneawakening.com/uk/%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%bd%d1%96-%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b8/"
+          "href": "https://duneawakening.com/uk/"
         },
         {
           "text": "",
@@ -7118,175 +7118,59 @@
         },
         {
           "text": "Français",
-          "href": "https://duneawakening.com/fr/nouveau/"
+          "href": "https://duneawakening.com/fr/"
         },
         {
           "text": "Italiano",
-          "href": "https://duneawakening.com/it/ultime-notizie/"
+          "href": "https://duneawakening.com/it/"
         },
         {
           "text": "Deutsch",
-          "href": "https://duneawakening.com/de/aktuelles/"
+          "href": "https://duneawakening.com/de/"
         },
         {
           "text": "Español",
-          "href": "https://duneawakening.com/es/ultimas-noticias/"
+          "href": "https://duneawakening.com/es/"
         },
         {
           "text": "日本語",
-          "href": "https://duneawakening.com/ja/%e6%9c%80%e6%96%b0%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/"
+          "href": "https://duneawakening.com/ja/"
         },
         {
           "text": "한국어",
-          "href": "https://duneawakening.com/ko/%ec%b5%9c%ec%8b%a0-%eb%89%b4%ec%8a%a4/"
+          "href": "https://duneawakening.com/ko/"
         },
         {
           "text": "Polski",
-          "href": "https://duneawakening.com/pl/najnowsze-wiadomosci/"
+          "href": "https://duneawakening.com/pl/"
         },
         {
           "text": "Português",
-          "href": "https://duneawakening.com/pt-br/latest-news/"
+          "href": "https://duneawakening.com/pt-br/"
         },
         {
           "text": "Русский",
-          "href": "https://duneawakening.com/ru/latest-news/"
+          "href": "https://duneawakening.com/ru/"
         },
         {
           "text": "简体中文",
-          "href": "https://duneawakening.com/zh-hans/latest-news/"
+          "href": "https://duneawakening.com/zh-hans/"
         },
         {
           "text": "繁體中文",
-          "href": "https://duneawakening.com/zh-hant/latest-news/"
+          "href": "https://duneawakening.com/zh-hant/"
         },
         {
           "text": "Türkçe",
-          "href": "https://duneawakening.com/tr/haberler/"
+          "href": "https://duneawakening.com/tr/"
         },
         {
           "text": "Українська",
-          "href": "https://duneawakening.com/uk/%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%bd%d1%96-%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b8/"
+          "href": "https://duneawakening.com/uk/"
         },
         {
-          "text": "All",
-          "href": "https://duneawakening.com/news/"
-        },
-        {
-          "text": "News",
-          "href": "https://duneawakening.com/news/news/"
-        },
-        {
-          "text": "Patch Notes",
-          "href": "https://duneawakening.com/news/patch-notes/"
-        },
-        {
-          "text": "All",
-          "href": "https://duneawakening.com/news/"
-        },
-        {
-          "text": "News",
-          "href": "https://duneawakening.com/news/news/"
-        },
-        {
-          "text": "Patch Notes",
-          "href": "https://duneawakening.com/news/patch-notes/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/console-date-and-single-player-announced/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/console-date-and-single-player-announced/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/making-the-single-player-experience-in-dune-awakening/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/making-the-single-player-experience-in-dune-awakening/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/dune-awakening-1-4-10-0-patch-notes/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/dune-awakening-1-4-10-0-patch-notes/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/upcoming-playstation-closed-beta-weekend-playtest/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/upcoming-playstation-closed-beta-weekend-playtest/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/communinet-signal-18/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/communinet-signal-18/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/public-test-client-patch-1-4-10-0/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/public-test-client-patch-1-4-10-0/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/thank-you-sleepers-celebrating-one-year-of-dune-awakening-together/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/thank-you-sleepers-celebrating-one-year-of-dune-awakening-together/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/dune-awakening-first-anniversary-livestream/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/dune-awakening-first-anniversary-livestream/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/communinet-signal-17/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/communinet-signal-17/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/server-migrations-live-today/"
-        },
-        {
-          "text": "discover more",
-          "href": "https://duneawakening.com/news/server-migrations-live-today/"
-        },
-        {
-          "text": "2",
-          "href": "https://duneawakening.com/news/page/2/"
-        },
-        {
-          "text": "3",
-          "href": "https://duneawakening.com/news/page/3/"
-        },
-        {
-          "text": "19",
-          "href": "https://duneawakening.com/news/page/19/"
-        },
-        {
-          "text": "",
-          "href": "https://duneawakening.com/news/page/2/"
+          "text": "take me back",
+          "href": "https://duneawakening.com/"
         },
         {
           "text": "NEWSLETTER SIGNUP",
@@ -7422,16 +7306,13 @@
         }
       ],
       "tables": [],
-      "keyword_hits": [
-        "Greetings Sleepers. We have a large patch full of tweaks, fixes, and additions, including five new Landsraad missions! Thanks to those who sent in feedback and reports; we’ll continue to…",
-        "Greetings Sleepers. Patch 1.4.10.0 is now available on the Public Test Client. It includes new Landsraad missions, performance optimization, and several gameplay changes. We look forward to reading your feedback…"
-      ],
+      "keyword_hits": [],
       "json_script_samples": [
-        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://duneawakening.com/#organization\",\"name\":\"duneawakening.com\"},{\"@type\":\"WebSite\",\"@id\":\"https://duneawakening.com/#website\",\"url\":\"https://duneawakening.com\",\"name\":\"duneawakening.com\",\"publisher\":{\"@id\":\"https://duneawakening.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://duneawakening.com/wp-content/uploads/DA_Keyart_Steam-Website_16x9.jpg\",\"url\":\"https://duneawakening.com/wp-content/uploads/DA_Keyart_Steam-Website_16x9.jpg\",\"width\":\"1920\",\"height\":\"1080\",\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://duneawakening.com/news/#webpage\",\"url\":\"https://duneawakening.com/news/\",\"name\":\"Latest News &raquo; Dune: Awakening\",\"datePublished\":\"2025-02-27T17:28:00+00:00\",\"dateModified\":\"2026-05-28T22:20:10+00:00\",\"isPartOf\":{\"@id\":\"https://duneawakening.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://duneawakening.com/wp-content/uploads/DA_Keyart_Steam-Website_16x9.jpg\"},\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https://duneawakening.com/author/funcom/\",\"name\":\"Funcom Team\",\"url\":\"https://duneawakening.com/author/funcom/\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://secure.gravatar.com/avatar/7fb6f1f1729cd6e41f296f103330bf016869977df9a215efb18a7dd76366f9f5?s=96&amp;d=mm&amp;r=g\",\"url\":\"https://secure.gravatar.com/avatar/7fb6f1f1729cd6e41f296f103330bf016869977df9a215efb18a7dd76366f9f5?s=96&amp;d=mm&amp;r=g\",\"caption\":\"Funcom Team\",\"inLanguage\":\"en-US\"},\"worksFor\":{\"@id\":\"https://duneawakening.com/#organization\"}},{\"@type\":\"Article\",\"headline\":\"Latest News &raquo; Dune: Awakening\",\"keywords\":\"Dune: Awakening,Game news,dune news,Dune: Awakening news,Dune Awakening Patch Notes\",\"datePublished\":\"2025-02-27T17:28:00+00:00\",\"dateModified\":\"2026-05-28T22:20:10+00:00\",\"author\":{\"@id\":\"https://duneawakening.com/author/funcom/\",\"name\":\"Funcom Team\"},\"publisher\":{\"@id\":\"https://duneawakening.com/#organization\"},\"name\":\"Latest News &raquo; Dune: Awakening\",\"@id\":\"https://duneawakening.com/news/#richSnippet\",\"isPartOf\":{\"@id\":\"https://duneawakening.com/news/#webpage\"},\"image\":{\"@id\":\"https://duneawakening.com/wp-content/uploads/DA_Keyart_Steam-Website_16x9.jpg\"},\"inLanguage\":\"en-US\",\"mainEntityOfPage\":{\"@id\":\"https://duneawakening.com/news/#webpage\"}}]}",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://duneawakening.com/#organization\",\"name\":\"duneawakening.com\"},{\"@type\":\"WebSite\",\"@id\":\"https://duneawakening.com/#website\",\"url\":\"https://duneawakening.com\",\"name\":\"duneawakening.com\",\"publisher\":{\"@id\":\"https://duneawakening.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"#webpage\",\"url\":\"\",\"name\":\"Page Not Found &raquo; Dune: Awakening\",\"isPartOf\":{\"@id\":\"https://duneawakening.com/#website\"},\"inLanguage\":\"en-US\"}]}",
         "\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/bricks-child/*\",\"/wp-content/themes/bricks/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n",
         "\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://duneawakening.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4\"}}\n"
       ],
-      "html_sha256": "10b47ac08d9b8ed9a8f642d2399185ea6727f8c7c63998299f0f25398ef0963a",
+      "html_sha256": "210cbde0afcfb9259992fe0e66fd349edbd20fb7edec3a5cd79c7c08677760af",
       "raw_path": "data/raw/official_news.html"
     }
   ],
