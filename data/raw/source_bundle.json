@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T10:08:46.421106+00:00",
+  "fetched_at": "2026-06-29T14:37:11.530669+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -137,7 +137,7 @@
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
         "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_4l8np5 = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1),\n\t\t\t\t\t\tenv: {\"PUBLIC_ENV_ID\":\"prod\"}\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.D6lJk3_5.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.DmxnxQeK.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "2527938678f1fae256f45c9f8401811e6e070abea58b55dec47a8dc345c8aac7",
+      "html_sha256": "595cd5689d18bf90f7267ed1f0670f05ae9447ec7ba608d341c19da0191af262",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -2671,7 +2671,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "1a7a44718cd36f4c988a9cc9e29e811d72146697d421e5d098ce6c6bd6f3a477",
+      "html_sha256": "6274f7f9cddc58312bf11cd0516298ee8b3ceb231bf1bd81ef56fe1719a12735",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -5161,7 +5161,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "5d47895fcaac576c08149f1d4c88ad9e29fcf6be928ec7a1315d301f9a3821f3",
+      "html_sha256": "9ad2f775751e4723fbfb422940c6fe8ca7448038502ff9131f0cd32c05c259c5",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -6927,7 +6927,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "01ba4d637fb9b58ec3f9bfa8e97840956b97e77dc1699df42cb8697bd9655079",
+      "html_sha256": "ae99983c7e77edd9573a6f0e386ada5e568feabefbd47ddc743fc9250c47e30d",
       "raw_path": "data/raw/method_database.html"
     },
     {
@@ -7431,7 +7431,7 @@
         "\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/bricks-child/*\",\"/wp-content/themes/bricks/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n",
         "\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://duneawakening.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4\"}}\n"
       ],
-      "html_sha256": "8f267d3646b20cdcc257a43f63d60cabd2611bead61dac3b39e5f58fe2460aee",
+      "html_sha256": "1f559b16a5aac249f0fce1843d1fa30da69c0598255e7139a7204f8b39407a52",
       "raw_path": "data/raw/official_news.html"
     }
   ],

@@ -20,7 +20,7 @@
     "mode": "dd_partial_updated",
     "confidence": "validated_external_data",
     "message": "던전 자동 수집 검증에 실패하여 마지막 검증본을 유지합니다.",
-    "checked_at": "2026-06-28T10:09:02Z",
+    "checked_at": "2026-06-29T14:37:26Z",
     "checked_sources": [
       "dune_gaming_deep_desert",
       "method_deep_desert",
