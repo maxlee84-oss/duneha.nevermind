@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T14:37:11.530669+00:00",
+  "fetched_at": "2026-06-30T10:44:40.386193+00:00",
   "sources": [
     {
       "name": "dune_gaming_deep_desert",
@@ -8,7 +8,7 @@
       "title": "Weekly Dune Awakening Deep Desert Map and Drops",
       "headings": [
         "Deep Desert Map",
-        "Deep Desert Map 2026-06-23 - 2026-06-30"
+        "Deep Desert Map 2026-06-30 - 2026-07-07"
       ],
       "links": [
         {
@@ -137,7 +137,7 @@
         "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Weekly Dune Awakening Deep Desert Map and Drops\",\"description\":\"Explore the Deep Desert in Dune: Awakening with live POIs, rare schematic drops, resource maps, and more - updated after every Coriolis Storm.\",\"url\":\"https://dune.gaming.tools/deep-desert\",\"image\":\"https://cdn-hosted.gaming.tools/dune/meta/deep-desert-map.png\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"gaming.tools\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://cdn-hosted.gaming.tools/gt/android-chrome-512x512.png\"}}}",
         "\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_4l8np5 = {\n\t\t\t\t\t\tbase: new URL(\".\", location).pathname.slice(0, -1),\n\t\t\t\t\t\tenv: {\"PUBLIC_ENV_ID\":\"prod\"}\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\tPromise.all([\n\t\t\t\t\t\timport(\"./_app/immutable/entry/start.D6lJk3_5.js\"),\n\t\t\t\t\t\timport(\"./_app/immutable/entry/app.DmxnxQeK.js\")\n\t\t\t\t\t]).then(([kit, app]) => {\n\t\t\t\t\t\tkit.start(app, element, {\n\t\t\t\t\t\t\tnode_ids: [0, 2, 12],\n\t\t\t\t\t\t\tdata: [null,{type:\"data\",data:{currentLocale:{code:\"en\",prefix:\"\"},persistedData:{},session:void 0,apiToken:void 0},uses:{dependencies:[\"app:token\"]}},null],\n\t\t\t\t\t\t\tform: null,\n\t\t\t\t\t\t\terror: null\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t"
       ],
-      "html_sha256": "595cd5689d18bf90f7267ed1f0670f05ae9447ec7ba608d341c19da0191af262",
+      "html_sha256": "81e03a07c8b89dbdb06884a87de2d56fd99fc02658af22fe0d620d8fc1a8da7a",
       "raw_path": "data/raw/dune_gaming_deep_desert.html"
     },
     {
@@ -993,19 +993,7 @@
         },
         {
           "text": "",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-forgotten-cells"
-        },
-        {
-          "text": "",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-walkway"
-        },
-        {
-          "text": "",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-living-quarters"
-        },
-        {
-          "text": "",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-walkway"
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-yellow-bunker"
         },
         {
           "text": "",
@@ -1013,11 +1001,27 @@
         },
         {
           "text": "",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-walkway"
+          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-holy-wreck"
         },
         {
           "text": "",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-mannequin-manor"
+          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-command-centre"
+        },
+        {
+          "text": "",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-spice-sanctum"
+        },
+        {
+          "text": "",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-furnace"
+        },
+        {
+          "text": "",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-hidden-garden"
+        },
+        {
+          "text": "",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-living-quarters"
         },
         {
           "text": "All Schematics",
@@ -1032,12 +1036,12 @@
           "href": "#testing-station-pve"
         },
         {
-          "text": "Wrecks",
-          "href": "#wreck-pve"
-        },
-        {
           "text": "Caves",
           "href": "#cave-pve"
+        },
+        {
+          "text": "Wrecks",
+          "href": "#wreck-pve"
         },
         {
           "text": "S Tools Adaptive Holtzman Shield",
@@ -1712,20 +1716,28 @@
           "href": "/dune-awakening/database/weapons/vaporizer"
         },
         {
-          "text": "Testing Station (G6) - The Living Quarters",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-living-quarters"
+          "text": "Testing Station (I8) - The Yellow Bunker",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-yellow-bunker"
         },
         {
-          "text": "Testing Station (C7) - Mannequin Manor",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-mannequin-manor"
+          "text": "Testing Station (D1) - The Hidden Garden",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-hidden-garden"
         },
         {
-          "text": "Testing Station (G3) - The Forgotten Cells",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-forgotten-cells"
-        },
-        {
-          "text": "Testing Station (D2) - The Agave Farm",
+          "text": "Testing Station (H2) - The Agave Farm",
           "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-agave-farm"
+        },
+        {
+          "text": "Testing Station (F6) - The Spice Sanctum",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-spice-sanctum"
+        },
+        {
+          "text": "Testing Station (F7) - The Furnace",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-furnace"
+        },
+        {
+          "text": "Testing Station (D5) - The Living Quarters",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-testing-station-guide-the-living-quarters"
         },
         {
           "text": "5% S Garments Power Harness",
@@ -1988,16 +2000,12 @@
           "href": "/dune-awakening/database/garments/imperial-stillsuit-mask"
         },
         {
-          "text": "Wreck (G4) - The Walkway",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-walkway"
+          "text": "Wreck (H6) - The Holy Wreck",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-holy-wreck"
         },
         {
-          "text": "Wreck (F7) - The Walkway",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-walkway"
-        },
-        {
-          "text": "Wreck (D3) - The Walkway",
-          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-walkway"
+          "text": "Wreck (H6) - The Command Centre",
+          "href": "https://www.method.gg/dune-awakening/deep-desert-unrecovered-shipwreck-guide-the-command-centre"
         },
         {
           "text": "7% S Weapons Perforator",
@@ -2080,12 +2088,224 @@
           "href": "#companionlootcollapse-pve"
         },
         {
-          "text": "Garments Saturnine Stillsuit Garment",
-          "href": "/dune-awakening/database/garments/saturnine-stillsuit-garment"
+          "text": "Garments Advanced Suspensor Jacket",
+          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
+        },
+        {
+          "text": "Garments Mendek's Boots",
+          "href": "/dune-awakening/database/garments/mendeks-boots"
+        },
+        {
+          "text": "Garments Mendek's Chestplate",
+          "href": "/dune-awakening/database/garments/mendeks-chestplate"
+        },
+        {
+          "text": "Garments Mendek's Gauntlets",
+          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
+        },
+        {
+          "text": "Garments Mendek's Helmet",
+          "href": "/dune-awakening/database/garments/mendeks-helmet"
+        },
+        {
+          "text": "Garments Mendek's Pants",
+          "href": "/dune-awakening/database/garments/mendeks-pants"
+        },
+        {
+          "text": "Garments Tarl Softstep Boots",
+          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
+        },
+        {
+          "text": "Weapons Kharet Viper",
+          "href": "/dune-awakening/database/weapons/kharet-viper"
+        },
+        {
+          "text": "Weapons Syndicate Impaler",
+          "href": "/dune-awakening/database/weapons/syndicate-impaler"
+        },
+        {
+          "text": "Garments Batigh Stillsuit Boots",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-boots"
+        },
+        {
+          "text": "Garments Batigh Stillsuit Garment",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-garment"
+        },
+        {
+          "text": "Garments Batigh Stillsuit Gloves",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-gloves"
+        },
+        {
+          "text": "Garments Batigh Stillsuit Mask",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-mask"
+        },
+        {
+          "text": "Weapons Arhun K-28 Lasgun",
+          "href": "/dune-awakening/database/weapons/arhun-k-28-lasgun"
+        },
+        {
+          "text": "Weapons Mendek's Rattle",
+          "href": "/dune-awakening/database/weapons/mendeks-rattle"
+        },
+        {
+          "text": "Garments Station Gauntlets",
+          "href": "/dune-awakening/database/garments/station-gauntlets"
+        },
+        {
+          "text": "Garments Advanced Suspensor Jacket",
+          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
+        },
+        {
+          "text": "Garments Mendek's Boots",
+          "href": "/dune-awakening/database/garments/mendeks-boots"
+        },
+        {
+          "text": "Garments Mendek's Chestplate",
+          "href": "/dune-awakening/database/garments/mendeks-chestplate"
+        },
+        {
+          "text": "Garments Mendek's Gauntlets",
+          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
+        },
+        {
+          "text": "Garments Mendek's Helmet",
+          "href": "/dune-awakening/database/garments/mendeks-helmet"
+        },
+        {
+          "text": "Garments Mendek's Pants",
+          "href": "/dune-awakening/database/garments/mendeks-pants"
+        },
+        {
+          "text": "Garments Tarl Softstep Boots",
+          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
+        },
+        {
+          "text": "Weapons Arhun K-28 Lasgun",
+          "href": "/dune-awakening/database/weapons/arhun-k-28-lasgun"
+        },
+        {
+          "text": "Weapons Mendek's Rattle",
+          "href": "/dune-awakening/database/weapons/mendeks-rattle"
+        },
+        {
+          "text": "Garments Station Gauntlets",
+          "href": "/dune-awakening/database/garments/station-gauntlets"
+        },
+        {
+          "text": "Weapons Adept Disruptor Pistol",
+          "href": "/dune-awakening/database/weapons/adept-disruptor-pistol"
+        },
+        {
+          "text": "Weapons Piter's Disruptor",
+          "href": "/dune-awakening/database/weapons/piters-disruptor"
+        },
+        {
+          "text": "Weapons Shaitan's Tongue",
+          "href": "/dune-awakening/database/weapons/shaitans-tongue"
+        },
+        {
+          "text": "Garments Advanced Reaper Gloves",
+          "href": "/dune-awakening/database/garments/advanced-reaper-gloves"
+        },
+        {
+          "text": "Garments Shaded Hood",
+          "href": "/dune-awakening/database/garments/shaded-hood"
+        },
+        {
+          "text": "Garments Advanced Suspensor Jacket",
+          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
+        },
+        {
+          "text": "Garments Mendek's Boots",
+          "href": "/dune-awakening/database/garments/mendeks-boots"
+        },
+        {
+          "text": "Garments Mendek's Chestplate",
+          "href": "/dune-awakening/database/garments/mendeks-chestplate"
+        },
+        {
+          "text": "Garments Mendek's Gauntlets",
+          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
+        },
+        {
+          "text": "Garments Mendek's Helmet",
+          "href": "/dune-awakening/database/garments/mendeks-helmet"
+        },
+        {
+          "text": "Garments Mendek's Pants",
+          "href": "/dune-awakening/database/garments/mendeks-pants"
+        },
+        {
+          "text": "Garments Tarl Softstep Boots",
+          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
+        },
+        {
+          "text": "Weapons Cope",
+          "href": "/dune-awakening/database/weapons/cope"
+        },
+        {
+          "text": "Weapons Extravagant Message",
+          "href": "/dune-awakening/database/weapons/extravagant-message"
         },
         {
           "text": "Garments Saturnine Stillsuit Boots",
           "href": "/dune-awakening/database/garments/saturnine-stillsuit-boots"
+        },
+        {
+          "text": "Garments Saturnine Stillsuit Garment",
+          "href": "/dune-awakening/database/garments/saturnine-stillsuit-garment"
+        },
+        {
+          "text": "Garments Saturnine Stillsuit Gloves",
+          "href": "/dune-awakening/database/garments/saturnine-stillsuit-gloves"
+        },
+        {
+          "text": "Garments Saturnine Stillsuit Mask",
+          "href": "/dune-awakening/database/garments/saturnine-stillsuit-mask"
+        },
+        {
+          "text": "Garments Advanced Suspensor Jacket",
+          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
+        },
+        {
+          "text": "Garments Mendek's Boots",
+          "href": "/dune-awakening/database/garments/mendeks-boots"
+        },
+        {
+          "text": "Garments Mendek's Chestplate",
+          "href": "/dune-awakening/database/garments/mendeks-chestplate"
+        },
+        {
+          "text": "Garments Mendek's Gauntlets",
+          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
+        },
+        {
+          "text": "Garments Mendek's Helmet",
+          "href": "/dune-awakening/database/garments/mendeks-helmet"
+        },
+        {
+          "text": "Garments Mendek's Pants",
+          "href": "/dune-awakening/database/garments/mendeks-pants"
+        },
+        {
+          "text": "Garments Tarl Softstep Boots",
+          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
+        },
+        {
+          "text": "Weapons Cope",
+          "href": "/dune-awakening/database/weapons/cope"
+        },
+        {
+          "text": "Weapons Extravagant Message",
+          "href": "/dune-awakening/database/weapons/extravagant-message"
+        },
+        {
+          "text": "Garments Saturnine Stillsuit Boots",
+          "href": "/dune-awakening/database/garments/saturnine-stillsuit-boots"
+        },
+        {
+          "text": "Garments Saturnine Stillsuit Garment",
+          "href": "/dune-awakening/database/garments/saturnine-stillsuit-garment"
         },
         {
           "text": "Garments Saturnine Stillsuit Gloves",
@@ -2100,24 +2320,48 @@
           "href": "/dune-awakening/database/garments/wayfinder-helm"
         },
         {
-          "text": "Weapons Extravagant Message",
-          "href": "/dune-awakening/database/weapons/extravagant-message"
+          "text": "Weapons Kharet Viper",
+          "href": "/dune-awakening/database/weapons/kharet-viper"
         },
         {
-          "text": "Weapons Cope",
-          "href": "/dune-awakening/database/weapons/cope"
+          "text": "Weapons Syndicate Impaler",
+          "href": "/dune-awakening/database/weapons/syndicate-impaler"
         },
         {
-          "text": "Weapons Arhun K-28 Lasgun",
-          "href": "/dune-awakening/database/weapons/arhun-k-28-lasgun"
+          "text": "Garments Batigh Stillsuit Boots",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-boots"
         },
         {
-          "text": "Garments Station Gauntlets",
-          "href": "/dune-awakening/database/garments/station-gauntlets"
+          "text": "Garments Batigh Stillsuit Garment",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-garment"
         },
         {
-          "text": "Weapons Mendek's Rattle",
-          "href": "/dune-awakening/database/weapons/mendeks-rattle"
+          "text": "Garments Batigh Stillsuit Gloves",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-gloves"
+        },
+        {
+          "text": "Garments Batigh Stillsuit Mask",
+          "href": "/dune-awakening/database/garments/batigh-stillsuit-mask"
+        },
+        {
+          "text": "Weapons Adept Disruptor Pistol",
+          "href": "/dune-awakening/database/weapons/adept-disruptor-pistol"
+        },
+        {
+          "text": "Weapons Piter's Disruptor",
+          "href": "/dune-awakening/database/weapons/piters-disruptor"
+        },
+        {
+          "text": "Weapons Shaitan's Tongue",
+          "href": "/dune-awakening/database/weapons/shaitans-tongue"
+        },
+        {
+          "text": "Garments Advanced Reaper Gloves",
+          "href": "/dune-awakening/database/garments/advanced-reaper-gloves"
+        },
+        {
+          "text": "Garments Shaded Hood",
+          "href": "/dune-awakening/database/garments/shaded-hood"
         },
         {
           "text": "Weapons Jolt-sword",
@@ -2152,292 +2396,52 @@
           "href": "/dune-awakening/database/garments/station-garb"
         },
         {
-          "text": "Weapons Arhun K-28 Lasgun",
-          "href": "/dune-awakening/database/weapons/arhun-k-28-lasgun"
+          "text": "Garments Advanced Suspensor Jacket",
+          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
         },
         {
-          "text": "Garments Station Gauntlets",
-          "href": "/dune-awakening/database/garments/station-gauntlets"
+          "text": "Garments Mendek's Boots",
+          "href": "/dune-awakening/database/garments/mendeks-boots"
         },
         {
-          "text": "Weapons Mendek's Rattle",
-          "href": "/dune-awakening/database/weapons/mendeks-rattle"
+          "text": "Garments Mendek's Chestplate",
+          "href": "/dune-awakening/database/garments/mendeks-chestplate"
         },
         {
-          "text": "Garments Saturnine Stillsuit Garment",
-          "href": "/dune-awakening/database/garments/saturnine-stillsuit-garment"
+          "text": "Garments Mendek's Gauntlets",
+          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
         },
         {
-          "text": "Garments Saturnine Stillsuit Boots",
-          "href": "/dune-awakening/database/garments/saturnine-stillsuit-boots"
+          "text": "Garments Mendek's Helmet",
+          "href": "/dune-awakening/database/garments/mendeks-helmet"
         },
         {
-          "text": "Garments Saturnine Stillsuit Gloves",
-          "href": "/dune-awakening/database/garments/saturnine-stillsuit-gloves"
+          "text": "Garments Mendek's Pants",
+          "href": "/dune-awakening/database/garments/mendeks-pants"
         },
         {
-          "text": "Garments Saturnine Stillsuit Mask",
-          "href": "/dune-awakening/database/garments/saturnine-stillsuit-mask"
-        },
-        {
-          "text": "C Garments Wayfinder Helm",
-          "href": "/dune-awakening/database/garments/wayfinder-helm"
-        },
-        {
-          "text": "Weapons Extravagant Message",
-          "href": "/dune-awakening/database/weapons/extravagant-message"
-        },
-        {
-          "text": "Weapons Cope",
-          "href": "/dune-awakening/database/weapons/cope"
-        },
-        {
-          "text": "Weapons Shaitan's Tongue",
-          "href": "/dune-awakening/database/weapons/shaitans-tongue"
-        },
-        {
-          "text": "Garments Shaded Hood",
-          "href": "/dune-awakening/database/garments/shaded-hood"
-        },
-        {
-          "text": "Garments Advanced Reaper Gloves",
-          "href": "/dune-awakening/database/garments/advanced-reaper-gloves"
-        },
-        {
-          "text": "Weapons Piter's Disruptor",
-          "href": "/dune-awakening/database/weapons/piters-disruptor"
+          "text": "Garments Tarl Softstep Boots",
+          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
         },
         {
           "text": "Weapons Adept Disruptor Pistol",
           "href": "/dune-awakening/database/weapons/adept-disruptor-pistol"
         },
         {
-          "text": "Garments Mendek's Boots",
-          "href": "/dune-awakening/database/garments/mendeks-boots"
-        },
-        {
-          "text": "Garments Mendek's Pants",
-          "href": "/dune-awakening/database/garments/mendeks-pants"
-        },
-        {
-          "text": "Garments Mendek's Gauntlets",
-          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
-        },
-        {
-          "text": "Garments Mendek's Helmet",
-          "href": "/dune-awakening/database/garments/mendeks-helmet"
-        },
-        {
-          "text": "Garments Mendek's Chestplate",
-          "href": "/dune-awakening/database/garments/mendeks-chestplate"
-        },
-        {
-          "text": "Garments Tarl Softstep Boots",
-          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
-        },
-        {
-          "text": "Garments Advanced Suspensor Jacket",
-          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
-        },
-        {
-          "text": "Garments Mendek's Boots",
-          "href": "/dune-awakening/database/garments/mendeks-boots"
-        },
-        {
-          "text": "Garments Mendek's Pants",
-          "href": "/dune-awakening/database/garments/mendeks-pants"
-        },
-        {
-          "text": "Garments Mendek's Helmet",
-          "href": "/dune-awakening/database/garments/mendeks-helmet"
-        },
-        {
-          "text": "Garments Mendek's Gauntlets",
-          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
-        },
-        {
-          "text": "Garments Mendek's Chestplate",
-          "href": "/dune-awakening/database/garments/mendeks-chestplate"
-        },
-        {
-          "text": "Garments Tarl Softstep Boots",
-          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
-        },
-        {
-          "text": "Garments Advanced Suspensor Jacket",
-          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
-        },
-        {
-          "text": "Garments Mendek's Boots",
-          "href": "/dune-awakening/database/garments/mendeks-boots"
-        },
-        {
-          "text": "Garments Mendek's Pants",
-          "href": "/dune-awakening/database/garments/mendeks-pants"
-        },
-        {
-          "text": "Garments Mendek's Gauntlets",
-          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
-        },
-        {
-          "text": "Garments Mendek's Helmet",
-          "href": "/dune-awakening/database/garments/mendeks-helmet"
-        },
-        {
-          "text": "Garments Mendek's Chestplate",
-          "href": "/dune-awakening/database/garments/mendeks-chestplate"
-        },
-        {
-          "text": "Garments Tarl Softstep Boots",
-          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
-        },
-        {
-          "text": "Garments Advanced Suspensor Jacket",
-          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Boots",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-boots"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Gloves",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-gloves"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Mask",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-mask"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Garment",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-garment"
-        },
-        {
-          "text": "Weapons Syndicate Impaler",
-          "href": "/dune-awakening/database/weapons/syndicate-impaler"
-        },
-        {
-          "text": "Weapons Kharet Viper",
-          "href": "/dune-awakening/database/weapons/kharet-viper"
-        },
-        {
-          "text": "Garments Mendek's Boots",
-          "href": "/dune-awakening/database/garments/mendeks-boots"
-        },
-        {
-          "text": "Garments Mendek's Pants",
-          "href": "/dune-awakening/database/garments/mendeks-pants"
-        },
-        {
-          "text": "Garments Mendek's Gauntlets",
-          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
-        },
-        {
-          "text": "Garments Tarl Softstep Boots",
-          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
-        },
-        {
-          "text": "Garments Mendek's Helmet",
-          "href": "/dune-awakening/database/garments/mendeks-helmet"
-        },
-        {
-          "text": "Garments Mendek's Chestplate",
-          "href": "/dune-awakening/database/garments/mendeks-chestplate"
-        },
-        {
-          "text": "Garments Advanced Suspensor Jacket",
-          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
-        },
-        {
-          "text": "Garments Mendek's Boots",
-          "href": "/dune-awakening/database/garments/mendeks-boots"
-        },
-        {
-          "text": "Garments Mendek's Pants",
-          "href": "/dune-awakening/database/garments/mendeks-pants"
-        },
-        {
-          "text": "Garments Mendek's Gauntlets",
-          "href": "/dune-awakening/database/garments/mendeks-gauntlets"
-        },
-        {
-          "text": "Garments Mendek's Helmet",
-          "href": "/dune-awakening/database/garments/mendeks-helmet"
-        },
-        {
-          "text": "Garments Mendek's Chestplate",
-          "href": "/dune-awakening/database/garments/mendeks-chestplate"
-        },
-        {
-          "text": "Garments Tarl Softstep Boots",
-          "href": "/dune-awakening/database/garments/tarl-softstep-boots"
-        },
-        {
-          "text": "Garments Advanced Suspensor Jacket",
-          "href": "/dune-awakening/database/garments/advanced-suspensor-jacket"
+          "text": "Weapons Piter's Disruptor",
+          "href": "/dune-awakening/database/weapons/piters-disruptor"
         },
         {
           "text": "Weapons Shaitan's Tongue",
           "href": "/dune-awakening/database/weapons/shaitans-tongue"
         },
         {
-          "text": "Garments Shaded Hood",
-          "href": "/dune-awakening/database/garments/shaded-hood"
-        },
-        {
           "text": "Garments Advanced Reaper Gloves",
           "href": "/dune-awakening/database/garments/advanced-reaper-gloves"
         },
         {
-          "text": "Weapons Piter's Disruptor",
-          "href": "/dune-awakening/database/weapons/piters-disruptor"
-        },
-        {
-          "text": "Weapons Adept Disruptor Pistol",
-          "href": "/dune-awakening/database/weapons/adept-disruptor-pistol"
-        },
-        {
-          "text": "Weapons Shaitan's Tongue",
-          "href": "/dune-awakening/database/weapons/shaitans-tongue"
-        },
-        {
           "text": "Garments Shaded Hood",
           "href": "/dune-awakening/database/garments/shaded-hood"
-        },
-        {
-          "text": "Garments Advanced Reaper Gloves",
-          "href": "/dune-awakening/database/garments/advanced-reaper-gloves"
-        },
-        {
-          "text": "Weapons Piter's Disruptor",
-          "href": "/dune-awakening/database/weapons/piters-disruptor"
-        },
-        {
-          "text": "Weapons Adept Disruptor Pistol",
-          "href": "/dune-awakening/database/weapons/adept-disruptor-pistol"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Boots",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-boots"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Gloves",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-gloves"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Mask",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-mask"
-        },
-        {
-          "text": "Garments Batigh Stillsuit Garment",
-          "href": "/dune-awakening/database/garments/batigh-stillsuit-garment"
-        },
-        {
-          "text": "Weapons Syndicate Impaler",
-          "href": "/dune-awakening/database/weapons/syndicate-impaler"
-        },
-        {
-          "text": "Weapons Kharet Viper",
-          "href": "/dune-awakening/database/weapons/kharet-viper"
         },
         {
           "text": "All Schematics",
@@ -2452,12 +2456,12 @@
           "href": "#testing-station-pvp"
         },
         {
-          "text": "Wrecks",
-          "href": "#wreck-pvp"
-        },
-        {
           "text": "Caves",
           "href": "#cave-pvp"
+        },
+        {
+          "text": "Wrecks",
+          "href": "#wreck-pvp"
         },
         {
           "text": "S Tools Adaptive Holtzman Shield",
@@ -2558,10 +2562,6 @@
         {
           "text": "S Tools Young Sparky Mk6",
           "href": "/dune-awakening/database/tools/young-sparky-mk6"
-        },
-        {
-          "text": "",
-          "href": "#collapseItem-pvp-young-sparky-mk6"
         }
       ],
       "tables": [],
@@ -2623,18 +2623,17 @@
         "'PVE/PVP' toggle",
         "below the map to view the different loot tables for each instance.",
         "The loot tables below contain",
-        "all of the Unique Schematics that are available from the PVE content in the Deep Desert",
-        "each week. Row A (Mk5) loot tables are at the bottom (collapsed).",
+        "all of the Unique Schematics that are available from the the Deep Desert",
+        ". Row A (Mk5) loot tables are at the bottom (collapsed).",
         "All Schematics",
-        "Testing Station (G6) - The Living Quarters",
-        "Testing Station (C7) - Mannequin Manor",
-        "Testing Station (G3) - The Forgotten Cells",
-        "Testing Station (D2) - The Agave Farm",
-        "Loot Cave (D6)",
-        "Loot Cave (C3)",
-        "Loot Cave (G7)",
-        "Loot Cave (I7)",
-        "Loot Cave (B9)",
+        "Testing Station (I8) - The Yellow Bunker",
+        "Testing Station (D1) - The Hidden Garden",
+        "Testing Station (H2) - The Agave Farm",
+        "Testing Station (F6) - The Spice Sanctum",
+        "Testing Station (F7) - The Furnace",
+        "Testing Station (D5) - The Living Quarters",
+        "Loot Cave (C8)",
+        "Loot Cave (C1)",
         "Vehicle Components",
         "Focused Buggy Cutteray Mk6",
         "Kynes's Cutteray",
@@ -2645,24 +2644,24 @@
         "Caves (PVE Instance)",
         "Wrecks (PVE Instance)",
         "Row A (Mk5) Loot Tables",
-        "Imperial Testing Station 148 (A4)",
-        "Filter Extractor Mk5",
-        "Hummingbird Wing Module Mk5",
-        "Imperial Testing Station 185 (A3)",
+        "Stormrider Boost Module Mk5",
+        "A2 - Imperial Testing Station 37",
         "Night Rider Sandbike Boost Mk5",
-        "Compact Compactor Mk5",
-        "Collapsible Dew Reaper Mk5",
         "Steady Assault Boost Module Mk5",
-        "Imperial Testing Station 186 (A8)",
-        "The Emperor's Wings Mk5",
-        "Focused Reaper Mk5",
-        "Albatross Wing Module Mk5",
-        "Imperial Testing Station 217 (A9)",
-        "Imperial Testing Station 37 (A2)",
-        "Imperial Testing Station 93 (A5)",
+        "Collapsible Dew Reaper Mk5",
+        "Compact Compactor Mk5",
+        "A3 - Imperial Testing Station 185",
         "Focused Buggy Cutteray Mk5",
         "Impure Extractor Mk5",
-        "Stormrider Boost Module Mk5",
+        "A4 - Imperial Testing Station 148",
+        "Hummingbird Wing Module Mk5",
+        "Filter Extractor Mk5",
+        "A5 - Imperial Testing Station 93",
+        "A8 - Imperial Testing Station 186",
+        "Albatross Wing Module Mk5",
+        "Focused Reaper Mk5",
+        "The Emperor's Wings Mk5",
+        "A9 - Imperial Testing Station 217 (A9)",
         "Testing Stations (PVP Instance)",
         "Caves (PVP Instance)",
         "Wrecks (PVP Instance)",
@@ -2671,7 +2670,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "6274f7f9cddc58312bf11cd0516298ee8b3ceb231bf1bd81ef56fe1719a12735",
+      "html_sha256": "24d5a80ffe73f70846037ff4a81025e719ff1066bc3f7e15b0eb8a6b73ee4680",
       "raw_path": "data/raw/method_deep_desert.html"
     },
     {
@@ -5161,7 +5160,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "9ad2f775751e4723fbfb422940c6fe8ca7448038502ff9131f0cd32c05c259c5",
+      "html_sha256": "4cbe4504ed8908c64c7e260c04b8b58bb6e1b6f948d72927d0d7beec4b7d893b",
       "raw_path": "data/raw/method_overland.html"
     },
     {
@@ -6927,7 +6926,7 @@
       "json_script_samples": [
         "\r\n\t{\r\n\t\t\"@context\" : \"https://schema.org\",\r\n\t\t\"@type\" : \"Organization\",\r\n\t\t\"name\" : \"Method\",\r\n\t\t\"url\" : \"https://www.method.gg\",\r\n\t\t\"logo\": \"https://www.method.gg/images/branding/Method_Logo.png\",\r\n\t\t\"sameAs\" : [\r\n\t\t\"https://www.facebook.com/methodgg\",\r\n\t\t\"https://twitter.com/method\",\r\n\t\t\"https://www.youtube.com/methodgg\",\r\n\t\t\"https://www.twitch.tv/method\",\r\n\t\t\"https://www.instagram.com/method_gg\"\r\n\t\t]\r\n\t}\r\n\t"
       ],
-      "html_sha256": "ae99983c7e77edd9573a6f0e386ada5e568feabefbd47ddc743fc9250c47e30d",
+      "html_sha256": "566baa6f2362d449b06d276cd4f86585119c4edecc317ed4a42cdd634690f74a",
       "raw_path": "data/raw/method_database.html"
     },
     {
@@ -7431,7 +7430,7 @@
         "\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/bricks-child/*\",\"/wp-content/themes/bricks/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n",
         "\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://duneawakening.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4\"}}\n"
       ],
-      "html_sha256": "1f559b16a5aac249f0fce1843d1fa30da69c0598255e7139a7204f8b39407a52",
+      "html_sha256": "9afb64b49604b27c9d9d98642f64730b3622c6bcbda89defa5eae4671de8f06f",
       "raw_path": "data/raw/official_news.html"
     }
   ],
