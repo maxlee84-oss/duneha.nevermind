@@ -2,7 +2,7 @@
   "ok": false,
   "status": "preserved",
   "reason": "all dungeon routes failed validation",
-  "checked_at": "2026-06-30T10:44:58Z",
+  "checked_at": "2026-07-01T10:58:29Z",
   "routes": {
     "route-the-old-quarry": {
       "valid": false,
